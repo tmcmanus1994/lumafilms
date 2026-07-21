@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+body { margin:0; background:#DED8CC; font-family:Inter, sans-serif; }
+a { color:#1C1917; text-decoration:none; }
+a:hover { color:#8A7B65; }
+</style>
+</helmet>
+<section style="display:flex; align-items:flex-start; gap:72px; padding:56px; flex-wrap:wrap">
+
+<!-- ================= 1a DESKTOP ================= -->
+<div id="1a" style="position:relative; flex:0 0 auto">
+<div style="font-family:Inter; font-size:12px; font-weight:500; letter-spacing:0.14em; color:#6B6257; margin:0 0 12px 2px">1A · CLIENT GALLERY (/couples/thompson) — DESKTOP 1440</div>
+<div style="width:1440px; background:#FAF6EF; color:#1C1917; box-shadow:0 1px 0 rgba(0,0,0,0.06)">
+
+  <!-- Minimal nav -->
+  <header style="display:flex; align-items:center; justify-content:space-between; padding:26px 64px; border-bottom:1px solid #E8DFD3">
+    <div style="font-family:'Cormorant Garamond', serif; font-style:italic; font-weight:500; font-size:30px">Luma Films</div>
+    <div style="font-size:12px; font-weight:500; letter-spacing:0.14em; color:#8A7B65">PRIVATE GALLERY</div>
+  </header>
+
+  <!-- Hero -->
+  <div style="background:#1C1917; padding:110px 64px; text-align:center">
+    <div style="display:flex; flex-direction:column; align-items:center; gap:20px">
+      <div style="font-size:13px; font-weight:500; letter-spacing:0.16em; color:#8A7B65">YOUR FILMS ARE READY</div>
+      <h1 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:76px; line-height:1.08; letter-spacing:-0.01em; color:#FAF6EF; margin:0">Laken + Robert</h1>
+      <div style="font-size:13px; font-weight:500; letter-spacing:0.16em; color:#EDE6D9; opacity:0.8">HEDGE FARM · OCTOBER 17, 2025</div>
+      <p style="font-family:'Cormorant Garamond', serif; font-style:italic; font-size:24px; line-height:1.5; color:#EDE6D9; max-width:640px; margin:12px 0 0">Thank you for letting me be part of your day. Everything below is yours — forever. Share it with everyone you love.</p>
+    </div>
+  </div>
+
+  <!-- Highlight film -->
+  <div style="padding:100px 64px 90px">
+    <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:36px">
+      <div>
+        <div style="font-size:13px; font-weight:500; letter-spacing:0.16em; color:#8A7B65; margin-bottom:14px">THE FILM</div>
+        <h2 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:48px; line-height:1.1; margin:0">Your Highlight Film</h2>
+      </div>
+      <a href="#1a" style="border:1px solid #1C1917; padding:14px 30px; font-size:14px; font-weight:500" style-hover="background:#1C1917; color:#FAF6EF">Download in 4K ↓</a>
+    </div>
+    <div style="position:relative; height:740px; background:#1C1917">
+      <image-slot id="gal-highlight" shape="rect" placeholder="highlight film frame — Laken + Robert at Hedge Farm"></image-slot>
+      <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; pointer-events:none">
+        <div style="width:92px; height:92px; border:1px solid #FAF6EF; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#FAF6EF; font-size:22px; background:rgba(28,25,23,0.35)">▶</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Everything else -->
+  <div style="background:#EDE6D9; padding:100px 64px">
+    <div style="font-size:13px; font-weight:500; letter-spacing:0.16em; color:#8A7B65; margin-bottom:14px">EVERY MOMENT</div>
+    <h2 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:48px; line-height:1.1; margin:0 0 48px">The rest of your day</h2>
+    <div style="display:flex; flex-direction:column">
+      <div style="display:grid; grid-template-columns:280px 1fr auto auto; gap:40px; align-items:center; padding:28px 0; border-top:1px solid #D8CDBB">
+        <div style="position:relative; height:158px"><image-slot id="gal-ceremony" shape="rect" placeholder="ceremony frame"></image-slot></div>
+        <div>
+          <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:30px; margin:0 0 6px">Full Ceremony</h3>
+          <p style="font-size:15px; line-height:1.6; color:#4A3F35; margin:0">Every word, every vow — multi-camera, clean audio. 24 minutes.</p>
+        </div>
+        <a href="#1a" style="font-size:14px; font-weight:500; white-space:nowrap">Watch →</a>
+        <a href="#1a" style="border:1px solid #1C1917; padding:12px 24px; font-size:14px; font-weight:500; white-space:nowrap" style-hover="background:#1C1917; color:#FAF6EF">Download ↓</a>
+      </div>
+      <div style="display:grid; grid-template-columns:280px 1fr auto auto; gap:40px; align-items:center; padding:28px 0; border-top:1px solid #D8CDBB">
+        <div style="position:relative; height:158px"><image-slot id="gal-speeches" shape="rect" placeholder="toasts frame"></image-slot></div>
+        <div>
+          <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:30px; margin:0 0 6px">Toasts + Speeches</h3>
+          <p style="font-size:15px; line-height:1.6; color:#4A3F35; margin:0">The best man, the maid of honor, and your dad's surprise. 18 minutes.</p>
+        </div>
+        <a href="#1a" style="font-size:14px; font-weight:500; white-space:nowrap">Watch →</a>
+        <a href="#1a" style="border:1px solid #1C1917; padding:12px 24px; font-size:14px; font-weight:500; white-space:nowrap" style-hover="background:#1C1917; color:#FAF6EF">Download ↓</a>
+      </div>
+      <div style="display:grid; grid-template-columns:280px 1fr auto auto; gap:40px; align-items:center; padding:28px 0; border-top:1px solid #D8CDBB; border-bottom:1px solid #D8CDBB">
+        <div style="position:relative; height:158px"><image-slot id="gal-reel" shape="rect" placeholder="reel frame (vertical crop)"></image-slot></div>
+        <div>
+          <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:30px; margin:0 0 6px">Instagram Reel</h3>
+          <p style="font-size:15px; line-height:1.6; color:#4A3F35; margin:0">Vertical cut, ready to post — tag @lumaweddingfilms so I can share it too.</p>
+        </div>
+        <a href="#1a" style="font-size:14px; font-weight:500; white-space:nowrap">Watch →</a>
+        <a href="#1a" style="border:1px solid #1C1917; padding:12px 24px; font-size:14px; font-weight:500; white-space:nowrap" style-hover="background:#1C1917; color:#FAF6EF">Download ↓</a>
+      </div>
+    </div>
+    <p style="font-size:13px; color:#8A7B65; margin:28px 0 0">Download links are private and refresh automatically — save your files somewhere safe, and email me anytime if you need them again.</p>
+  </div>
+
+  <!-- Note from Travelle -->
+  <div style="padding:120px 64px; text-align:center">
+    <div style="display:flex; flex-direction:column; align-items:center; gap:28px; max-width:760px; margin:0 auto">
+      <p style="font-family:'Cormorant Garamond', serif; font-style:italic; font-weight:400; font-size:36px; line-height:1.4; margin:0">&ldquo;Your ceremony light at Hedge Farm was the kind videographers dream about. Thank you for trusting me with it.&rdquo;</p>
+      <div style="font-size:13px; font-weight:500; letter-spacing:0.16em; color:#8A7B65">— TRAVELLE</div>
+      <div style="display:flex; align-items:center; gap:32px; margin-top:8px">
+        <a href="#1a" style="border:1px solid #1C1917; padding:15px 32px; font-size:14px; font-weight:500" style-hover="background:#1C1917; color:#FAF6EF">Leave a Review</a>
+        <a href="#1a" style="font-size:14px; font-weight:500">Know someone getting married? →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer style="background:#1C1917; padding:32px 64px; display:flex; align-items:center; justify-content:space-between">
+    <div style="font-family:'Cormorant Garamond', serif; font-style:italic; font-size:20px; color:#FAF6EF">Luma Films</div>
+    <div style="font-size:13px; color:#EDE6D9">Questions? hello@lumaweddingfilms.co</div>
+    <div style="font-size:12px; color:#8A7B65">This gallery is private — just for you two.</div>
+  </footer>
+</div>
+</div>
+
+<!-- ================= 1b MOBILE ================= -->
+<div id="1b" style="position:relative; flex:0 0 auto">
+<div style="font-family:Inter; font-size:12px; font-weight:500; letter-spacing:0.14em; color:#6B6257; margin:0 0 12px 2px">1B · CLIENT GALLERY — MOBILE 390</div>
+<div style="width:390px; background:#FAF6EF; color:#1C1917; box-shadow:0 1px 0 rgba(0,0,0,0.06)">
+
+  <!-- Minimal nav -->
+  <header style="display:flex; align-items:center; justify-content:space-between; padding:18px 20px; border-bottom:1px solid #E8DFD3">
+    <div style="font-family:'Cormorant Garamond', serif; font-style:italic; font-weight:500; font-size:24px">Luma Films</div>
+    <div style="font-size:10px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">PRIVATE GALLERY</div>
+  </header>
+
+  <!-- Hero -->
+  <div style="background:#1C1917; padding:72px 24px; text-align:center">
+    <div style="display:flex; flex-direction:column; align-items:center; gap:14px">
+      <div style="font-size:11px; font-weight:500; letter-spacing:0.15em; color:#8A7B65">YOUR FILMS ARE READY</div>
+      <h1 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:44px; line-height:1.1; color:#FAF6EF; margin:0">Laken + Robert</h1>
+      <div style="font-size:11px; font-weight:500; letter-spacing:0.14em; color:#EDE6D9; opacity:0.8">HEDGE FARM · OCTOBER 17, 2025</div>
+      <p style="font-family:'Cormorant Garamond', serif; font-style:italic; font-size:19px; line-height:1.5; color:#EDE6D9; margin:10px 0 0">Thank you for letting me be part of your day. Everything below is yours — forever.</p>
+    </div>
+  </div>
+
+  <!-- Highlight film -->
+  <div style="padding:56px 20px">
+    <div style="font-size:11px; font-weight:500; letter-spacing:0.15em; color:#8A7B65; margin-bottom:10px">THE FILM</div>
+    <h2 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:32px; line-height:1.12; margin:0 0 24px">Your Highlight Film</h2>
+    <div style="position:relative; height:220px; background:#1C1917">
+      <image-slot id="gal-highlight-m" shape="rect" placeholder="highlight film frame"></image-slot>
+      <div style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; pointer-events:none">
+        <div style="width:64px; height:64px; border:1px solid #FAF6EF; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#FAF6EF; font-size:16px; background:rgba(28,25,23,0.35)">▶</div>
+      </div>
+    </div>
+    <a href="#1b" style="display:block; background:#1C1917; border:1px solid #1C1917; color:#FAF6EF; padding:15px 0; font-size:15px; font-weight:500; text-align:center; margin-top:20px">Download in 4K ↓</a>
+  </div>
+
+  <!-- Everything else -->
+  <div style="background:#EDE6D9; padding:56px 20px">
+    <div style="font-size:11px; font-weight:500; letter-spacing:0.15em; color:#8A7B65; margin-bottom:10px">EVERY MOMENT</div>
+    <h2 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:32px; line-height:1.12; margin:0 0 28px">The rest of your day</h2>
+    <div style="display:flex; flex-direction:column; gap:36px">
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <div style="position:relative; height:190px"><image-slot id="gal-ceremony-m" shape="rect" placeholder="ceremony frame"></image-slot></div>
+        <div>
+          <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:24px; margin:0 0 6px">Full Ceremony</h3>
+          <p style="font-size:14px; line-height:1.6; color:#4A3F35; margin:0 0 14px">Every word, every vow — multi-camera, clean audio. 24 minutes.</p>
+          <div style="display:flex; gap:12px">
+            <a href="#1b" style="flex:1; border:1px solid #1C1917; padding:13px 0; font-size:14px; font-weight:500; text-align:center">Watch</a>
+            <a href="#1b" style="flex:1; border:1px solid #1C1917; padding:13px 0; font-size:14px; font-weight:500; text-align:center">Download ↓</a>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <div style="position:relative; height:190px"><image-slot id="gal-speeches-m" shape="rect" placeholder="toasts frame"></image-slot></div>
+        <div>
+          <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:24px; margin:0 0 6px">Toasts + Speeches</h3>
+          <p style="font-size:14px; line-height:1.6; color:#4A3F35; margin:0 0 14px">The best man, the maid of honor, and your dad's surprise. 18 minutes.</p>
+          <div style="display:flex; gap:12px">
+            <a href="#1b" style="flex:1; border:1px solid #1C1917; padding:13px 0; font-size:14px; font-weight:500; text-align:center">Watch</a>
+            <a href="#1b" style="flex:1; border:1px solid #1C1917; padding:13px 0; font-size:14px; font-weight:500; text-align:center">Download ↓</a>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <div style="position:relative; height:190px"><image-slot id="gal-reel-m" shape="rect" placeholder="reel frame (vertical crop)"></image-slot></div>
+        <div>
+          <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:24px; margin:0 0 6px">Instagram Reel</h3>
+          <p style="font-size:14px; line-height:1.6; color:#4A3F35; margin:0 0 14px">Vertical cut, ready to post — tag @lumaweddingfilms so I can share it too.</p>
+          <div style="display:flex; gap:12px">
+            <a href="#1b" style="flex:1; border:1px solid #1C1917; padding:13px 0; font-size:14px; font-weight:500; text-align:center">Watch</a>
+            <a href="#1b" style="flex:1; border:1px solid #1C1917; padding:13px 0; font-size:14px; font-weight:500; text-align:center">Download ↓</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:12px; color:#8A7B65; margin:24px 0 0">Download links are private and refresh automatically — save your files somewhere safe, and email me anytime if you need them again.</p>
+  </div>
+
+  <!-- Note from Travelle -->
+  <div style="padding:64px 24px; text-align:center">
+    <div style="display:flex; flex-direction:column; align-items:center; gap:20px">
+      <p style="font-family:'Cormorant Garamond', serif; font-style:italic; font-size:24px; line-height:1.45; margin:0">&ldquo;Your ceremony light at Hedge Farm was the kind videographers dream about. Thank you for trusting me with it.&rdquo;</p>
+      <div style="font-size:11px; font-weight:500; letter-spacing:0.15em; color:#8A7B65">— TRAVELLE</div>
+      <div style="display:flex; flex-direction:column; align-items:center; gap:16px; margin-top:6px">
+        <a href="#1b" style="border:1px solid #1C1917; padding:14px 32px; font-size:14px; font-weight:500">Leave a Review</a>
+        <a href="#1b" style="font-size:14px; font-weight:500">Know someone getting married? →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer style="background:#1C1917; padding:28px 24px; display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center">
+    <div style="font-family:'Cormorant Garamond', serif; font-style:italic; font-size:19px; color:#FAF6EF">Luma Films</div>
+    <div style="font-size:13px; color:#EDE6D9">Questions? hello@lumaweddingfilms.co</div>
+    <div style="font-size:11px; color:#8A7B65">This gallery is private — just for you two.</div>
+  </footer>
+</div>
+</div>
+
+</section>
+</x-dc>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+/*
+ * Warm Monochrome Revival — design tokens from luma-films-design-brief.md.
+ * Never pure #000 / #FFF. Photography provides all the color.
+ */
+@theme {
+  --color-bone: #faf6ef;
+  --color-sand: #ede6d9;
+  --color-linen: #e8dfd3;
+  --color-linen-dark: #d8cdbb;
+  --color-taupe: #8a7b65;
+  --color-taupe-light: #b3a791;
+  --color-espresso: #4a3f35;
+  --color-ink: #1c1917;
+
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+
+  --tracking-eyebrow: 0.16em;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-bone);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-ink);
+    color: var(--color-bone);
+  }
+}
+
+@layer components {
+  /* Uppercase Inter eyebrow above a Cormorant headline — the signature pairing */
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: var(--tracking-eyebrow);
+    text-transform: uppercase;
+    color: var(--color-taupe);
+  }
+
+  .display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+
+  .romantic {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  /* Minimal button: 1px ink border, transparent fill, invert on hover */
+  .btn {
+    display: inline-block;
+    border: 1px solid var(--color-ink);
+    color: var(--color-ink);
+    padding: 1rem 2.25rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-align: center;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+  .btn:hover {
+    background-color: var(--color-ink);
+    color: var(--color-bone);
+  }
+
+  .btn-fill {
+    background-color: var(--color-ink);
+    color: var(--color-bone);
+  }
+  .btn-fill:hover {
+    background-color: transparent;
+    color: var(--color-ink);
+  }
+
+  /* Inverted variants for ink-background sections */
+  .btn-light {
+    border-color: var(--color-bone);
+    color: var(--color-bone);
+  }
+  .btn-light:hover {
+    background-color: var(--color-bone);
+    color: var(--color-ink);
+  }
+
+  .hairline {
+    border-color: var(--color-linen);
+  }
+}

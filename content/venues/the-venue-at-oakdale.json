@@ -1,0 +1,17 @@
+{
+  "name": "The Venue at Oakdale",
+  "city": "Conway",
+  "citySlug": "conway",
+  "tier": 1,
+  "headline": "I know this venue by heart",
+  "insiderKnowledge": [
+    "Oakdale sits five minutes from my front door, and I've filmed weddings here in both spring and fall. That matters more than it sounds: I know exactly where the light falls through the ceremony trees at 5pm, which corner of the reception barn stays warm on camera after sunset, and where to stand for the vows so you never see me in a single frame.",
+    "The outdoor ceremony site faces west, which means late-afternoon ceremonies get that soft, backlit glow — and I plan mic placement around the open air so your vows come through clean even with a breeze. Inside, the barn's string lights read beautifully on film with no extra lighting from me.",
+    "If you're planning your day at Oakdale, I'm happy to talk timeline — I know when golden hour hits this property to the minute."
+  ],
+  "nearbyVenueSlugs": ["legacy-acres", "stonebrook-meadows"],
+  "testimonial": {
+    "quote": "Watching our film back felt like living the whole day again — every toast, every happy tear.",
+    "attribution": "Josh + Hannah · Married at Oakdale"
+  }
+}
