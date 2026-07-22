@@ -1,11 +1,15 @@
 {
   "name": "Angelo's Garden",
-  "city": "Central Arkansas",
+  "city": "Conway",
   "tier": 3,
   "headline": "Filming weddings at Angelo's Garden",
   "insiderKnowledge": [
     "PLACEHOLDER — Travelle's first-person filming knowledge of Angelo's Garden: light, ceremony spots, layout, audio considerations. This block is the SEO moat — write it from real experience, never generic.",
     "PLACEHOLDER — one specific, memorable detail from filming at Angelo's Garden."
   ],
-  "draft": true
+  "citySlug": "conway",
+  "nearbyVenueSlugs": [
+    "legacy-acres",
+    "the-venue-at-oakdale"
+  ]
 }

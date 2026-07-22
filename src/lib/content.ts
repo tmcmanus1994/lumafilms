@@ -34,6 +34,10 @@ export type Wedding = {
   story?: string;
   /** Marks placeholder content that still needs Travelle's real copy/media. */
   draft?: boolean;
+  /** 1–3: position in the homepage Featured Films section. */
+  featured?: number;
+  /** 1–9: position on the curated /films index (all public films still get pages). */
+  showcase?: number;
   filmSlug?: string;
   highlight: VideoAsset & { title?: string };
   ceremony?: VideoAsset;
@@ -68,6 +72,8 @@ export type City = {
   /** Extra city names folded into this page's copy (e.g. Bryant on the Benton page). */
   alsoServes?: string[];
   region?: string;
+  /** Display order — by market value, never alphabetical. */
+  order?: number;
   intro: string[];
   faqs: CityFAQ[];
   draft?: boolean;
@@ -122,6 +128,20 @@ export function getFilmBySlug(slug: string): Wedding | undefined {
   return getPublicFilms().find((w) => filmSlug(w) === slug);
 }
 
+/** The three homepage films, in Travelle's chosen order. */
+export function getFeaturedFilms(): Wedding[] {
+  return getPublicFilms()
+    .filter((w) => w.featured)
+    .sort((a, b) => a.featured! - b.featured!);
+}
+
+/** The curated films-index selection (every public film still gets its own page). */
+export function getShowcaseFilms(): Wedding[] {
+  return getPublicFilms()
+    .filter((w) => w.showcase)
+    .sort((a, b) => a.showcase! - b.showcase!);
+}
+
 export function getVenues(): Venue[] {
   return readAll<Venue>("venues")
     .filter((v) => !v.draft)
@@ -137,7 +157,9 @@ export function getWeddingsAtVenue(venueSlug: string): Wedding[] {
 }
 
 export function getCities(): City[] {
-  return readAll<City>("cities").filter((c) => !c.draft);
+  return readAll<City>("cities")
+    .filter((c) => !c.draft)
+    .sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
 }
 
 export function getCity(slug: string): City | undefined {

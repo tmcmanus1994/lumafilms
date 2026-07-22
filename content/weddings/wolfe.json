@@ -7,8 +7,8 @@
     "slug": "grandeur-house",
     "city": "little-rock"
   },
-  "coverPhoto": "",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/wolfe.jpg",
+  "coverPhotoAlt": "Kelsey and Logan at Grandeur House",
   "public": true,
   "passcode": null,
   "story": "",
@@ -26,5 +26,6 @@
     "download": ""
   },
   "rawFootageFolder": null,
-  "extras": []
+  "extras": [],
+  "featured": 3
 }

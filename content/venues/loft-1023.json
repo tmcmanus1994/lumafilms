@@ -1,11 +1,15 @@
 {
   "name": "Loft 1023",
-  "city": "Central Arkansas",
+  "city": "Little Rock",
   "tier": 3,
   "headline": "Filming weddings at Loft 1023",
   "insiderKnowledge": [
     "PLACEHOLDER — Travelle's first-person filming knowledge of Loft 1023: light, ceremony spots, layout, audio considerations. This block is the SEO moat — write it from real experience, never generic.",
     "PLACEHOLDER — one specific, memorable detail from filming at Loft 1023."
   ],
-  "draft": true
+  "citySlug": "little-rock",
+  "nearbyVenueSlugs": [
+    "capital-hotel",
+    "grandeur-house"
+  ]
 }

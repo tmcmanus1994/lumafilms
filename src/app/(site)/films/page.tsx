@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import FilmCard from "@/components/FilmCard";
 import CtaSection from "@/components/CtaSection";
 import PageMeta from "@/components/PageMeta";
-import { getPublicFilms } from "@/lib/content";
+import { getShowcaseFilms } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Wedding Films — Real Arkansas Weddings",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default function FilmsPage() {
-  const films = getPublicFilms();
+  const films = getShowcaseFilms();
 
   return (
     <>

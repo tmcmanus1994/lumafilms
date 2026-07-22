@@ -54,10 +54,7 @@ export default async function VenuePage({ params }: Props) {
         <div className="relative px-6 py-20 text-center md:px-16">
           <p className="eyebrow mb-4 !text-sand md:mb-5">Wedding Films At</p>
           <h1 className="display mb-4 text-[42px] text-bone md:text-[76px]">{v.name}</h1>
-          <p className="text-[15px] leading-relaxed text-sand md:text-lg">
-            {v.city}, Arkansas
-            {films.length > 0 && ` · Filmed here ${films.length === 1 ? "once" : `${films.length} times`}`}
-          </p>
+          <p className="text-[15px] leading-relaxed text-sand md:text-lg">{v.city}, Arkansas</p>
         </div>
       </section>
 

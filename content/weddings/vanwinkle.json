@@ -7,8 +7,8 @@
     "slug": "barn-at-greers-ferry-lake",
     "city": ""
   },
-  "coverPhoto": "https://framerusercontent.com/images/ZyqE0GLCBBbTAiRWPThGJSEzqtQ.jpg",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/vanwinkle.jpg",
+  "coverPhotoAlt": "Katie and Devon at The Barn at Greers Ferry Lake",
   "public": true,
   "passcode": null,
   "story": "",
@@ -26,5 +26,6 @@
     "download": ""
   },
   "rawFootageFolder": null,
-  "extras": []
+  "extras": [],
+  "showcase": 4
 }

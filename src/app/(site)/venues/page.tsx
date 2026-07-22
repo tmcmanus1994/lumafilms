@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import CtaSection from "@/components/CtaSection";
 import PageMeta from "@/components/PageMeta";
-import { getVenues, getWeddingsAtVenue } from "@/lib/content";
+import { getVenues } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Arkansas Wedding Venues We Love — Filmed by Luma",
@@ -30,23 +30,17 @@ export default function VenuesPage() {
       </section>
       <section className="px-5 py-12 md:px-16 md:py-20">
         <ul className="flex flex-col">
-          {venues.map((v) => {
-            const filmCount = getWeddingsAtVenue(v.slug).length;
-            return (
-              <li key={v.slug} className="border-b hairline first:border-t">
-                <Link
-                  href={`/venues/${v.slug}`}
-                  className="display flex items-baseline justify-between gap-4 py-5 text-[24px] md:py-6 md:text-[32px]"
-                >
-                  {v.name}
-                  <span className="eyebrow shrink-0 text-[11px] md:text-xs">
-                    {filmCount > 0 ? `${filmCount} film${filmCount > 1 ? "s" : ""} · ` : ""}
-                    {v.city}
-                  </span>
-                </Link>
-              </li>
-            );
-          })}
+          {venues.map((v) => (
+            <li key={v.slug} className="border-b hairline first:border-t">
+              <Link
+                href={`/venues/${v.slug}`}
+                className="display flex items-baseline justify-between gap-4 py-5 text-[24px] md:py-6 md:text-[32px]"
+              >
+                {v.name}
+                <span className="eyebrow shrink-0 text-[11px] md:text-xs">{v.city}</span>
+              </Link>
+            </li>
+          ))}
         </ul>
       </section>
       <CtaSection

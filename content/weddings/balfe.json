@@ -7,8 +7,8 @@
     "slug": "stone-chapel-at-mattlane-farm",
     "city": ""
   },
-  "coverPhoto": "https://framerusercontent.com/images/tNHgAwbHHzttl0El1U2STrhuP8.jpg",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/balfe.jpg",
+  "coverPhotoAlt": "Claudia and Ryan at Stone Chapel at MattLane Farm",
   "public": true,
   "passcode": null,
   "story": "",
@@ -42,5 +42,6 @@
       "vimeo": "https://vimeo.com/1133360568?share=copy&fl=sv&fe=ci",
       "download": "https://player.vimeo.com/progressive_redirect/download/1133360568/container/fde501e0-1e5e-40e8-9a22-65e75c94ad22/45422861-93d4258b/claudia_&_ryan____claudia%27s_speech_v1%20%282160p%29.mp4?expires=1762327371&loc=external&signature=ace74947dcb5f975081fc6d193b017fcea3985b1a9c4ef02c952b01d01a773c6&user_id=100189032"
     }
-  ]
+  ],
+  "showcase": 7
 }

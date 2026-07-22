@@ -7,8 +7,8 @@
     "slug": "osage-house",
     "city": ""
   },
-  "coverPhoto": "https://framerusercontent.com/images/wr5fiukSMpXyw4tAmeYw4gqj2U.jpeg",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/jacobo.jpg",
+  "coverPhotoAlt": "Briyana and Juan at Osage House",
   "public": true,
   "passcode": null,
   "story": "",
@@ -67,5 +67,6 @@
       "vimeo": "https://vimeo.com/908132427?share=copy",
       "download": "https://vimeo.com/908132427?share=copy"
     }
-  ]
+  ],
+  "showcase": 2
 }

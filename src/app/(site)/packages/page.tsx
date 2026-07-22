@@ -26,7 +26,7 @@ const packages: Pkg[] = [
   {
     name: "Rosie",
     tagline: "Cute + Short",
-    petLine: "PLACEHOLDER — Named for Rosie (Travelle supplies one warm sentence).",
+    petLine: "Named for the intern — a corgi with a lot of opinions and zero editing experience.",
     price: "$2,400",
     features: [
       "Your 3–5 minute cinematic film — the story of your day, edited to be watched a hundred times",
@@ -39,7 +39,7 @@ const packages: Pkg[] = [
   {
     name: "Binx",
     tagline: "Simple + Fun",
-    petLine: "Named for Binx, the black cat who supervises every edit.",
+    petLine: "Named for the comic relief — a black cat who's never once worried about a deadline.",
     price: "$3,200",
     featured: true,
     features: [
@@ -53,7 +53,7 @@ const packages: Pkg[] = [
   {
     name: "Boujee",
     tagline: "The Whole Story",
-    petLine: "PLACEHOLDER — Named for Boujee (Travelle supplies one warm sentence).",
+    petLine: "Named for the assistant editor — she's watched every film leave this house.",
     price: "$4,800",
     features: [
       "Everything in Binx, plus:",
@@ -126,10 +126,10 @@ function PackageCard({ pkg }: { pkg: Pkg }) {
         </span>
       )}
       <ImageSlot
-        src=""
+        src={`/images/pets/${pkg.name.toLowerCase()}-package.jpg`}
         alt={`${pkg.name} the pet`}
-        placeholderLabel={pkg.name}
         className="h-[76px] w-[76px] rounded-full md:h-[88px] md:w-[88px]"
+        sizes="88px"
       />
       <h2 className="display mb-1 mt-6 text-[32px] md:text-[38px]">{pkg.name}</h2>
       <p className="eyebrow mb-3 text-xs">{pkg.tagline}</p>
@@ -251,7 +251,7 @@ export default function PackagesPage() {
         </div>
       </section>
 
-      <CtaSection line="Your date only happens once." trackLabel="packages_final" />
+      <CtaSection line="Named after my pets. Approved by my pets." trackLabel="packages_final" />
     </>
   );
 }

@@ -7,8 +7,8 @@
     "slug": "legacy-acres",
     "city": "conway"
   },
-  "coverPhoto": "https://framerusercontent.com/images/kI0ETomgtL9QsnHyTctQDj9tU.jpeg",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/harris.jpg",
+  "coverPhotoAlt": "Rachel and Zane at Legacy Acres",
   "public": true,
   "passcode": null,
   "story": "",
@@ -37,5 +37,6 @@
       "vimeo": "https://vimeo.com/896708027?share=copy",
       "download": "https://vimeo.com/mcmanusmedia/download/896708027/f8cc4465c2"
     }
-  ]
+  ],
+  "featured": 1
 }

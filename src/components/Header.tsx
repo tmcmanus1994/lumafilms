@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { nav } from "@/lib/site";
+import Logo from "./Logo";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -10,12 +11,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b hairline bg-bone/95 backdrop-blur-sm">
       <div className="flex items-center justify-between px-5 py-4 md:px-16 md:py-6">
-        <Link
-          href="/"
-          className="romantic text-2xl font-medium text-ink md:text-3xl"
-          aria-label="Luma Films — home"
-        >
-          Luma Films
+        <Link href="/" aria-label="Luma Films — home">
+          <Logo variant="dark" />
         </Link>
 
         {/* Desktop: quiet text links + single filled CTA */}

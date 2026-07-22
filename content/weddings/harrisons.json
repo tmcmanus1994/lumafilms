@@ -7,8 +7,8 @@
     "slug": "barn-at-fawn-hollow",
     "city": ""
   },
-  "coverPhoto": "https://framerusercontent.com/images/k8tOX442PCGO6kGDKfkiYfdrPYQ.jpg",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/harrisons.jpg",
+  "coverPhotoAlt": "Erin and Travis at The Barn at Fawn Hollow",
   "public": true,
   "passcode": null,
   "story": "",
@@ -26,5 +26,6 @@
     "download": ""
   },
   "rawFootageFolder": null,
-  "extras": []
+  "extras": [],
+  "showcase": 1
 }

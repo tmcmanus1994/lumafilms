@@ -7,8 +7,8 @@
     "slug": "the-venue-at-oakdale",
     "city": "conway"
   },
-  "coverPhoto": "https://framerusercontent.com/images/pFYikKWMhKalEE4qK9GUwRx8qs.jpg",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/wakwe.jpg",
+  "coverPhotoAlt": "Arrie and Henry at The Venue at Oakdale",
   "public": true,
   "passcode": null,
   "story": "",
@@ -26,5 +26,6 @@
     "download": ""
   },
   "rawFootageFolder": null,
-  "extras": []
+  "extras": [],
+  "featured": 2
 }

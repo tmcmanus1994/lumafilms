@@ -1,13 +1,13 @@
 {
   "name": "Conway",
   "intro": [
-    "PLACEHOLDER INTRO — Conway wedding videographer copy. Conway is home — I live here, five minutes from The Venue at Oakdale. When you book a Conway wedding with me, you are booking the videographer who knows exactly when golden hour hits your venue.",
-    "From Oakdale to Legacy Acres and the venues in between, I have filmed all over Faulkner County in every season."
+    "PLACEHOLDER INTRO — Conway wedding videographer copy. Conway is home — when you book a Conway wedding with me, you are booking the videographer who knows exactly when golden hour hits your venue.",
+    "From Legacy Acres to Angelo's Garden and the venues in between, I have filmed all over Faulkner County in every season."
   ],
   "faqs": [
     {
-      "question": "Which Conway venues do you know best?",
-      "answer": "The Venue at Oakdale (five minutes from my house — I have filmed there in spring and fall) and Legacy Acres are my most-filmed venues anywhere. I know their light, their layouts, and their ceremony acoustics by heart."
+      "question": "Which venues near Conway do you know best?",
+      "answer": "Legacy Acres and Angelo's Garden here in Conway, plus The Venue at Oakdale just down the road — my most-filmed venues anywhere. I know their light, their layouts, and their ceremony acoustics by heart."
     },
     {
       "question": "Do you charge travel fees for weddings in Conway?",
@@ -21,5 +21,6 @@
       "question": "When will we get our film?",
       "answer": "Your Instagram reel lands within 48 hours of the wedding. Your full film arrives by a guaranteed delivery date written into your contract."
     }
-  ]
+  ],
+  "order": 2
 }

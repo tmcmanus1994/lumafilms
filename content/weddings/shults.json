@@ -7,8 +7,8 @@
     "slug": "stonebrook-meadows",
     "city": ""
   },
-  "coverPhoto": "https://framerusercontent.com/images/sFmjwFIL3zdC9BsfG4mGnHKxAU.jpg",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/shults.jpg",
+  "coverPhotoAlt": "Grace and Matthew at The Venue at Stonebrook Meadows",
   "public": true,
   "passcode": null,
   "story": "",
@@ -37,5 +37,6 @@
       "vimeo": "https://vimeo.com/994242254",
       "download": "https://vimeo.com/mcmanusmedia/download/994242254/e0e743cc38"
     }
-  ]
+  ],
+  "showcase": 3
 }

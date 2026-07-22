@@ -7,8 +7,8 @@
     "slug": "bella-terra-estate",
     "city": ""
   },
-  "coverPhoto": "https://framerusercontent.com/images/EAYKTuYn05Xb0QIIBKvTvuT86qA.jpeg",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/millers-2.jpg",
+  "coverPhotoAlt": "Hanna and Easton at Bella Terra Estate",
   "public": true,
   "passcode": null,
   "story": "",
@@ -26,5 +26,6 @@
     "download": ""
   },
   "rawFootageFolder": "https://www.dropbox.com/scl/fo/w5po0c16w6zb9bkebib47/ADOP5cotjkRIOVwLB_zp_sI?rlkey=9hpsigdjdq4pmt6dldm6emk4x&st=pl5ikw18&dl=0",
-  "extras": []
+  "extras": [],
+  "showcase": 8
 }

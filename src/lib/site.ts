@@ -2,9 +2,11 @@ export const site = {
   name: "Luma Films",
   legalName: "Luma Films",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://lumaweddingfilms.co",
-  email: "hello@lumaweddingfilms.co",
-  instagram: "https://www.instagram.com/lumaweddingfilms",
-  instagramHandle: "@lumaweddingfilms",
+  email: "trav.mcmanus@gmail.com",
+  instagram: "https://www.instagram.com/luma_weddingfilms",
+  instagramHandle: "@luma_weddingfilms",
+  /** Muted looping hero background film (Vimeo). */
+  heroVideo: "https://vimeo.com/855240627",
   baseCity: "Conway",
   baseRegion: "AR",
   description:
@@ -23,6 +25,16 @@ export const site = {
     "Bentonville",
   ],
 } as const;
+
+/** Home "Where I Film" venue strip — curated for city coverage, in this order. */
+export const homeVenueSlugs = [
+  "the-venue-at-oakdale",
+  "angelos-garden",
+  "grandeur-house",
+  "capital-hotel",
+  "garvan-woodland-gardens",
+  "crystal-bridges",
+] as const;
 
 export const nav = [
   { label: "Films", href: "/films" },

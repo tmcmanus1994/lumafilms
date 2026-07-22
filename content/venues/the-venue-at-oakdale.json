@@ -1,7 +1,7 @@
 {
   "name": "The Venue at Oakdale",
-  "city": "Conway",
-  "citySlug": "conway",
+  "city": "Sherwood",
+  "citySlug": "sherwood",
   "tier": 1,
   "headline": "I know this venue by heart",
   "insiderKnowledge": [
@@ -9,7 +9,10 @@
     "The outdoor ceremony site faces west, which means late-afternoon ceremonies get that soft, backlit glow — and I plan mic placement around the open air so your vows come through clean even with a breeze. Inside, the barn's string lights read beautifully on film with no extra lighting from me.",
     "If you're planning your day at Oakdale, I'm happy to talk timeline — I know when golden hour hits this property to the minute."
   ],
-  "nearbyVenueSlugs": ["legacy-acres", "stonebrook-meadows"],
+  "nearbyVenueSlugs": [
+    "legacy-acres",
+    "angelos-garden"
+  ],
   "testimonial": {
     "quote": "PLACEHOLDER — pull a real testimonial line from an Oakdale couple (Arrie + Henry or Brittney + Randy).",
     "attribution": "PLACEHOLDER · Married at Oakdale"

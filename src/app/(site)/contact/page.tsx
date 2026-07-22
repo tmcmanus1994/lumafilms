@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import ImageSlot from "@/components/ImageSlot";
 import PageMeta from "@/components/PageMeta";
-import ContactForm from "./ContactForm";
+import HoneyBookForm from "./HoneyBookForm";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -37,10 +37,11 @@ export default function ContactPage() {
       {/* Split: form left, photo right (photo on top for mobile) */}
       <section className="grid border-b hairline md:grid-cols-2">
         <ImageSlot
-          src=""
-          alt="Film frame — couple at golden hour"
-          placeholderLabel="Film frame — couple at golden hour"
+          src="/images/contact/travelle-bailey.jpg"
+          alt="Travelle, the videographer behind Luma Films"
           className="order-1 h-[300px] md:order-2 md:h-auto md:min-h-[860px]"
+          sizes="(min-width: 768px) 50vw, 100vw"
+          priority
         />
         <div className="order-2 px-6 py-14 md:order-1 md:py-24 md:pl-16 md:pr-22">
           <p className="eyebrow mb-4">Check My Date</p>
@@ -50,7 +51,7 @@ export default function ContactPage() {
             starting at ${site.startingPrice.toLocaleString()} — along with your date&rsquo;s
             availability.
           </p>
-          <ContactForm />
+          <HoneyBookForm />
           <p className="mt-7 text-[13px] leading-relaxed text-taupe">
             No spam, no pressure — just your availability and the brochure. I reply within one
             business day.

@@ -7,8 +7,8 @@
     "slug": "loft-1023",
     "city": ""
   },
-  "coverPhoto": "https://framerusercontent.com/images/tctN18boe0zaSR73fAWheGJOM.jpg",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/tucker.jpg",
+  "coverPhotoAlt": "Sydnie and Will at Loft 1023",
   "public": true,
   "passcode": null,
   "story": "",
@@ -26,5 +26,6 @@
     "download": ""
   },
   "rawFootageFolder": null,
-  "extras": []
+  "extras": [],
+  "showcase": 5
 }

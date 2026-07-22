@@ -10,8 +10,8 @@ export default function FilmCard({ wedding, large = false }: { wedding: Wedding;
         <ImageSlot
           src={wedding.coverPhoto}
           alt={wedding.coverPhotoAlt || `Film still — ${wedding.couple} at ${wedding.venue.name}`}
-          className={large ? "h-[220px] md:h-[370px]" : "h-[220px] md:h-[262px]"}
-          sizes="(min-width: 768px) 33vw, 100vw"
+          className="aspect-video w-full"
+          sizes={large ? "(min-width: 768px) 50vw, 100vw" : "(min-width: 768px) 33vw, 100vw"}
         />
         <span
           className="absolute bottom-4 right-4 flex h-11 w-11 items-center justify-center rounded-full border border-bone text-xs text-bone transition-colors group-hover:bg-bone group-hover:text-ink"

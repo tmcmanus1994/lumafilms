@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import ImageSlot from "@/components/ImageSlot";
 import FilmCard from "@/components/FilmCard";
 import CtaSection from "@/components/CtaSection";
+import HeroVideo from "@/components/HeroVideo";
+import RotatingQuotes from "@/components/RotatingQuotes";
 import PageMeta from "@/components/PageMeta";
-import { getPublicFilms, getVenues, getCities } from "@/lib/content";
-import { site } from "@/lib/site";
+import { getFeaturedFilms, getVenue, getCities } from "@/lib/content";
+import { homeVenueSlugs, site } from "@/lib/site";
 
 export const metadata: Metadata = {
   // Root page uses the absolute default title from the layout (place-first for SEO)
@@ -33,6 +34,23 @@ const whyLuma = [
   },
 ];
 
+const testimonials = [
+  {
+    quote:
+      "For anyone wondering whether or not wedding videography is worth it… it is well worth the investment. Your search for the right videographer ends here",
+    attribution: "Jamal + Katie",
+  },
+  {
+    quote:
+      "I've honestly watched it probably 100 times! Getting to relive your wedding day that flies by so quickly is truly amazing.",
+    attribution: "Caitlyn + Keyshawn",
+  },
+  {
+    quote: "I still watch my wedding video at least once a week 🤩",
+    attribution: "Ashlyn + Chase",
+  },
+];
+
 const packagesTeaser = [
   { name: "Rosie", price: "From $2,400", copy: "A cinematic highlight film of the full day — the essentials, beautifully told." },
   { name: "Binx", price: "From $3,200", copy: "A longer film plus your full ceremony and drone coverage — the most booked package." },
@@ -40,8 +58,10 @@ const packagesTeaser = [
 ];
 
 export default function HomePage() {
-  const films = getPublicFilms().slice(0, 3);
-  const venues = getVenues().filter((v) => v.tier <= 2).slice(0, 5);
+  const films = getFeaturedFilms();
+  const venues = homeVenueSlugs
+    .map((slug) => getVenue(slug))
+    .filter((v): v is NonNullable<typeof v> => Boolean(v));
   const cities = getCities();
 
   return (
@@ -50,12 +70,7 @@ export default function HomePage() {
 
       {/* Hero */}
       <section className="relative flex min-h-[620px] items-center justify-center bg-ink md:min-h-[740px]">
-        <ImageSlot
-          src=""
-          alt="Golden-hour wedding ceremony filmed by Luma Films"
-          placeholderLabel="Hero film loop frame — golden-hour ceremony"
-          className="absolute inset-0 !bg-ink"
-        />
+        <HeroVideo vimeoUrl={site.heroVideo} />
         <div className="absolute inset-0 bg-ink/45" aria-hidden />
         <div className="relative flex flex-col items-center px-6 py-24 text-center md:px-16">
           <p className="eyebrow mb-5 !text-sand md:mb-6">Central Arkansas Wedding Videographer</p>
@@ -78,7 +93,7 @@ export default function HomePage() {
 
       {/* Trust bar */}
       <div className="eyebrow border-y hairline px-5 py-5 text-center text-[11px] leading-8 md:text-[13px]">
-        Award-Winning&ensp;·&ensp;45+ Weddings Filmed&ensp;·&ensp;Central Arkansas + NWA
+        Award-Winning&ensp;·&ensp;100+ Weddings Filmed&ensp;·&ensp;Central Arkansas + NWA
       </div>
 
       {/* Featured films */}
@@ -101,7 +116,7 @@ export default function HomePage() {
 
       {/* Why Luma */}
       <section className="bg-sand px-5 py-16 md:px-16 md:py-24">
-        <p className="eyebrow mb-3">Why Luma</p>
+        <p className="eyebrow mb-3">Why Luma Films</p>
         <h2 className="display mb-9 text-4xl md:mb-14 md:text-[52px]">Films that feel like the day did</h2>
         <div className="grid gap-9 md:grid-cols-3 md:gap-10">
           {whyLuma.map((item) => (
@@ -114,13 +129,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonial spotlight */}
+      {/* Testimonial spotlight — rotating */}
       <section className="px-6 py-18 text-center md:px-16 md:py-32">
-        <div className="mx-auto flex max-w-[920px] flex-col items-center gap-6 md:gap-9">
-          <blockquote className="romantic text-[29px] leading-snug md:text-[44px]">
-            &ldquo;If you&rsquo;re reading this, your search for the right videographer ends here.&rdquo;
-          </blockquote>
-          <p className="eyebrow">Jamal + Katie</p>
+        <RotatingQuotes quotes={testimonials} />
+        <div className="mt-9 md:mt-12">
           <Link href="/contact" className="btn" data-track="cta_click" data-track-label="home_testimonial">
             Check My Date
           </Link>
@@ -170,10 +182,10 @@ export default function HomePage() {
                 <li key={v.slug} className="border-b border-linen-dark">
                   <Link
                     href={`/venues/${v.slug}`}
-                    className="display flex items-baseline justify-between py-4 text-[22px] md:text-[26px]"
+                    className="display flex items-baseline justify-between gap-3 py-4 text-[22px] md:text-[26px]"
                   >
                     {v.name}
-                    <span className="eyebrow text-[11px] md:text-xs">{v.city}</span>
+                    <span className="eyebrow shrink-0 text-[11px] md:text-xs">{v.city}</span>
                   </Link>
                 </li>
               ))}
@@ -201,8 +213,8 @@ export default function HomePage() {
       </section>
 
       <CtaSection
-        line="Your date only happens once."
-        subline="I only take a limited number of weddings each season."
+        line="The day flies by. The film is forever."
+        subline="The only part that can't wait? Making sure your date is open."
         trackLabel="home_final"
       />
     </>

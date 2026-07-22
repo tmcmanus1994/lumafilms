@@ -7,8 +7,8 @@
     "slug": "capital-hotel",
     "city": "little-rock"
   },
-  "coverPhoto": "",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/whites.jpg",
+  "coverPhotoAlt": "Paige and Austin at the Capital Hotel",
   "public": true,
   "passcode": null,
   "story": "",
@@ -32,5 +32,6 @@
       "vimeo": "https://vimeo.com/720337947/",
       "download": ""
     }
-  ]
+  ],
+  "showcase": 6
 }
