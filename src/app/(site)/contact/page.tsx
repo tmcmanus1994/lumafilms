@@ -41,7 +41,6 @@ export default function ContactPage() {
           alt="A Luma Films wedding frame — couple walking up the aisle"
           className="order-1 h-[300px] md:order-2 md:h-auto md:aspect-[3/4]"
           sizes="(min-width: 768px) 50vw, 100vw"
-          objectPosition="28% 50%"
           priority
         />
         <div className="order-2 px-6 py-14 md:order-1 md:py-24 md:pl-16 md:pr-22">

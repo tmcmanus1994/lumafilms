@@ -49,7 +49,9 @@ export default function HoneyBookForm() {
   }, []);
 
   return (
-    <div ref={wrapper} className="min-h-[420px]">
+    // Width cap: the widget centers its form inside its own iframe, which we
+    // can't style — constraining the wrapper to the form's width pins it left.
+    <div ref={wrapper} className="min-h-[420px] max-w-[480px]">
       <div className={`hb-p-${HB_PID}-8`} />
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
