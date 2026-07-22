@@ -1,0 +1,30 @@
+{
+  "couple": "Ashley + Chase",
+  "lastName": "Evans",
+  "weddingDate": "",
+  "venue": {
+    "name": "Dove Hollow Estate",
+    "slug": "dove-hollow-estate",
+    "city": ""
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Ashley + Chase // Dove Hollow Estates",
+    "vimeo": "https://vimeo.com/670050235",
+    "download": "https://vimeo.com/mcmanusmedia/download/670050235/9b87ab7927"
+  },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": []
+}

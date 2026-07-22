@@ -1,0 +1,41 @@
+{
+  "couple": "Abbie + Ian",
+  "lastName": "Millers",
+  "weddingDate": "",
+  "venue": {
+    "name": "Stone Hill Ranch",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Abbie + Ian // Stone Hill Ranch",
+    "vimeo": "https://vimeo.com/701794883",
+    "download": "https://vimeo.com/mcmanusmedia/download/701794883/ac3b1a70b4"
+  },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/701807015",
+      "download": "https://vimeo.com/mcmanusmedia/download/701807015/799dae8d77"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/701805955",
+      "download": "https://vimeo.com/mcmanusmedia/download/701805955/67f18135f8"
+    }
+  ]
+}

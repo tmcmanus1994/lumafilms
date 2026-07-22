@@ -1,0 +1,30 @@
+{
+  "couple": "Yadira & Gerardo",
+  "lastName": "Jimenez",
+  "weddingDate": "",
+  "venue": {
+    "name": "The Venue at Stonebrook Meadows",
+    "slug": "stonebrook-meadows",
+    "city": ""
+  },
+  "coverPhoto": "https://framerusercontent.com/images/WiuCK2wqNUDEpPScDd7NXJfIZA.jpeg",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Yadira & Gerardo // The Venue at Stonebrook Meadows",
+    "vimeo": "https://vimeo.com/1027865774",
+    "download": "https://vimeo.com/mcmanusmedia/download/1027865774/7e1dcbef97"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/1030101924",
+    "download": "https://vimeo.com/mcmanusmedia/download/1030101924/862097a620"
+  },
+  "instagramReel": {
+    "vimeo": "https://vimeo.com/1042961925?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1042961925/f248da795e"
+  },
+  "rawFootageFolder": null,
+  "extras": []
+}

@@ -1,0 +1,30 @@
+{
+  "couple": "CJ + DJ",
+  "lastName": "Sackey",
+  "weddingDate": "",
+  "venue": {
+    "name": "Tulsa Country Club",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "CJ + DJ // Tulsa Country Club",
+    "vimeo": "https://vimeo.com/795099857",
+    "download": "https://vimeo.com/mcmanusmedia/download/795099857/ef6ec22c2c"
+  },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": []
+}

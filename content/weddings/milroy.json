@@ -1,0 +1,56 @@
+{
+  "couple": "Kaitlyn + Ryan",
+  "lastName": "Milroy",
+  "weddingDate": "",
+  "venue": {
+    "name": "The Springs",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "https://framerusercontent.com/images/wo4LmHoMVXHn6UAUEAqILXf8jYw.jpg",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Kaitlyn + Ryan // The Springs",
+    "vimeo": "https://vimeo.com/1009340989?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1009340989/06bc84610f"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/1009388923?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1009388923/36f36a573d"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/1009391002?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1009391002/6f4d5433b9"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/1009339942?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1009339942/b39845f77d"
+    },
+    {
+      "label": "Father of the Bride Speech",
+      "vimeo": "https://vimeo.com/1009391345?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1009391345/c682299d78"
+    },
+    {
+      "label": "Malloy's Speech",
+      "vimeo": "https://vimeo.com/1009338405?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1009338405/6f3f6e5f16"
+    },
+    {
+      "label": "Lauren's Speech",
+      "vimeo": "https://vimeo.com/1009337650?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1009337650/e83eb26425"
+    }
+  ]
+}

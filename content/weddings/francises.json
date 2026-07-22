@@ -1,0 +1,41 @@
+{
+  "couple": "Jessica + Kyle",
+  "lastName": "Francises",
+  "weddingDate": "",
+  "venue": {
+    "name": "Chenal Country Club",
+    "slug": "chenal-country-club",
+    "city": "little-rock"
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Jessica + Kyle // Chenal County Club",
+    "vimeo": "https://vimeo.com/702998607",
+    "download": "https://vimeo.com/mcmanusmedia/download/702998607/f826814d36"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/703003613",
+    "download": "https://vimeo.com/703003613"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Shoe Game",
+      "vimeo": "https://vimeo.com/702468949",
+      "download": "https://vimeo.com/mcmanusmedia/download/702468949/215534f72c"
+    },
+    {
+      "label": "Cinematic Trailer",
+      "vimeo": "https://vimeo.com/703420997",
+      "download": "https://vimeo.com/mcmanusmedia/download/703420997/b7ad4fe824"
+    }
+  ]
+}

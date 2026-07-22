@@ -106,12 +106,12 @@ export function filmSlug(w: Wedding): string {
     .replace(/[^a-z0-9-]+/g, "-")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
-  const venue = (w.venue.slug ?? w.venue.name)
+  const venue = (w.venue.slug || w.venue.name || "")
     .toLowerCase()
     .replace(/[^a-z0-9-]+/g, "-")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
-  return `${couple}-${venue}`;
+  return venue ? `${couple}-${venue}` : couple;
 }
 
 export function getPublicFilms(): Wedding[] {

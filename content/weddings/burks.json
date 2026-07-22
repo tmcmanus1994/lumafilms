@@ -1,0 +1,30 @@
+{
+  "couple": "Katy + Alexander",
+  "lastName": "Burks",
+  "weddingDate": "",
+  "venue": {
+    "name": "",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "https://framerusercontent.com/images/JZzxCoIq7mF7jeq4Pziq7bs4.jpg",
+  "coverPhotoAlt": "",
+  "public": false,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Your Raw Footage",
+    "vimeo": "https://vimeo.com/1124053575?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1124053575/cda49cb836"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/1124052328?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1124052328/a465391cd6"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": "https://www.dropbox.com/scl/fo/6l5j7ldtwd7u548u6v10p/ANg9eXmsbgFX_TldV3enbj8?rlkey=jhvg13f9enr5rzqlpvt5dbn3n&st=l0pu9hx7&dl=0",
+  "extras": []
+}

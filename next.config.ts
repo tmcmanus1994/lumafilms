@@ -44,6 +44,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "i.vimeocdn.com" },
       { protocol: "https", hostname: "vumbnail.com" },
+      // Framer-hosted cover photos, until re-hosted under /public/images
+      { protocol: "https", hostname: "framerusercontent.com" },
     ],
   },
 };

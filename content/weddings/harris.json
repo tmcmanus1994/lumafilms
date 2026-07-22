@@ -1,0 +1,41 @@
+{
+  "couple": "Rachel + Zane",
+  "lastName": "Harris",
+  "weddingDate": "",
+  "venue": {
+    "name": "Legacy Acres",
+    "slug": "legacy-acres",
+    "city": "conway"
+  },
+  "coverPhoto": "https://framerusercontent.com/images/kI0ETomgtL9QsnHyTctQDj9tU.jpeg",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Rachel + Zane // Legacy Acres",
+    "vimeo": "https://vimeo.com/896633160?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/896633160/2d5ec8a43c"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/896698001?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/896698001/69a89bb898"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "First Look",
+      "vimeo": "https://vimeo.com/896707281?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/896707281/4f7b6d872c"
+    },
+    {
+      "label": "Rachel + Zane // First Dance",
+      "vimeo": "https://vimeo.com/896708027?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/896708027/f8cc4465c2"
+    }
+  ]
+}

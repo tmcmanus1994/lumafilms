@@ -1,0 +1,51 @@
+{
+  "couple": "Jessica + Cody",
+  "lastName": "Lane",
+  "weddingDate": "",
+  "venue": {
+    "name": "Kindred Barn",
+    "slug": "kindred-barn",
+    "city": ""
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Jessica + Cody // Kindred Barn",
+    "vimeo": "https://vimeo.com/817521575",
+    "download": "https://vimeo.com/mcmanusmedia/download/817521575/6b69ee89fd"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/816085585",
+    "download": "https://vimeo.com/mcmanusmedia/download/816085585/9bf2b9c963"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "First Look",
+      "vimeo": "https://vimeo.com/816316287",
+      "download": "https://vimeo.com/mcmanusmedia/download/816316287/183aa31e82"
+    },
+    {
+      "label": "First Look with Dad",
+      "vimeo": "https://vimeo.com/816316724",
+      "download": "https://vimeo.com/mcmanusmedia/download/816316724/90626b4021"
+    },
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/816315541",
+      "download": "https://vimeo.com/mcmanusmedia/download/816315541/46f45998ad"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/816315842",
+      "download": "https://vimeo.com/mcmanusmedia/download/816315842/5012b391de"
+    }
+  ]
+}

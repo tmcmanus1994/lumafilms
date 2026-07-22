@@ -1,0 +1,41 @@
+{
+  "couple": "Hannah + Dylan",
+  "lastName": "Sample",
+  "weddingDate": "",
+  "venue": {
+    "name": "Crystal Bridges",
+    "slug": "crystal-bridges",
+    "city": "bentonville"
+  },
+  "coverPhoto": "https://framerusercontent.com/images/5304Rel1t2RVrDJF6VM2Oe7O4fg.jpeg",
+  "coverPhotoAlt": "",
+  "public": false,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Hannah + Dylan // Crystal Bridges",
+    "vimeo": "https://vimeo.com/1053599962",
+    "download": "https://vimeo.com/mcmanusmedia/download/1053599962/29e2dd9140"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/1053593475",
+    "download": "https://vimeo.com/mcmanusmedia/download/1053593475/a251ee1330"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/1057058058",
+      "download": "https://vimeo.com/mcmanusmedia/download/1057058058/0e288bfa46"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/1057057625",
+      "download": "https://vimeo.com/mcmanusmedia/download/1057057625/12faf69305"
+    }
+  ]
+}

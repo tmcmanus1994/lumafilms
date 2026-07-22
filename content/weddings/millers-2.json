@@ -1,0 +1,30 @@
+{
+  "couple": "Hanna + Easton",
+  "lastName": "Millers",
+  "weddingDate": "",
+  "venue": {
+    "name": "Bella Terra Estate",
+    "slug": "bella-terra-estate",
+    "city": ""
+  },
+  "coverPhoto": "https://framerusercontent.com/images/EAYKTuYn05Xb0QIIBKvTvuT86qA.jpeg",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Hanna + Easton // Bella Terra Estate",
+    "vimeo": "https://vimeo.com/995601868",
+    "download": "https://vimeo.com/mcmanusmedia/download/995601868/fcade60bc6"
+  },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": "https://www.dropbox.com/scl/fo/w5po0c16w6zb9bkebib47/ADOP5cotjkRIOVwLB_zp_sI?rlkey=9hpsigdjdq4pmt6dldm6emk4x&st=pl5ikw18&dl=0",
+  "extras": []
+}

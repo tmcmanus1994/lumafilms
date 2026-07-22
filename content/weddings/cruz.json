@@ -1,0 +1,66 @@
+{
+  "couple": "Grace + Gio",
+  "lastName": "Cruz",
+  "weddingDate": "",
+  "venue": {
+    "name": "Cathedral of St Andrew",
+    "slug": "cathedral-of-st-andrew",
+    "city": "little-rock"
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Grace + Gio // Cathedral of St Andrew",
+    "vimeo": "https://vimeo.com/831286056",
+    "download": "https://vimeo.com/mcmanusmedia/download/831286056/b3d8432ae0"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/820255148",
+    "download": "https://vimeo.com/mcmanusmedia/download/820255148/536735de01"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/827608364",
+      "download": "https://vimeo.com/mcmanusmedia/download/827608364/4dd7a364da"
+    },
+    {
+      "label": "Bridesmaid Speech",
+      "vimeo": "https://vimeo.com/827609560",
+      "download": "https://vimeo.com/mcmanusmedia/download/827609560/ef285fa07d"
+    },
+    {
+      "label": "Mother of the Groom Speech",
+      "vimeo": "https://vimeo.com/827610269",
+      "download": "https://vimeo.com/mcmanusmedia/download/827610269/4951e35507"
+    },
+    {
+      "label": "Mother of the Bride Speech",
+      "vimeo": "https://vimeo.com/827610589",
+      "download": "https://vimeo.com/mcmanusmedia/download/827610589/f9c75de6a9"
+    },
+    {
+      "label": "Guest Speech #1",
+      "vimeo": "https://vimeo.com/831318355",
+      "download": "https://vimeo.com/mcmanusmedia/download/831318355/2b84049911"
+    },
+    {
+      "label": "Guest Speech #2",
+      "vimeo": "https://vimeo.com/827612624",
+      "download": "https://vimeo.com/mcmanusmedia/download/827612624/f30f34d87c"
+    },
+    {
+      "label": "Family Speech",
+      "vimeo": "https://vimeo.com/831319131",
+      "download": "https://vimeo.com/mcmanusmedia/download/831319131/2461d26c2e"
+    }
+  ]
+}

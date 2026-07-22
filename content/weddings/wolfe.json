@@ -1,0 +1,30 @@
+{
+  "couple": "Kelsey + Logan",
+  "lastName": "Wolfe",
+  "weddingDate": "",
+  "venue": {
+    "name": "Grandeur House",
+    "slug": "grandeur-house",
+    "city": "little-rock"
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Kelsey + Logan // Grandeur House",
+    "vimeo": "https://vimeo.com/846948396?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/846948396/599d59e0f4"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/847735842?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/847735842/8d009c35ab"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": []
+}

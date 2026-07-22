@@ -1,0 +1,36 @@
+{
+  "couple": "Paige + Austin",
+  "lastName": "Whites",
+  "weddingDate": "",
+  "venue": {
+    "name": "Capital Hotel",
+    "slug": "capital-hotel",
+    "city": "little-rock"
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Paige + Austin // Capital Hotel",
+    "vimeo": "https://vimeo.com/720021622/",
+    "download": "https://vimeo.com/mcmanusmedia/download/720021622/b85f357e76"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com//720032455/",
+    "download": "https://vimeo.com/mcmanusmedia/download/720032455/4266db7a8c"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Cinematic Trailer",
+      "vimeo": "https://vimeo.com/720337947/",
+      "download": ""
+    }
+  ]
+}

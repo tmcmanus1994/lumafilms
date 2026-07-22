@@ -2,15 +2,13 @@
 /**
  * Framer CMS → file-based CMS migration.
  *
- * Usage:  node scripts/migrate-csv.mjs path/to/couple.csv
+ * Usage:  node scripts/migrate-csv.mjs path/to/couple.csv [--force]
  *
- * Parses the Framer "couple" collection export (48 flat columns) and writes one
- * content/weddings/[slug].json per row, collapsing the fixed speech/bonus
- * columns into the flexible `extras` array. Venue names are extracted from the
- * highlight title ("Laken + Robert // Hedge Farm" → "Hedge Farm").
+ * Column mapping is exact to the Framer "couple" collection export (July 2026).
+ * Fixed speech/bonus columns collapse into the flexible `extras` array; venue
+ * names are extracted from the highlight title ("Laken + Robert // Hedge Farm")
+ * and mapped to venue-page slugs + cities where known.
  *
- * After running, do the manual pass (rebuild plan §5): fill venue.city,
- * venue.slug, weddingDate, and set public/story for couples going on /films.
  * Existing files are never overwritten unless --force is passed.
  */
 import fs from "node:fs";
@@ -63,92 +61,132 @@ function parseCsv(text) {
   return rows;
 }
 
-const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+/** Parsed venue name (lowercased) → { slug, city } for content/venues linkage. */
+const VENUE_MAP = {
+  "hedge farm": { slug: "hedge-farm" },
+  "stone chapel at mattlane farm": { slug: "stone-chapel-at-mattlane-farm" },
+  "barn at the springs": { slug: "barn-at-the-springs" },
+  "the cordelle": { slug: "the-cordelle" },
+  "crystal bridges": { slug: "crystal-bridges", city: "bentonville" },
+  "the venue at oakdale": { slug: "the-venue-at-oakdale", city: "conway" },
+  "the venue at stonebrook meadows": { slug: "stonebrook-meadows" },
+  "mildred b. cooper memorial chapel": { slug: "mildred-b-cooper-memorial-chapel", city: "bentonville" },
+  "albert pike memorial temple": { slug: "albert-pike-memorial-temple", city: "little-rock" },
+  "bella terra estate": { slug: "bella-terra-estate" },
+  "legacy acres": { slug: "legacy-acres", city: "conway" },
+  "mccoy's little red barn": { slug: "mccoys-little-red-barn" },
+  "hudson springs": { slug: "hudson-springs" },
+  "hudson spring": { slug: "hudson-springs" },
+  "loft 1023": { slug: "loft-1023" },
+  "osage house": { slug: "osage-house" },
+  "the barn at fawn hollow": { slug: "barn-at-fawn-hollow" },
+  "the barn at greers ferry lake": { slug: "barn-at-greers-ferry-lake" },
+  "cathedral of st andrew": { slug: "cathedral-of-st-andrew", city: "little-rock" },
+  "capital hotel": { slug: "capital-hotel", city: "little-rock" },
+  // Typos in the source data, mapped to the intended venues:
+  "angelos gardan": { slug: "angelos-garden", name: "Angelo's Garden" },
+  "chenal county club": { slug: "chenal-country-club", city: "little-rock", name: "Chenal Country Club" },
+  "dove hollow estate": { slug: "dove-hollow-estate" },
+  "dove hollow estates": { slug: "dove-hollow-estate", name: "Dove Hollow Estate" },
+  "kindred barn": { slug: "kindred-barn" },
+  "grandeur house": { slug: "grandeur-house", city: "little-rock" },
+};
+
+/** Rows that should not get a public film page without review. */
+const PRIVATE_ONLY = new Set([
+  "burks", // highlight title is "Your Raw Footage" — no venue, portal-only delivery
+  "sample", // Framer template demo row — verify before publishing
+]);
 
 const text = fs.readFileSync(csvPath, "utf8");
 const [header, ...rows] = parseCsv(text);
-const idx = Object.fromEntries(header.map((h, i) => [norm(h), i]));
-
-// Fuzzy column lookup — Framer exports vary in exact header names
-function col(row, ...candidates) {
-  for (const c of candidates) {
-    const key = Object.keys(idx).find((k) => k.includes(norm(c)));
-    if (key !== undefined) {
-      const v = row[idx[key]]?.trim();
-      if (v) return v;
-    }
+const idx = Object.fromEntries(header.map((h, i) => [h.trim(), i]));
+const need = (name) => {
+  if (!(name in idx)) {
+    console.error(`Missing expected column: "${name}"`);
+    process.exit(1);
   }
-  return "";
-}
-
-function slugify(s) {
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-}
+  return name;
+};
 
 const outDir = path.join(process.cwd(), "content", "weddings");
 fs.mkdirSync(outDir, { recursive: true });
 
 let written = 0;
 let skipped = 0;
+const report = [];
 
 for (const row of rows) {
-  const slug = col(row, "slug") || slugify(col(row, "last name", "name", "couple"));
+  const get = (name) => (row[idx[need(name)]] ?? "").trim();
+
+  const slug = get("Slug");
   if (!slug) continue;
 
-  const highlightTitle = col(row, "highlight title", "title");
-  const venueFromTitle = highlightTitle.includes("//")
+  const highlightTitle = get("Couple Highlight Video Title");
+  const rawVenue = highlightTitle.includes("//")
     ? highlightTitle.split("//").pop().trim()
     : "";
+  const mapped = VENUE_MAP[rawVenue.toLowerCase()] ?? {};
 
-  // Fixed speech/bonus columns → flexible extras array
-  const extraLabels = [
-    "Best Man Speech",
-    "Maid of Honor Speech",
-    "Father of the Bride Speech",
-    "Mother of the Bride Speech",
-    "Father of the Groom Speech",
-    "Toasts",
-    "First Look",
-    "First Dance",
-    "Bonus Video 1",
-    "Bonus Video 2",
-    "Bonus Video 3",
-    "Bonus Video 4",
-  ];
-  const extras = extraLabels
-    .map((label) => ({
-      label,
-      vimeo: col(row, `${label} vimeo`, `${label} link`, label),
-      download: col(row, `${label} download`),
-    }))
-    .filter((e) => e.vimeo || e.download);
+  const extras = [];
+  const addExtra = (label, vimeo, download) => {
+    if (!vimeo && !download) return;
+    // Source data occasionally duplicates a bonus row — keep the first
+    if (extras.some((e) => e.label === label && e.vimeo === vimeo)) return;
+    extras.push({ label, vimeo, download });
+  };
+
+  addExtra("First Look", get("First Look"), get("First Look Download"));
+  addExtra("First Look with Dad", get("First Look with Dad"), get("First Look w/ Dad Download"));
+  addExtra("Best Man Speech", get("Best Man Speech"), get("Best Man Speech Download"));
+  addExtra("Maid of Honor Speech", get("Maid of Honor Speech"), get("Maid of Honor Speech Download"));
+  for (const n of [1, 2, 3]) {
+    const label = get(`Additional Speech Title #${n}`).replace(/^.*\/\/\s*/, "") || `Speech #${n}`;
+    addExtra(label, get(`Additional Speech Title #${n} Video`), get(`Additional Speech #${n} Download`));
+  }
+  for (const n of [1, 2, 3, 4, 5]) {
+    const label = get(`Bonus Video #${n}`) || `Bonus Video #${n}`;
+    addExtra(label, get(`Bonus Video #${n} Video`), get(`Bonus Video #${n} Download`));
+  }
 
   const wedding = {
-    couple: col(row, "couple", "names", "display name"),
-    lastName: col(row, "last name"),
+    couple: get("Couple's First Name"),
+    lastName: get("Couple's Last Name").trim(),
     weddingDate: "",
-    venue: { name: venueFromTitle, slug: venueFromTitle ? slugify(venueFromTitle) : "", city: "" },
-    coverPhoto: col(row, "cover photo", "cover image", "image"),
-    coverPhotoAlt: "",
-    public: false,
+    venue: {
+      name: mapped.name ?? rawVenue,
+      slug: mapped.slug ?? "",
+      city: mapped.city ?? "",
+    },
+    coverPhoto: get("Cover Photo"),
+    coverPhotoAlt: get("Cover Photo:alt"),
+    public: !PRIVATE_ONLY.has(slug) && Boolean(rawVenue),
     passcode: null,
     story: "",
     highlight: {
       title: highlightTitle,
-      vimeo: col(row, "highlight vimeo", "highlight link", "highlight"),
-      download: col(row, "highlight download", "4k download", "download"),
+      vimeo: get("Highlight Video"),
+      download: get("Highlight Video Download"),
     },
     ceremony: {
-      vimeo: col(row, "ceremony vimeo", "ceremony link", "ceremony"),
-      download: col(row, "ceremony download"),
+      vimeo: get("Ceremony Video") || get("Ceremony Video (YT)"),
+      download: get("Ceremony Video Download"),
     },
     instagramReel: {
-      vimeo: col(row, "instagram reel vimeo", "reel vimeo", "instagram reel"),
-      download: col(row, "instagram reel download", "reel download"),
+      vimeo: get("Instagram Reel"),
+      download: get("Instagram Reel Download"),
     },
-    rawFootageFolder: col(row, "raw footage") || null,
+    rawFootageFolder: get("Raw Footage Folder") || null,
     extras,
   };
+
+  report.push({
+    slug,
+    couple: wedding.couple,
+    venue: rawVenue || "(none)",
+    venuePage: mapped.slug ?? "",
+    public: wedding.public,
+  });
 
   const file = path.join(outDir, `${slug}.json`);
   if (fs.existsSync(file) && !force) {
@@ -160,4 +198,5 @@ for (const row of rows) {
 }
 
 console.log(`Wrote ${written} wedding file(s), skipped ${skipped} existing (use --force to overwrite).`);
-console.log("Next: manual pass for venue.city / venue.slug / weddingDate / public / story.");
+console.table(report);
+console.log("Next: manual pass for weddingDate, story, and any venue marked (none).");
