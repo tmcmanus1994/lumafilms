@@ -76,7 +76,7 @@ export default function AboutPage() {
             Hi, I&rsquo;m Travelle — the person behind the camera
           </h1>
           <p className="mb-7 max-w-[520px] text-base leading-relaxed text-espresso md:mb-9 md:text-lg">
-            Richmond, Virginia raised me. Arkansas gave me a degree, a wife, three pets, and 45+
+            Richmond, Virginia raised me. Arkansas gave me a degree, a wife, three pets, and 100+
             weddings behind the camera — and I still tear up in the edit.
           </p>
           <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:gap-8">
@@ -110,7 +110,7 @@ export default function AboutPage() {
             <p>
               What I actually got was hooked. Every wedding was a new place, new people, and a new
               story to tell — and I found out that retelling someone&rsquo;s best day back to them
-              is about the most rewarding thing you can do with a camera. Eight years and 45+
+              is about the most rewarding thing you can do with a camera. Eight years and 100+
               weddings later, that hasn&rsquo;t worn off.
             </p>
           </div>
