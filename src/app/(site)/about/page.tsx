@@ -67,7 +67,6 @@ export default function AboutPage() {
           alt="Travelle and Bailey, the couple behind Luma Films"
           className="order-1 h-[520px] md:order-2 md:h-auto md:min-h-[960px]"
           sizes="(min-width: 768px) 50vw, 100vw"
-          objectPosition="50% 30%"
           priority
         />
         <div className="order-2 flex flex-col justify-center px-6 py-14 md:order-1 md:px-14 md:py-20">
@@ -174,7 +173,7 @@ export default function AboutPage() {
               <ImageSlot
                 src={p.photo}
                 alt={`${p.name}, one of Travelle's pets`}
-                className="aspect-video w-full"
+                className="aspect-square w-full"
                 sizes="(min-width: 768px) 33vw, 100vw"
               />
               <div>

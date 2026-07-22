@@ -38,9 +38,10 @@ export default function ContactPage() {
       <section className="grid border-b hairline md:grid-cols-2">
         <ImageSlot
           src="/images/contact/travelle.jpg"
-          alt="Travelle, the videographer behind Luma Films"
+          alt="A Luma Films wedding frame — couple walking up the aisle"
           className="order-1 h-[300px] md:order-2 md:h-auto md:min-h-[860px]"
           sizes="(min-width: 768px) 50vw, 100vw"
+          objectPosition="28% 50%"
           priority
         />
         <div className="order-2 px-6 py-14 md:order-1 md:py-24 md:pl-16 md:pr-22">
