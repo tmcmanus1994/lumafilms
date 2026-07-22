@@ -7,7 +7,7 @@ export const site = {
   instagramHandle: "@luma_weddingfilms",
   /** Muted looping hero background film (Vimeo). */
   heroVideo: "https://vimeo.com/855240627",
-  baseCity: "Conway",
+  baseCity: "Little Rock",
   baseRegion: "AR",
   description:
     "Cinematic wedding films in Central Arkansas. Modern, story-driven wedding videography for couples in Little Rock, Conway, and beyond.",

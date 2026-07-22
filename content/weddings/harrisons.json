@@ -27,5 +27,10 @@
   },
   "rawFootageFolder": null,
   "extras": [],
-  "showcase": 1
+  "showcase": 1,
+  "related": [
+    "vanwinkle",
+    "millers-2",
+    "shults"
+  ]
 }

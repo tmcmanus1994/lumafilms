@@ -69,7 +69,7 @@ export default function HomePage() {
       <PageMeta page_type="home" />
 
       {/* Hero */}
-      <section className="relative flex min-h-[620px] items-center justify-center bg-ink md:min-h-[740px]">
+      <section className="relative flex min-h-[680px] items-center justify-center bg-ink md:min-h-[820px]">
         <HeroVideo vimeoUrl={site.heroVideo} />
         <div className="absolute inset-0 bg-ink/45" aria-hidden />
         <div className="relative flex flex-col items-center px-6 py-24 text-center md:px-16">

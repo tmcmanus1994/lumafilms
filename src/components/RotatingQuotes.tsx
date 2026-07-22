@@ -22,7 +22,7 @@ export default function RotatingQuotes({
   useEffect(() => {
     if (quotes.length < 2) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const t = setInterval(() => setActive((i) => (i + 1) % quotes.length), 4000);
+    const t = setInterval(() => setActive((i) => (i + 1) % quotes.length), 8000);
     return () => clearInterval(t);
   }, [quotes.length]);
 

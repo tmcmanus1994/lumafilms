@@ -128,8 +128,9 @@ function PackageCard({ pkg }: { pkg: Pkg }) {
       <ImageSlot
         src={`/images/pets/${pkg.name.toLowerCase()}-package.jpg`}
         alt={`${pkg.name} the pet`}
-        className="h-[76px] w-[76px] rounded-full md:h-[88px] md:w-[88px]"
-        sizes="88px"
+        className="h-[92px] w-[92px] rounded-full md:h-[108px] md:w-[108px]"
+        sizes="108px"
+        objectPosition={pkg.name === "Boujee" ? "65% 50%" : undefined}
       />
       <h2 className="display mb-1 mt-6 text-[32px] md:text-[38px]">{pkg.name}</h2>
       <p className="eyebrow mb-3 text-xs">{pkg.tagline}</p>

@@ -68,5 +68,10 @@
       "download": "https://vimeo.com/908132427?share=copy"
     }
   ],
-  "showcase": 2
+  "showcase": 2,
+  "related": [
+    "sample",
+    "balfe",
+    "millers-2"
+  ]
 }

@@ -27,5 +27,10 @@
   },
   "rawFootageFolder": null,
   "extras": [],
-  "featured": 2
+  "featured": 2,
+  "related": [
+    "vanwinkle",
+    "harrisons",
+    "shults"
+  ]
 }

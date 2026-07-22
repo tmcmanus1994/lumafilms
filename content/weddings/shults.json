@@ -38,5 +38,10 @@
       "download": "https://vimeo.com/mcmanusmedia/download/994242254/e0e743cc38"
     }
   ],
-  "showcase": 3
+  "showcase": 3,
+  "related": [
+    "vanwinkle",
+    "harrisons",
+    "millers-2"
+  ]
 }

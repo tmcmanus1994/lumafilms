@@ -33,5 +33,10 @@
       "download": ""
     }
   ],
-  "showcase": 6
+  "showcase": 6,
+  "related": [
+    "wolfe",
+    "harris",
+    "wakwe"
+  ]
 }

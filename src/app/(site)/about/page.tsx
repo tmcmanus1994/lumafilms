@@ -8,14 +8,14 @@ import PageMeta from "@/components/PageMeta";
 export const metadata: Metadata = {
   title: "About Travelle — Central Arkansas Wedding Videographer",
   description:
-    "Meet Travelle, the Conway-based wedding videographer behind Luma Films. Richmond-raised, Arkansas-made — fly-on-the-wall filming and story-driven wedding films across Central Arkansas and NWA.",
+    "Meet Travelle, the Little Rock-based wedding videographer behind Luma Films. Richmond-raised, Arkansas-made — fly-on-the-wall filming and story-driven wedding films across Central Arkansas and NWA.",
   alternates: { canonical: "/about" },
 };
 
 const facts = [
-  { stat: "45+", label: "Weddings filmed across Arkansas" },
-  { stat: "1", label: "Wedding per date — never two" },
-  { stat: "48 hrs", label: "To your Instagram reel sneak peek" },
+  { stat: "100+", label: "Weddings filmed" },
+  { stat: "10+", label: "Years of experience" },
+  { stat: "2+", label: "Awards — The Knot Best of Weddings & WeddingWire Couples' Choice" },
   { stat: "3", label: "Pets who run my house — and my packages" },
 ];
 
@@ -65,11 +65,12 @@ export default function AboutPage() {
         <ImageSlot
           src="/images/about/travelle-bailey.jpg"
           alt="Travelle and Bailey, the couple behind Luma Films"
-          className="order-1 h-[420px] md:order-2 md:h-auto md:min-h-[720px]"
+          className="order-1 h-[520px] md:order-2 md:h-auto md:min-h-[960px]"
           sizes="(min-width: 768px) 50vw, 100vw"
+          objectPosition="50% 30%"
           priority
         />
-        <div className="order-2 flex flex-col justify-center px-6 py-14 md:order-1 md:px-16 md:py-28">
+        <div className="order-2 flex flex-col justify-center px-6 py-14 md:order-1 md:px-14 md:py-20">
           <p className="eyebrow mb-4 md:mb-5">My Story</p>
           <h1 className="display mb-5 text-[38px] md:mb-7 md:text-[66px]">
             Hi, I&rsquo;m Travelle — the person behind the camera
@@ -137,8 +138,8 @@ export default function AboutPage() {
               your day like a short film — with pacing, with quiet, with room to feel it.
             </p>
             <p>
-              I&rsquo;m based in Conway and film all over Central and Northwest Arkansas. One wedding
-              per date, always — when your day is on my calendar, it has my full attention.
+              I&rsquo;m based in Little Rock and film all over Central and Northwest Arkansas. One
+              wedding per date, always — when your day is on my calendar, it has my full attention.
             </p>
           </div>
         </div>
@@ -173,7 +174,7 @@ export default function AboutPage() {
               <ImageSlot
                 src={p.photo}
                 alt={`${p.name}, one of Travelle's pets`}
-                className="h-[240px] md:h-[340px]"
+                className="aspect-video w-full"
                 sizes="(min-width: 768px) 33vw, 100vw"
               />
               <div>

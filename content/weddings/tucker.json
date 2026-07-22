@@ -27,5 +27,10 @@
   },
   "rawFootageFolder": null,
   "extras": [],
-  "showcase": 5
+  "showcase": 5,
+  "related": [
+    "wolfe",
+    "harris",
+    "wakwe"
+  ]
 }

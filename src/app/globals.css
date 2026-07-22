@@ -100,4 +100,14 @@
   .hairline {
     border-color: var(--color-linen);
   }
+
+  /* HoneyBook embed: align the widget with the page copy instead of centering */
+  [class*="hb-p-"] {
+    text-align: left;
+  }
+  [class*="hb-p-"] iframe,
+  [class*="hb-p-"] > div {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
 }

@@ -24,7 +24,7 @@ export default function HeroVideo({ vimeoUrl }: { vimeoUrl: string }) {
   }, [id]);
 
   return (
-    <div className="absolute inset-0 overflow-hidden bg-ink" aria-hidden>
+    <div className="absolute inset-0 overflow-hidden bg-ink [container-type:size]" aria-hidden>
       {id && (
         <Image
           src={`https://vumbnail.com/${id}.jpg`}
@@ -41,8 +41,8 @@ export default function HeroVideo({ vimeoUrl }: { vimeoUrl: string }) {
           title="Luma Films wedding film reel"
           allow="autoplay; fullscreen"
           tabIndex={-1}
-          // Cover the container regardless of its aspect ratio
-          className="pointer-events-none absolute left-1/2 top-1/2 aspect-video h-full min-h-full w-auto min-w-full -translate-x-1/2 -translate-y-1/2"
+          // Cover: always at least full banner width AND height, 16:9 preserved, center-cropped
+          className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[max(100cqw,177.78cqh)] h-[max(100cqh,56.25cqw)]"
         />
       )}
     </div>

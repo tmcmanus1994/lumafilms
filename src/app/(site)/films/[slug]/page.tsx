@@ -11,6 +11,7 @@ import {
   getCity,
   getFilmBySlug,
   getPublicFilms,
+  getRelatedFilms,
   getVenue,
 } from "@/lib/content";
 import { filmBreadcrumbs, videoObjectSchema } from "@/lib/schema";
@@ -43,9 +44,7 @@ export default async function FilmPage({ params }: Props) {
 
   const venue = w.venue.slug ? getVenue(w.venue.slug) : undefined;
   const city = w.venue.city ? getCity(w.venue.city) : undefined;
-  const more = getPublicFilms()
-    .filter((f) => f.slug !== w.slug)
-    .slice(0, 3);
+  const more = getRelatedFilms(w);
 
   return (
     <>
@@ -58,10 +57,11 @@ export default async function FilmPage({ params }: Props) {
       {w.highlight.vimeo && <JsonLd data={videoObjectSchema(w)} />}
       <JsonLd data={filmBreadcrumbs(w)} />
 
-      <section className="px-5 pb-8 pt-14 text-center md:px-16 md:pt-24">
-        <p className="eyebrow mb-4">A Luma Films Wedding Film</p>
-        <h1 className="display text-4xl md:text-[64px]">{w.couple}</h1>
-        <p className="eyebrow mt-4 text-xs md:text-[13px]">
+      {/* Title + film sized to fit the viewport, leaving a peek of what's below */}
+      <section className="px-5 pb-6 pt-8 text-center md:px-16 md:pt-10">
+        <p className="eyebrow mb-3">A Luma Films Wedding Film</p>
+        <h1 className="display text-[34px] md:text-5xl">{w.couple}</h1>
+        <p className="eyebrow mt-3 text-xs">
           {w.venue.name}
           {w.weddingDate ? ` · ${formatDate(w.weddingDate)}` : ""}
         </p>
@@ -73,7 +73,7 @@ export default async function FilmPage({ params }: Props) {
           title={w.highlight.title ?? `${w.couple} at ${w.venue.name}`}
           poster={w.coverPhoto}
           venue={w.venue.name}
-          className="aspect-video w-full"
+          className="mx-auto aspect-video w-full max-w-[min(100%,calc((100vh-400px)*1.7778))]"
         />
       </section>
 

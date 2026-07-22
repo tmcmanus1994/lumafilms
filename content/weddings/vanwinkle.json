@@ -27,5 +27,10 @@
   },
   "rawFootageFolder": null,
   "extras": [],
-  "showcase": 4
+  "showcase": 4,
+  "related": [
+    "harrisons",
+    "shults",
+    "sample"
+  ]
 }

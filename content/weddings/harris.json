@@ -38,5 +38,10 @@
       "download": "https://vimeo.com/mcmanusmedia/download/896708027/f8cc4465c2"
     }
   ],
-  "featured": 1
+  "featured": 1,
+  "related": [
+    "wakwe",
+    "harrisons",
+    "shults"
+  ]
 }

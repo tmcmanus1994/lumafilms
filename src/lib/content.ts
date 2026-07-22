@@ -38,6 +38,8 @@ export type Wedding = {
   featured?: number;
   /** 1–9: position on the curated /films index (all public films still get pages). */
   showcase?: number;
+  /** Wedding slugs shown as "More films" on this film's page, in order. */
+  related?: string[];
   filmSlug?: string;
   highlight: VideoAsset & { title?: string };
   ceremony?: VideoAsset;
@@ -140,6 +142,24 @@ export function getShowcaseFilms(): Wedding[] {
   return getPublicFilms()
     .filter((w) => w.showcase)
     .sort((a, b) => a.showcase! - b.showcase!);
+}
+
+/**
+ * "More films" for a film page: the curated `related` list when set, otherwise
+ * curated films only (never the long tail of unlisted film pages).
+ */
+export function getRelatedFilms(w: Wedding): Wedding[] {
+  const all = getPublicFilms();
+  if (w.related?.length) {
+    return w.related
+      .map((slug) => all.find((f) => f.slug === slug))
+      .filter((f): f is Wedding => Boolean(f));
+  }
+  const curated = [...getFeaturedFilms(), ...getShowcaseFilms()];
+  const seen = new Set<string>();
+  return curated
+    .filter((f) => f.slug !== w.slug && !seen.has(f.slug) && (seen.add(f.slug), true))
+    .slice(0, 3);
 }
 
 export function getVenues(): Venue[] {

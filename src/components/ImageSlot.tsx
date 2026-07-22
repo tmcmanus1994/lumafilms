@@ -6,6 +6,8 @@ type Props = {
   className?: string;
   sizes?: string;
   priority?: boolean;
+  /** CSS object-position for the cover crop, e.g. "65% 50%" to favor the right side. */
+  objectPosition?: string;
   /** Shown inside the placeholder block until real imagery lands. */
   placeholderLabel?: string;
 };
@@ -21,12 +23,21 @@ export default function ImageSlot({
   className = "",
   sizes = "100vw",
   priority = false,
+  objectPosition,
   placeholderLabel,
 }: Props) {
   if (src) {
     return (
       <div className={`relative overflow-hidden ${className}`}>
-        <Image src={src} alt={alt} fill sizes={sizes} priority={priority} className="object-cover" />
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          sizes={sizes}
+          priority={priority}
+          className="object-cover"
+          style={objectPosition ? { objectPosition } : undefined}
+        />
       </div>
     );
   }

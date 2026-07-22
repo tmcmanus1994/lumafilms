@@ -37,7 +37,7 @@ export default function ContactPage() {
       {/* Split: form left, photo right (photo on top for mobile) */}
       <section className="grid border-b hairline md:grid-cols-2">
         <ImageSlot
-          src="/images/contact/travelle-bailey.jpg"
+          src="/images/contact/travelle.jpg"
           alt="Travelle, the videographer behind Luma Films"
           className="order-1 h-[300px] md:order-2 md:h-auto md:min-h-[860px]"
           sizes="(min-width: 768px) 50vw, 100vw"
