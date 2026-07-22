@@ -21,13 +21,19 @@ export default function HoneyBookForm() {
   const wrapper = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    window._HB_ = window._HB_ || {};
-    window._HB_.pid = HB_PID;
+    // HoneyBook's placement controller only scans the page when its script
+    // executes. On client-side navigation the old script (and its global
+    // state) are still around, so nothing re-scans and the form never
+    // renders until a hard refresh. Reset the globals and load a fresh,
+    // cache-busted copy on every mount so it initializes each visit.
+    document
+      .querySelectorAll('script[src*="widget.honeybook.com"]')
+      .forEach((el) => el.remove());
+    window._HB_ = { pid: HB_PID };
     const s = document.createElement("script");
     s.type = "text/javascript";
     s.async = true;
-    s.src =
-      "https://widget.honeybook.com/assets_users_production/websiteplacements/placement-controller.min.js";
+    s.src = `https://widget.honeybook.com/assets_users_production/websiteplacements/placement-controller.min.js?t=${Date.now()}`;
     document.body.appendChild(s);
     return () => {
       s.remove();
