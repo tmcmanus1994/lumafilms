@@ -39,7 +39,7 @@ export default function ContactPage() {
         <ImageSlot
           src="/images/contact/travelle.jpg"
           alt="A Luma Films wedding frame — couple walking up the aisle"
-          className="order-1 h-[300px] md:order-2 md:h-auto md:min-h-[860px]"
+          className="order-1 h-[300px] md:order-2 md:h-auto md:aspect-[3/4]"
           sizes="(min-width: 768px) 50vw, 100vw"
           objectPosition="28% 50%"
           priority
