@@ -65,7 +65,7 @@ export default function AboutPage() {
         <ImageSlot
           src="/images/about/travelle-bailey.jpg"
           alt="Travelle and Bailey, the couple behind Luma Films"
-          className="order-1 h-[520px] md:order-2 md:h-auto md:aspect-[3/4] md:max-h-[92vh]"
+          className="order-1 aspect-[4/3] w-full md:order-2 md:self-center"
           sizes="(min-width: 768px) 50vw, 100vw"
           priority
         />
