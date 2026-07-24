@@ -2,26 +2,26 @@
   "name": "Fayetteville",
   "region": "Northwest Arkansas",
   "intro": [
-    "PLACEHOLDER INTRO — Fayetteville / NWA wedding videographer copy: the Ozarks, venues like Osage House and Barn at the Springs, Dickson Street energy.",
-    "I film across Northwest Arkansas regularly — including Crystal Bridges in Bentonville — and NWA travel is simple, transparent mileage."
+    "Northwest Arkansas has become a regular part of my filming map, and honestly, it's easy to see why couples are drawn up here. I've filmed twice at Crystal Bridges in Bentonville — my favorite venue anywhere, full stop — and my weddings across the region have taken me from the Stone Chapel at MattLane Farm in Fayetteville to Mildred B. Cooper Chapel in Bella Vista to Osage House in Cave Springs. Between the Ozark scenery, the architecture, and the energy of downtown Bentonville and Fayetteville, NWA weddings hand a videographer a different kind of canvas than anywhere else in the state.",
+    "I'm based in Little Rock, and I make the drive to Northwest Arkansas regularly — it's a straight shot up I-49 that I've done enough times to plan a wedding day around confidently. That distance comes with a simple, transparent travel policy and zero surprises: you'll see the exact number in your quote before you ever book. If you're getting married in NWA and want a film that matches the setting, the drive has never once stopped me."
   ],
   "faqs": [
     {
-      "question": "Do you really travel to Northwest Arkansas?",
-      "answer": "Yes — I film in NWA regularly, including weddings at Crystal Bridges. Travel is $1 per mile beyond 50 miles of Little Rock, quoted up front in plain numbers before you book."
-    },
-    {
-      "question": "Do you charge travel fees for weddings in Fayetteville?",
-      "answer": "Anywhere within 50 miles of Little Rock is included in every package. Beyond that, travel adds $1 per mile — no hidden fees, no surprises."
+      "question": "Do you travel to Northwest Arkansas, and what does it cost?",
+      "answer": "Yes — I film in NWA regularly. Travel is included within 50 miles of Little Rock, then a flat $1 per mile beyond that. For most NWA venues that works out to a straightforward line item you'll see clearly in your quote — no estimates, no surprises, no hidden fees."
     },
     {
       "question": "How far in advance should we book?",
-      "answer": "Most couples book 9–14 months out, and popular Saturdays go first. I only take one wedding per date, so if your date is set, it is worth checking availability early. A retainer holds your date; the rest splits into a payment plan."
+      "answer": "NWA's popular venues book early — Crystal Bridges and the glass chapels especially — so nine to twelve months out is the safe window. I take one wedding per date, always; a retainer locks yours in."
     },
     {
-      "question": "When will we get our film?",
-      "answer": "Your Instagram reel lands within 48 hours of the wedding. Your full film arrives by a guaranteed delivery date written into your contract."
+      "question": "When will we get our films?",
+      "answer": "Your Instagram reel arrives within 48 hours of your wedding. Your full film is delivered by a guaranteed date that's written into your contract — you'll know exactly when to expect it."
     }
   ],
-  "order": 6
+  "order": 6,
+  "filmSlugs": [
+    "eischen",
+    "sample"
+  ]
 }

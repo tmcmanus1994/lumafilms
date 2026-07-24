@@ -10,6 +10,7 @@ import {
   getCity,
   getVenuesInCity,
   getWeddingsInCity,
+  resolveFilmSlugs,
 } from "@/lib/content";
 import { cityBreadcrumbs, faqPageSchema } from "@/lib/schema";
 import { site } from "@/lib/site";
@@ -37,7 +38,7 @@ export default async function CityPage({ params }: Props) {
   const c = getCity(city);
   if (!c) notFound();
 
-  const films = getWeddingsInCity(c.slug);
+  const films = c.filmSlugs ? resolveFilmSlugs(c.filmSlugs) : getWeddingsInCity(c.slug);
   const venues = getVenuesInCity(c.slug);
 
   return (

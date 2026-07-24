@@ -6,7 +6,7 @@ import FilmCard from "@/components/FilmCard";
 import CtaSection from "@/components/CtaSection";
 import JsonLd from "@/components/JsonLd";
 import PageMeta from "@/components/PageMeta";
-import { getCity, getVenue, getVenues, getWeddingsAtVenue } from "@/lib/content";
+import { getCity, getVenue, getVenues, getWeddingsAtVenue, resolveFilmSlugs } from "@/lib/content";
 import { venueBreadcrumbs } from "@/lib/schema";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -21,7 +21,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!v) return {};
   return {
     title: `${v.name} Wedding Videographer`,
-    description: `Wedding films at ${v.name} in ${v.city}, Arkansas. Real filming experience at this venue — the light, the layout, the sound — from Central Arkansas wedding videographer Luma Films.`,
+    description:
+      v.heroSub ??
+      `Wedding films at ${v.name} in ${v.city}, Arkansas. Real filming experience at this venue — the light, the layout, the sound — from Central Arkansas wedding videographer Luma Films.`,
     alternates: { canonical: `/venues/${slug}` },
   };
 }
@@ -31,7 +33,7 @@ export default async function VenuePage({ params }: Props) {
   const v = getVenue(slug);
   if (!v) notFound();
 
-  const films = getWeddingsAtVenue(v.slug);
+  const films = v.filmSlugs ? resolveFilmSlugs(v.filmSlugs) : getWeddingsAtVenue(v.slug);
   const city = v.citySlug ? getCity(v.citySlug) : undefined;
   const nearby = (v.nearbyVenueSlugs ?? [])
     .map((s) => getVenue(s))
@@ -53,8 +55,12 @@ export default async function VenuePage({ params }: Props) {
         <div className="absolute inset-0 bg-ink/45" aria-hidden />
         <div className="relative px-6 py-20 text-center md:px-16">
           <p className="eyebrow mb-4 !text-sand md:mb-5">Wedding Films At</p>
-          <h1 className="display mb-4 text-[42px] text-bone md:text-[76px]">{v.name}</h1>
-          <p className="text-[15px] leading-relaxed text-sand md:text-lg">{v.city}, Arkansas</p>
+          <h1 className="display mx-auto mb-4 max-w-[1080px] text-[38px] text-bone md:text-[64px]">
+            {v.heroTitle ?? v.name}
+          </h1>
+          <p className="mx-auto max-w-[760px] text-[15px] leading-relaxed text-sand md:text-lg">
+            {v.heroSub ?? `${v.city}, Arkansas`}
+          </p>
         </div>
       </section>
 
@@ -135,8 +141,8 @@ export default async function VenuePage({ params }: Props) {
       </section>
 
       <CtaSection
-        line={`Getting married at ${shortName(v.name)}?`}
-        subline="One wedding per date — let's make sure yours is open."
+        line={v.cta?.line ?? `Getting married at ${shortName(v.name)}?`}
+        subline={v.cta?.subline ?? "One wedding per date — let's make sure yours is open."}
         trackLabel="venue_final"
       />
     </>

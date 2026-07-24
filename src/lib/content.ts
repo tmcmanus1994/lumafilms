@@ -58,9 +58,16 @@ export type Venue = {
   region?: string;
   /** 1 = home turf, 4 = wishlist (no film yet — editorial angle, no fake claims) */
   tier: 1 | 2 | 3 | 4;
+  /** Hero H1 override (venue name + tagline). Falls back to the venue name. */
+  heroTitle?: string;
+  /** Hero subline. Falls back to "{city}, Arkansas". Also used as meta description. */
+  heroSub?: string;
   headline?: string;
   /** The moat: first-person filming knowledge — light, layout, audio. */
   insiderKnowledge: string[];
+  /** Curated films for this page, in order. Falls back to all films at the venue. */
+  filmSlugs?: string[];
+  cta?: { line: string; subline?: string };
   nearbyVenueSlugs?: string[];
   testimonial?: { quote: string; attribution: string };
   draft?: boolean;
@@ -78,6 +85,8 @@ export type City = {
   order?: number;
   intro: string[];
   faqs: CityFAQ[];
+  /** Curated films for this page, in order. Falls back to films whose venue is in this city. */
+  filmSlugs?: string[];
   draft?: boolean;
 };
 
@@ -174,6 +183,14 @@ export function getVenue(slug: string): Venue | undefined {
 
 export function getWeddingsAtVenue(venueSlug: string): Wedding[] {
   return getPublicFilms().filter((w) => w.venue.slug === venueSlug);
+}
+
+/** Resolve an ordered slug list to public weddings, dropping unknowns. */
+export function resolveFilmSlugs(slugs: string[]): Wedding[] {
+  const all = getPublicFilms();
+  return slugs
+    .map((slug) => all.find((w) => w.slug === slug))
+    .filter((w): w is Wedding => Boolean(w));
 }
 
 export function getCities(): City[] {

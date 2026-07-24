@@ -5,15 +5,21 @@
   "tier": 1,
   "headline": "One of my favorite places to film a wedding",
   "insiderKnowledge": [
-    "PLACEHOLDER — Travelle's first-person filming knowledge of Legacy Acres: where the light falls for the ceremony, the best spots for vows and first looks, how the reception space reads on camera, audio considerations.",
-    "PLACEHOLDER — a second paragraph with one specific, memorable detail from the two weddings filmed here."
+    "Legacy Acres was one of the very first venues I ever filmed a wedding at, and it's remained one of my favorites ever since — I've shot more weddings here than almost anywhere else. The showstopper is the ballroom, a massive 14,000-square-foot space that gives me room to pull back and capture the reception fly-on-the-wall style, letting real, unposed moments unfold naturally instead of feeling boxed in by a tight room. Set against Conway's rural landscape of small forests and open sky, the whole estate has a look that films beautifully no matter which direction you point the camera.",
+    "Between the natural scenery behind the chapel, the fishing pond by the outdoor pavilion, and wide-open grounds that catch golden hour in the most gorgeous way, Legacy Acres gives me endless options for portraits and B-roll alike. It's a venue that rewards a videographer who knows it well — and after all these years and countless weddings here, I still find new light and new angles every time I'm back."
   ],
   "nearbyVenueSlugs": [
     "the-venue-at-oakdale",
     "angelos-garden"
   ],
-  "testimonial": {
-    "quote": "PLACEHOLDER — pull a testimonial line from a Legacy Acres couple (Rachel + Zane or Savannah + Cam). Note: the Kasey + Brady testimonial is real but their wedding was Winnsboro, TX — don't attribute it to Legacy Acres.",
-    "attribution": "PLACEHOLDER · Legacy Acres"
-  }
+  "heroTitle": "Legacy Acres — Southern Charm Across 40 Acres of Timeless Beauty",
+  "heroSub": "A sprawling Conway estate of rolling grounds, small forests, and a fishing pond — where every celebration becomes a masterpiece.",
+  "cta": {
+    "line": "Getting married at Legacy Acres?",
+    "subline": "You've chosen a venue with real character — let's make sure your film has it too."
+  },
+  "filmSlugs": [
+    "harris",
+    "smith"
+  ]
 }

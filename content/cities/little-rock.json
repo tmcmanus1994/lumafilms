@@ -1,26 +1,31 @@
 {
   "name": "Little Rock",
   "intro": [
-    "PLACEHOLDER INTRO — Little Rock wedding videographer copy. I film weddings all over Little Rock — from the Capital Hotel downtown to Chenal Country Club out west — and the city gives a film so much to work with: river light, historic architecture, skyline rooftops.",
-    "Little Rock is home — I'm based right here. No travel fees, no logistics drama — just a videographer who already knows your venue."
+    "Little Rock is where I'm based, and it's where I've filmed more weddings than anywhere else — over ten years and 100+ weddings, a huge share of them right here. What I love about filming in this city is the range. In a single season I might shoot beneath the chandeliers of the Capital Hotel downtown, in the exposed-brick rooms of Loft 1023 a few blocks away, and out on the rolling forty acres of Grandeur House on the west side — three completely different films, all technically the same city.",
+    "Little Rock wedding days also come with their own rhythm: a church ceremony at Cathedral of St. Andrew or St. Edward, then a reception across town at the hotel, the club, or the hall. I've run that two-location day more times than I can count, and knowing the drive times, the parking, and where the light will be when we arrive is half of what makes those films feel calm instead of rushed. Whether your day is downtown-and-urban or tucked into the quiet acreage at the edge of the city, I've almost certainly filmed somewhere like it — and probably at your exact venue."
   ],
   "faqs": [
     {
-      "question": "Which Little Rock venues have you filmed at?",
-      "answer": "Grandeur House, the Capital Hotel, Chenal Country Club, Albert Pike Memorial Temple, and the Cathedral of St Andrew, among others across Central Arkansas. If your venue is new to me, I visit before the wedding day to scout light and audio."
-    },
-    {
-      "question": "Do you charge travel fees for weddings in Little Rock?",
-      "answer": "Anywhere within 50 miles of Little Rock is included in every package. Beyond that, travel adds $1 per mile — no hidden fees, no surprises."
+      "question": "Do you charge a travel fee in Little Rock?",
+      "answer": "No. Travel is included within 50 miles of Little Rock, and I'm based right here — so every Little Rock venue, from downtown to Chenal to the west-side acreage, is covered with no travel fee and no hidden costs."
     },
     {
       "question": "How far in advance should we book?",
-      "answer": "Most couples book 9–14 months out, and popular Saturdays go first. I only take one wedding per date, so if your date is set, it is worth checking availability early. A retainer holds your date; the rest splits into a payment plan."
+      "answer": "Popular Saturdays usually book nine to twelve months out, and I only take one wedding per date — once your date is reserved with a retainer, it's yours and no one else's. If your date is closer than that, still reach out; openings do happen."
     },
     {
-      "question": "When will we get our film?",
-      "answer": "Your Instagram reel lands within 48 hours of the wedding. Your full film arrives by a guaranteed delivery date written into your contract."
+      "question": "When will we get our films?",
+      "answer": "Your Instagram reel arrives within 48 hours of your wedding, while the day is still fresh. Your full film is delivered by a guaranteed date that goes in your contract in writing — no six-month mystery, no chasing your videographer."
+    },
+    {
+      "question": "Can you cover a church ceremony and a separate reception venue?",
+      "answer": "Absolutely — that's a classic Little Rock wedding day, and I film them all the time. I plan the timeline around the drive between locations so nothing gets missed and nobody feels hurried, and every package covers both sites."
     }
   ],
-  "order": 1
+  "order": 1,
+  "filmSlugs": [
+    "whites",
+    "wolfe",
+    "ihenacho"
+  ]
 }

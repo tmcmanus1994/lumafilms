@@ -3,13 +3,22 @@
   "city": "Little Rock",
   "citySlug": "little-rock",
   "tier": 1,
-  "headline": "Filming weddings at Grandeur House",
+  "headline": "Built for the way a wedding day actually flows",
   "insiderKnowledge": [
-    "PLACEHOLDER — first-person filming knowledge of Grandeur House: the light through the chapel windows, ceremony angles, where golden hour lands on the grounds, audio setup.",
-    "PLACEHOLDER — one specific detail from the wedding filmed here."
+    "The moment you turn up the drive at The Grandeur House, 40 acres of rolling Little Rock pasture open up in front of the lens — which is exactly why I love shooting wide here. With parking tucked discreetly out of sight, my drone footage stays clean, letting the field and open horizon fill the frame with nothing to distract from the couple at the center of it.",
+    "What really sets this venue apart is how effortlessly the day flows from one space to the next. Because it was designed around real wedding-day logistics, there's no room flip pulling guests away mid-celebration — the ceremony space, reception hall, string-light courtyard, and bridal suite all live on the same property. That means less time in transit and more time behind the camera: the getting-ready moments, the ceremony under open sky, and the reception under string lights, all in one unhurried afternoon."
   ],
   "nearbyVenueSlugs": [
     "capital-hotel",
     "loft-1023"
+  ],
+  "heroTitle": "The Grandeur House — Where Rolling Fields Meet Timeless Elegance",
+  "heroSub": "Forty acres of Arkansas pasture, one unforgettable wedding day — every ceremony, reception, and golden-hour moment in a single, seamless setting.",
+  "cta": {
+    "line": "Getting married at Grandeur House?",
+    "subline": "You've chosen a stunning setting — let's film it the way it deserves."
+  },
+  "filmSlugs": [
+    "wolfe"
   ]
 }

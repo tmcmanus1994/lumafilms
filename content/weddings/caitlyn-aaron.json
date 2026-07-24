@@ -1,0 +1,20 @@
+{
+  "couple": "Caitlyn + Aaron",
+  "weddingDate": "",
+  "venue": {
+    "name": "The Venue at Oakdale",
+    "slug": "the-venue-at-oakdale",
+    "city": "sherwood"
+  },
+  "coverPhoto": "https://vumbnail.com/653573861.jpg",
+  "coverPhotoAlt": "Caitlyn + Aaron at The Venue at Oakdale",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Caitlyn + Aaron // The Venue at Oakdale",
+    "vimeo": "https://vimeo.com/653573861",
+    "download": ""
+  },
+  "extras": []
+}

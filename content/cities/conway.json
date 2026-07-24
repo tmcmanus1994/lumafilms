@@ -1,26 +1,26 @@
 {
   "name": "Conway",
   "intro": [
-    "PLACEHOLDER INTRO — Conway wedding videographer copy. Conway is a quick trip up I-40 from my Little Rock home base, and two of my most-filmed venues anywhere are here — when you book a Conway wedding with me, you are booking the videographer who knows exactly when golden hour hits your venue.",
-    "From Legacy Acres to Angelo's Garden and the venues in between, I have filmed all over Faulkner County in every season."
+    "Conway is my second home turf. Some of the very first weddings I ever filmed were here, and more than a decade later I'm still in this area constantly — Legacy Acres alone has become one of my most-filmed venues anywhere, and Angelo's Garden sits just ten minutes down the road with the best sunset views in Central Arkansas. Add The Venue at Oakdale a short drive away and this stretch of Faulkner County has quietly become the center of my filming map.",
+    "What makes Conway weddings special is the mix: a college-town charm downtown, and fifteen minutes in any direction, open country — small forests, ponds, and venues with real acreage where golden hour actually gets room to breathe. I know where the light lands at the venues here because I've stood in it, season after season. If you're getting married in Conway, there's a good chance I've already filmed at your venue — and if I haven't, I'd love to be the reason that changes."
   ],
   "faqs": [
     {
-      "question": "Which venues near Conway do you know best?",
-      "answer": "Legacy Acres and Angelo's Garden here in Conway, plus The Venue at Oakdale just down the road — my most-filmed venues anywhere. I know their light, their layouts, and their ceremony acoustics by heart."
-    },
-    {
-      "question": "Do you charge travel fees for weddings in Conway?",
-      "answer": "Anywhere within 50 miles of Little Rock is included in every package. Beyond that, travel adds $1 per mile — no hidden fees, no surprises."
+      "question": "Do you charge a travel fee to Conway?",
+      "answer": "No — Conway is well inside my 50-mile radius from Little Rock, so travel is completely included. No fees, no fine print."
     },
     {
       "question": "How far in advance should we book?",
-      "answer": "Most couples book 9–14 months out, and popular Saturdays go first. I only take one wedding per date, so if your date is set, it is worth checking availability early. A retainer holds your date; the rest splits into a payment plan."
+      "answer": "Popular Saturdays usually book nine to twelve months out, and I take one wedding per date, always. A retainer holds your date; payment plans handle the rest before the wedding."
     },
     {
-      "question": "When will we get our film?",
-      "answer": "Your Instagram reel lands within 48 hours of the wedding. Your full film arrives by a guaranteed delivery date written into your contract."
+      "question": "When will we get our films?",
+      "answer": "Your Instagram reel lands within 48 hours. Your full film arrives by a guaranteed, in-writing delivery date — you'll know exactly when to expect it before you ever book."
     }
   ],
-  "order": 2
+  "order": 2,
+  "filmSlugs": [
+    "harris",
+    "muldrows"
+  ]
 }

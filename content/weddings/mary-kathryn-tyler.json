@@ -1,0 +1,20 @@
+{
+  "couple": "Mary Kathryn + Tyler",
+  "weddingDate": "",
+  "venue": {
+    "name": "Garvan Woodland Gardens",
+    "slug": "garvan-woodland-gardens",
+    "city": "hot-springs"
+  },
+  "coverPhoto": "https://vumbnail.com/635792406.jpg",
+  "coverPhotoAlt": "Mary Kathryn + Tyler at Garvan Woodland Gardens",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Mary Kathryn + Tyler // Garvan Woodland Gardens",
+    "vimeo": "https://vimeo.com/635792406",
+    "download": ""
+  },
+  "extras": []
+}

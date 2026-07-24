@@ -2,11 +2,20 @@
   "name": "Garvan Woodland Gardens",
   "city": "Hot Springs",
   "citySlug": "hot-springs",
-  "tier": 4,
-  "headline": "A venue built to be filmed",
+  "tier": 3,
+  "headline": "One of the most iconic chapels in Arkansas",
   "insiderKnowledge": [
-    "PLACEHOLDER — Garvan is a wishlist venue (rebuild plan Tier 4): write the editorial 'what makes it beautiful on camera' angle — the Anthony Chapel glass, the woodland light, the lake. Be honest that it's a venue we'd love to film; no fake portfolio claims.",
-    "PLACEHOLDER — one paragraph on how you'd approach filming a ceremony at Anthony Chapel (light through the pines, audio in a glass room)."
+    "Anthony Chapel is, without question, one of the most iconic chapels in Arkansas, and it's the kind of space that makes you feel like you've stepped straight into a fairy tale — so that's exactly how I film it. The vaulted glass ceiling rises up through the surrounding forest canopy, and the way it filters natural light down onto the aisle creates a soft, storybook glow that no artificial lighting could replicate. Every angle inside that chapel feels like a scene before I even press record.",
+    "Beyond the glass walls, the setting only gets better. Nestled in the Ouachita Mountains along Lake Hamilton, the Gardens are full of bridges, waterfalls, and lush greenery that give me endless options for portraits before and after the ceremony. The acoustics inside the chapel are stunning too, so the sound of a film shot here always carries this rich, natural depth. It's a venue that does a lot of the storytelling for you — my job is just to make sure the camera keeps up."
   ],
-  "nearbyVenueSlugs": []
+  "nearbyVenueSlugs": [],
+  "heroTitle": "Anthony Chapel at Garvan Woodland Gardens — A Fairy Tale Beneath a Glass Canopy",
+  "heroSub": "Set among 210 acres of botanical gardens on the shore of Lake Hamilton, Anthony Chapel's vaulted glass ceiling turns every ceremony into something out of a storybook.",
+  "cta": {
+    "line": "Getting married at Anthony Chapel?",
+    "subline": "You've chosen one of Arkansas's most magical settings — let's do it justice."
+  },
+  "filmSlugs": [
+    "mary-kathryn-tyler"
+  ]
 }
