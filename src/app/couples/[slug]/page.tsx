@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { cookies } from "next/headers";
 import VimeoFacade from "@/components/VimeoFacade";
-import ImageSlot from "@/components/ImageSlot";
 import PageMeta from "@/components/PageMeta";
 import { getWedding, getWeddings } from "@/lib/content";
 import PasscodeGate, { verifyPasscode } from "./passcode";
+import PortalExtras from "./PortalExtras";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -85,7 +85,7 @@ export default async function PortalPage({ params }: Props) {
           title={w.highlight.title ?? `${w.couple} — Highlight Film`}
           poster={w.coverPhoto}
           venue={w.venue.name}
-          className="aspect-video w-full"
+          className="mx-auto aspect-video w-full max-w-[min(100%,calc((100vh-400px)*1.7778))]"
         />
         {w.highlight.download && (
           <a href={w.highlight.download} className="btn btn-fill mt-5 block md:hidden" download>
@@ -99,43 +99,7 @@ export default async function PortalPage({ params }: Props) {
         <section className="bg-sand px-5 py-14 md:px-16 md:py-24">
           <p className="eyebrow mb-3">Every Moment</p>
           <h2 className="display mb-8 text-[32px] md:mb-12 md:text-[48px]">The rest of your day</h2>
-          <div className="flex flex-col">
-            {extras.map((item) => (
-              <div
-                key={item.label}
-                className="flex flex-col gap-4 border-t border-linen-dark py-7 last:border-b md:grid md:grid-cols-[280px_1fr_auto] md:items-center md:gap-10"
-              >
-                <ImageSlot
-                  src=""
-                  alt={`${item.label} — ${w.couple}`}
-                  placeholderLabel={item.label}
-                  className="h-[190px] md:h-[158px]"
-                />
-                <h3 className="display text-2xl md:text-3xl">{item.label}</h3>
-                <div className="flex gap-3 md:gap-4">
-                  {item.vimeo && (
-                    <a
-                      href={item.vimeo}
-                      target="_blank"
-                      rel="noopener"
-                      className="btn flex-1 whitespace-nowrap px-6 py-3 text-sm md:flex-none"
-                    >
-                      Watch
-                    </a>
-                  )}
-                  {item.download && (
-                    <a
-                      href={item.download}
-                      download
-                      className="btn flex-1 whitespace-nowrap px-6 py-3 text-sm md:flex-none"
-                    >
-                      Download ↓
-                    </a>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
+          <PortalExtras items={extras} couple={w.couple} />
           {w.rawFootageFolder && (
             <a href={w.rawFootageFolder} target="_blank" rel="noopener" className="btn mt-8 inline-block">
               Your Raw Footage Folder →
