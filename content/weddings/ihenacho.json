@@ -7,8 +7,8 @@
     "slug": "",
     "city": "little-rock"
   },
-  "coverPhoto": "https://framerusercontent.com/images/bsbTHUax1xxd5RAaTMUmlYRlGrg.jpg",
-  "coverPhotoAlt": "",
+  "coverPhoto": "/images/films/ihenacho.jpg",
+  "coverPhotoAlt": "Ijeoma and Chibueze's wedding celebration",
   "public": true,
   "passcode": null,
   "story": "",
@@ -32,5 +32,6 @@
       "vimeo": "https://vimeo.com/1038848621",
       "download": "https://vimeo.com/mcmanusmedia/download/1038848621/c7cd7424d1"
     }
-  ]
+  ],
+  "featured": 3
 }
