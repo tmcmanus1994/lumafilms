@@ -60,6 +60,10 @@ export type Venue = {
   region?: string;
   /** 1 = home turf, 4 = wishlist (no film yet — editorial angle, no fake claims) */
   tier: 1 | 2 | 3 | 4;
+  /** Muted looping Vimeo background for the page hero (falls back to a still). */
+  heroVideo?: string;
+  /** Position on the /venues index — Travelle's curated order. */
+  order?: number;
   /** Hero H1 override (venue name + tagline). Falls back to the venue name. */
   heroTitle?: string;
   /** Hero subline. Falls back to "{city}, Arkansas". Also used as meta description. */
@@ -176,7 +180,10 @@ export function getRelatedFilms(w: Wedding): Wedding[] {
 export function getVenues(): Venue[] {
   return readAll<Venue>("venues")
     .filter((v) => !v.draft)
-    .sort((a, b) => a.tier - b.tier || a.name.localeCompare(b.name));
+    .sort(
+      (a, b) =>
+        (a.order ?? 99) - (b.order ?? 99) || a.tier - b.tier || a.name.localeCompare(b.name)
+    );
 }
 
 export function getVenue(slug: string): Venue | undefined {

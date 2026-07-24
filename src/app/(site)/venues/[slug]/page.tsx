@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ImageSlot from "@/components/ImageSlot";
+import HeroVideo from "@/components/HeroVideo";
 import FilmCard from "@/components/FilmCard";
 import CtaSection from "@/components/CtaSection";
 import JsonLd from "@/components/JsonLd";
@@ -46,12 +47,16 @@ export default async function VenuePage({ params }: Props) {
 
       {/* Hero: eyebrow "WEDDING FILMS AT" + venue name over a film frame */}
       <section className="relative flex min-h-[480px] items-center justify-center bg-ink md:min-h-[560px]">
-        <ImageSlot
-          src=""
-          alt={`Wedding film frame at ${v.name}`}
-          placeholderLabel={`Film frame — ${v.name}`}
-          className="absolute inset-0 !bg-ink"
-        />
+        {v.heroVideo ? (
+          <HeroVideo vimeoUrl={v.heroVideo} />
+        ) : (
+          <ImageSlot
+            src=""
+            alt={`Wedding film frame at ${v.name}`}
+            placeholderLabel={`Film frame — ${v.name}`}
+            className="absolute inset-0 !bg-ink"
+          />
+        )}
         <div className="absolute inset-0 bg-ink/45" aria-hidden />
         <div className="relative px-6 py-20 text-center md:px-16">
           <p className="eyebrow mb-4 !text-sand md:mb-5">Wedding Films At</p>

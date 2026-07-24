@@ -21,5 +21,7 @@
   "filmSlugs": [
     "harris",
     "smith"
-  ]
+  ],
+  "order": 2,
+  "heroVideo": "https://vimeo.com/1212767766"
 }

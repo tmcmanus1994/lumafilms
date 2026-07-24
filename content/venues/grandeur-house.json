@@ -20,5 +20,7 @@
   },
   "filmSlugs": [
     "wolfe"
-  ]
+  ],
+  "order": 5,
+  "heroVideo": "https://vimeo.com/1212767592"
 }
