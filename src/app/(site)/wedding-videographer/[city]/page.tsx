@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import FilmCard from "@/components/FilmCard";
+import CheckMyDate from "@/components/CheckMyDate";
 import CtaSection from "@/components/CtaSection";
+import FaqList from "@/components/FaqList";
 import JsonLd from "@/components/JsonLd";
 import PageMeta from "@/components/PageMeta";
 import {
@@ -57,9 +59,7 @@ export default async function CityPage({ params }: Props) {
           ))}
         </div>
         <div className="mt-9 flex flex-col items-start gap-5 md:flex-row md:items-center md:gap-8">
-          <Link href="/contact" className="btn" data-track="cta_click" data-track-label="city_hero">
-            Check My Date
-          </Link>
+          <CheckMyDate trackLabel="city_hero" city={c.slug} />
           <Link href="/films" className="text-[15px] font-medium">
             See the Films →
           </Link>
@@ -68,11 +68,13 @@ export default async function CityPage({ params }: Props) {
 
       {films.length > 0 && (
         <section className="mt-14 bg-sand px-5 py-16 md:mt-24 md:px-16 md:py-24">
-          <p className="eyebrow mb-3">Filmed Near {c.name}</p>
-          <h2 className="display mb-8 text-[34px] md:mb-12 md:text-[52px]">
-            Weddings I&rsquo;ve filmed here
-          </h2>
-          <div className="grid gap-10 md:grid-cols-3 md:gap-7">
+          <div data-anim>
+            <p className="eyebrow mb-3">Filmed Near {c.name}</p>
+            <h2 className="display mb-8 text-[34px] md:mb-12 md:text-[52px]">
+              Weddings I&rsquo;ve filmed here
+            </h2>
+          </div>
+          <div className="grid gap-10 md:grid-cols-3 md:gap-7" data-anim-stagger>
             {films.slice(0, 3).map((w) => (
               <FilmCard key={w.slug} wedding={w} />
             ))}
@@ -121,20 +123,13 @@ export default async function CityPage({ params }: Props) {
       {/* FAQ → FAQPage schema */}
       <section className="bg-sand px-5 py-16 md:px-16 md:py-24">
         <div className="grid gap-8 md:grid-cols-[380px_1fr] md:gap-20">
-          <div>
+          <div data-anim>
             <p className="eyebrow mb-3">Questions</p>
             <h2 className="display text-[34px] md:text-[46px]">
               Booking a videographer in {c.name}
             </h2>
           </div>
-          <div className="flex max-w-[720px] flex-col">
-            {c.faqs.map((f) => (
-              <div key={f.question} className="border-t border-linen-dark py-6 last:border-b md:py-7">
-                <h3 className="display mb-3 text-[22px] md:text-[26px]">{f.question}</h3>
-                <p className="text-[15px] leading-relaxed text-espresso md:text-base">{f.answer}</p>
-              </div>
-            ))}
-          </div>
+          <FaqList faqs={c.faqs} tone="sand" />
         </div>
       </section>
 
@@ -142,6 +137,7 @@ export default async function CityPage({ params }: Props) {
         line={`Getting married in ${c.name}?`}
         subline="One wedding per date — see if yours is open."
         trackLabel="city_final"
+        city={c.slug}
       />
     </>
   );

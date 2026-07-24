@@ -63,7 +63,7 @@ export default function ContactPage() {
       <section className="px-5 py-16 md:px-16 md:py-24">
         <p className="eyebrow mb-3">What Happens Next</p>
         <h2 className="display mb-9 text-[32px] md:mb-14 md:text-[48px]">Three steps, no pressure</h2>
-        <div className="grid gap-8 md:grid-cols-3 md:gap-10">
+        <div className="grid gap-8 md:grid-cols-3 md:gap-10" data-anim-stagger>
           {steps.map((s) => (
             <div key={s.n} className="border-t border-taupe pt-5 md:pt-8">
               <p className="eyebrow mb-3 text-xs md:mb-4">{s.n}</p>

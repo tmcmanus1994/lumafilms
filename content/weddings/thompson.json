@@ -2,7 +2,11 @@
   "couple": "Laken + Robert",
   "lastName": "Thompson",
   "weddingDate": "2025-10-17",
-  "venue": { "name": "Hedge Farm", "slug": "hedge-farm", "city": "" },
+  "venue": {
+    "name": "Hedge Farm",
+    "slug": "hedge-farm",
+    "city": ""
+  },
   "coverPhoto": "",
   "coverPhotoAlt": "Laken and Robert at Hedge Farm, golden hour",
   "public": true,
@@ -13,12 +17,26 @@
     "vimeo": "https://vimeo.com/1201954365",
     "download": ""
   },
-  "ceremony": { "vimeo": "", "download": "" },
-  "instagramReel": { "vimeo": "", "download": "" },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
   "rawFootageFolder": null,
   "extras": [
-    { "label": "Best Man Speech", "vimeo": "", "download": "" },
-    { "label": "Vow Exchange", "vimeo": "", "download": "" }
+    {
+      "label": "Best Man Speech",
+      "vimeo": "",
+      "download": ""
+    },
+    {
+      "label": "Vow Exchange",
+      "vimeo": "",
+      "download": ""
+    }
   ],
   "portalNote": "Your ceremony light at Hedge Farm was the kind videographers dream about. Thank you for trusting me with it."
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import CheckMyDate from "@/components/CheckMyDate";
 import ImageSlot from "@/components/ImageSlot";
 import CtaSection from "@/components/CtaSection";
 import RotatingQuotes from "@/components/RotatingQuotes";
@@ -79,9 +80,7 @@ export default function AboutPage() {
             weddings behind the camera — and I still tear up in the edit.
           </p>
           <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:gap-8">
-            <Link href="/contact" className="btn" data-track="cta_click" data-track-label="about_hero">
-              Check My Date
-            </Link>
+            <CheckMyDate trackLabel="about_hero" />
             <Link href="/films" className="text-[15px] font-medium">
               See the Films →
             </Link>
@@ -146,7 +145,7 @@ export default function AboutPage() {
 
       {/* Facts strip */}
       <section className="bg-sand px-5 py-14 md:px-16 md:py-22">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-10">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-10" data-anim-stagger>
           {facts.map((f) => (
             <div key={f.label} className="border-t border-taupe pt-5 md:pt-7">
               <p className="display mb-2 text-[38px] md:text-[48px]">{f.stat}</p>
@@ -167,7 +166,7 @@ export default function AboutPage() {
             See the Packages →
           </Link>
         </div>
-        <div className="grid gap-8 md:grid-cols-3 md:gap-7">
+        <div className="grid gap-8 md:grid-cols-3 md:gap-7" data-anim-stagger>
           {pets.map((p) => (
             <div key={p.name} className="flex flex-col gap-4">
               <ImageSlot

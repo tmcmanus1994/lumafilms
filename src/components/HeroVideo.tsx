@@ -15,6 +15,7 @@ function idFrom(url: string) {
  */
 export default function HeroVideo({ vimeoUrl }: { vimeoUrl: string }) {
   const [showVideo, setShowVideo] = useState(false);
+  const [loaded, setLoaded] = useState(false);
   const id = idFrom(vimeoUrl);
 
   useEffect(() => {
@@ -41,8 +42,12 @@ export default function HeroVideo({ vimeoUrl }: { vimeoUrl: string }) {
           title="Luma Films wedding film reel"
           allow="autoplay; fullscreen"
           tabIndex={-1}
-          // Cover: always at least full banner width AND height, 16:9 preserved, center-cropped
-          className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[max(100cqw,177.78cqh)] h-[max(100cqh,56.25cqw)]"
+          onLoad={() => setLoaded(true)}
+          // Cover: always at least full banner width AND height, 16:9 preserved,
+          // center-cropped. Fades in over the poster once ready (LCP = poster).
+          className={`pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[max(100cqw,177.78cqh)] h-[max(100cqh,56.25cqw)] transition-opacity duration-700 ${
+            loaded ? "opacity-100" : "opacity-0"
+          }`}
         />
       )}
     </div>

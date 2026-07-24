@@ -26,6 +26,8 @@ export type Wedding = {
   venue: { name: string; slug?: string; city?: string };
   coverPhoto?: string;
   coverPhotoAlt?: string;
+  /** Overrides the venue name on film cards / film-page eyebrow (display only). */
+  cardLabel?: string;
   /** Generate a public /films page for this wedding? Couples can opt out. */
   public: boolean;
   /** Optional portal passcode — most galleries stay open by design. */

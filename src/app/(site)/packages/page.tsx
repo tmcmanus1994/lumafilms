@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import ImageSlot from "@/components/ImageSlot";
+import CheckMyDate from "@/components/CheckMyDate";
 import CtaSection from "@/components/CtaSection";
+import FaqList from "@/components/FaqList";
 import JsonLd from "@/components/JsonLd";
 import PageMeta from "@/components/PageMeta";
 import { faqPageSchema } from "@/lib/schema";
@@ -147,14 +148,11 @@ function PackageCard({ pkg }: { pkg: Pkg }) {
           </li>
         ))}
       </ul>
-      <Link
-        href="/contact"
+      <CheckMyDate
         className={`btn mt-7 ${pkg.featured ? "btn-fill" : ""}`}
-        data-track="cta_click"
-        data-track-label={`package_${pkg.name.toLowerCase()}`}
-      >
-        Check My Date
-      </Link>
+        trackLabel={`package_${pkg.name.toLowerCase()}`}
+        pkg={pkg.name.toLowerCase()}
+      />
     </div>
   );
 }
@@ -166,7 +164,7 @@ export default function PackagesPage() {
       <JsonLd data={faqPageSchema(faqs)} />
 
       {/* Header — one clean H1 */}
-      <section className="px-6 pb-10 pt-14 text-center md:px-16 md:pb-16 md:pt-24">
+      <section className="px-6 pb-10 pt-14 text-center md:px-16 md:pb-16 md:pt-24" data-anim>
         <p className="eyebrow mb-4">Wedding Film Packages</p>
         <h1 className="display mx-auto mb-5 max-w-[900px] text-4xl md:text-[64px]">
           Packages Named After the Pets Who Run My House
@@ -179,7 +177,7 @@ export default function PackagesPage() {
 
       {/* Cards — desktop: Binx elevated center; mobile: Binx → Boujee → Rosie */}
       <section className="px-5 pb-16 md:px-16 md:pb-28">
-        <div className="flex flex-col gap-6 md:grid md:grid-cols-3 md:items-end md:gap-7">
+        <div className="flex flex-col gap-6 md:grid md:grid-cols-3 md:items-end md:gap-7" data-anim-stagger>
           <div className="order-3 md:order-1">
             <PackageCard pkg={packages[0]} />
           </div>
@@ -236,18 +234,11 @@ export default function PackagesPage() {
       {/* FAQ */}
       <section className="px-5 py-16 md:px-16 md:py-24">
         <div className="grid gap-8 md:grid-cols-[380px_1fr] md:gap-20">
-          <div>
+          <div data-anim>
             <p className="eyebrow mb-3">Questions</p>
             <h2 className="display text-[34px] md:text-[46px]">Before you ask</h2>
           </div>
-          <div className="flex max-w-[720px] flex-col">
-            {faqs.map((f) => (
-              <div key={f.question} className="border-t hairline py-5 last:border-b md:py-7">
-                <h3 className="display mb-2.5 text-[22px] md:text-[26px]">{f.question}</h3>
-                <p className="text-[15px] leading-relaxed text-espresso md:text-base">{f.answer}</p>
-              </div>
-            ))}
-          </div>
+          <FaqList faqs={faqs} />
         </div>
       </section>
 

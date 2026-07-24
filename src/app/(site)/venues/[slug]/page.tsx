@@ -67,13 +67,13 @@ export default async function VenuePage({ params }: Props) {
       {/* Insider knowledge — the moat */}
       <section className="px-5 py-16 md:px-16 md:py-28">
         <div className="grid gap-6 md:grid-cols-[380px_1fr] md:gap-20">
-          <div>
+          <div data-anim>
             <p className="eyebrow mb-3">Filming at {shortName(v.name)}</p>
             <h2 className="display text-[34px] md:text-[46px]">
               {v.headline ?? `What it's like to film here`}
             </h2>
           </div>
-          <div className="flex max-w-[720px] flex-col gap-6 text-base leading-relaxed text-espresso md:text-[17px]">
+          <div className="flex max-w-[720px] flex-col gap-6 text-base leading-relaxed text-espresso md:text-[17px]" data-anim>
             {v.insiderKnowledge.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
@@ -88,7 +88,7 @@ export default async function VenuePage({ params }: Props) {
           <h2 className="display mb-8 text-[34px] md:mb-12 md:text-[52px]">
             Films shot at {shortName(v.name)}
           </h2>
-          <div className="grid gap-10 md:grid-cols-2 md:gap-8">
+          <div className="grid gap-10 md:grid-cols-2 md:gap-8" data-anim-stagger>
             {films.map((w) => (
               <FilmCard key={w.slug} wedding={w} large />
             ))}
@@ -144,6 +144,8 @@ export default async function VenuePage({ params }: Props) {
         line={v.cta?.line ?? `Getting married at ${shortName(v.name)}?`}
         subline={v.cta?.subline ?? "One wedding per date — let's make sure yours is open."}
         trackLabel="venue_final"
+        venue={v.slug}
+        city={v.citySlug}
       />
     </>
   );

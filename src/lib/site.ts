@@ -26,6 +26,13 @@ export const site = {
   ],
 } as const;
 
+/**
+ * Sitewide CTA behavior (motion-cta-spec §2): "link" routes every Check My
+ * Date to /contact; "modal" (phase two, workflow rebuild) opens the date-first
+ * overlay. Flipping this one value changes every CTA on the site.
+ */
+export const ctaMode: "link" | "modal" = "link";
+
 /** Home "Where I Film" venue strip — curated for city coverage, in this order. */
 export const homeVenueSlugs = [
   "the-venue-at-oakdale",

@@ -28,7 +28,7 @@ export default function FilmsPage() {
         </p>
       </section>
       <section className="px-5 py-12 md:px-16 md:py-20">
-        <div className="grid gap-10 md:grid-cols-3 md:gap-x-7 md:gap-y-16">
+        <div className="grid gap-10 md:grid-cols-3 md:gap-x-7 md:gap-y-16" data-anim-stagger>
           {films.map((w) => (
             <FilmCard key={w.slug} wedding={w} />
           ))}

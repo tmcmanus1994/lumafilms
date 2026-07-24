@@ -101,6 +101,108 @@
     border-color: var(--color-linen);
   }
 
+  /*
+   * Motion system (see docs/motion-cta-spec). SEO-safe by construction:
+   * default state is fully visible; the `js-anim` class (added by JS at
+   * first paint) is the only thing that arms pre-animation states, so
+   * crawlers and no-JS users always get a visible page. Only transform
+   * and opacity are animated — zero layout shift.
+   */
+  .js-anim [data-anim],
+  .js-anim [data-anim-stagger] > * {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: var(--anim-delay, 0s);
+  }
+  .js-anim [data-anim].in,
+  .js-anim [data-anim-stagger].in > * {
+    opacity: 1;
+    transform: none;
+  }
+  /* Sibling stagger, capped at 4 steps */
+  .js-anim [data-anim-stagger] > :nth-child(2) {
+    --anim-delay: 0.1s;
+  }
+  .js-anim [data-anim-stagger] > :nth-child(3) {
+    --anim-delay: 0.2s;
+  }
+  .js-anim [data-anim-stagger] > :nth-child(n + 4) {
+    --anim-delay: 0.3s;
+  }
+  /* Cinematic scale-settle on revealed images (never used on LCP media) */
+  .js-anim [data-anim-img] img {
+    transform: scale(1.04);
+    transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .js-anim [data-anim-img].in img,
+  .js-anim [data-anim-stagger].in [data-anim-img] img {
+    transform: scale(1);
+  }
+
+  /* Nav links: hairline underline animating width via scaleX */
+  .nav-link {
+    position: relative;
+  }
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .nav-link:hover::after {
+    transform: scaleX(1);
+  }
+
+  /* FAQ accordion: rows animate 0fr → 1fr; content always in the DOM.
+     Gated behind js-anim so crawlers/no-JS users see every answer open. */
+  .faq-body {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+  .faq-body > div {
+    overflow: hidden;
+  }
+  .js-anim .faq-body {
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .js-anim .faq-item[data-open="true"] .faq-body {
+    grid-template-rows: 1fr;
+  }
+  .faq-chevron {
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .faq-item[data-open="true"] .faq-chevron {
+    transform: rotate(45deg);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .js-anim [data-anim],
+    .js-anim [data-anim-stagger] > * {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+    .js-anim [data-anim-img] img {
+      transform: none;
+      transition: none;
+    }
+    .nav-link::after,
+    .faq-body,
+    .faq-chevron {
+      transition: none;
+    }
+  }
+
   /* HoneyBook embed: align the widget with the page copy instead of centering */
   [class*="hb-p-"] {
     display: flex;

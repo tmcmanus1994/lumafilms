@@ -1,26 +1,28 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import CheckMyDate from "./CheckMyDate";
 
 /**
- * Sticky bottom "Check My Date" bar on mobile. Appears only after scrolling
- * past the hero (thumb-zone placement, never covering the hero film).
- * Hidden on /contact (the form IS the CTA) and /couples (private galleries).
+ * Sticky bottom "Check My Date" bar on mobile. Slides up (translateY) once
+ * the hero-height sentinel leaves the viewport — IntersectionObserver only,
+ * no scroll listeners (motion spec). Hidden on /contact (the form IS the
+ * CTA); the portal has its own layout without this bar.
  */
 export default function MobileCtaBar() {
   const [visible, setVisible] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
-    const onScroll = () => setVisible(window.scrollY > window.innerHeight * 0.9);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+    const sentinel = document.getElementById("hero-sentinel");
+    if (!sentinel) return;
+    const io = new IntersectionObserver(([e]) => setVisible(!e.isIntersecting));
+    io.observe(sentinel);
+    return () => io.disconnect();
+  }, [pathname]);
 
-  if (pathname.startsWith("/contact") || pathname.startsWith("/couples")) return null;
+  if (pathname.startsWith("/contact")) return null;
 
   return (
     <div
@@ -28,14 +30,7 @@ export default function MobileCtaBar() {
         visible ? "translate-y-0" : "translate-y-full"
       }`}
     >
-      <Link
-        href="/contact"
-        className="btn btn-fill block w-full"
-        data-track="cta_click"
-        data-track-label="mobile_sticky_bar"
-      >
-        Check My Date
-      </Link>
+      <CheckMyDate className="btn btn-fill block w-full" trackLabel="mobile_sticky_bar" />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Analytics from "@/components/Analytics";
+import AnimProvider from "@/components/AnimProvider";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -44,8 +45,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
       <body>
+        {/* Scroll sentinels for IntersectionObserver-driven chrome (no scroll listeners) */}
+        <div id="top-sentinel" aria-hidden className="pointer-events-none absolute top-0 h-2 w-px" />
+        <div id="hero-sentinel" aria-hidden className="pointer-events-none absolute top-0 h-[90vh] w-px" />
         {children}
         <Analytics />
+        <AnimProvider />
       </body>
     </html>
   );

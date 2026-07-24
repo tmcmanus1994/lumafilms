@@ -1,15 +1,31 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { nav } from "@/lib/site";
 import Logo from "./Logo";
+import CheckMyDate from "./CheckMyDate";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  // Hairline + solid background appear once the page scrolls (IO on a top
+  // sentinel — no scroll listeners, per the motion spec).
+  useEffect(() => {
+    const sentinel = document.getElementById("top-sentinel");
+    if (!sentinel) return;
+    const io = new IntersectionObserver(([e]) => setScrolled(!e.isIntersecting));
+    io.observe(sentinel);
+    return () => io.disconnect();
+  }, []);
 
   return (
-    <header className="sticky top-0 z-40 border-b hairline bg-bone/95 backdrop-blur-sm">
+    <header
+      className={`sticky top-0 z-40 border-b transition-colors duration-300 ${
+        scrolled || open ? "hairline bg-bone/95 backdrop-blur-sm" : "border-transparent bg-bone"
+      }`}
+    >
       <div className="flex items-center justify-between px-5 py-4 md:px-16 md:py-6">
         <Link href="/" aria-label="Luma Films — home">
           <Logo variant="dark" />
@@ -18,18 +34,11 @@ export default function Header() {
         {/* Desktop: quiet text links + single filled CTA */}
         <nav className="hidden items-center gap-9 text-sm font-medium md:flex" aria-label="Main">
           {nav.map((item) => (
-            <Link key={item.href} href={item.href} className="text-ink transition-colors hover:text-taupe">
+            <Link key={item.href} href={item.href} className="nav-link text-ink">
               {item.label}
             </Link>
           ))}
-          <Link
-            href="/contact"
-            className="btn btn-fill px-6 py-3 text-sm"
-            data-track="cta_click"
-            data-track-label="nav"
-          >
-            Check My Date
-          </Link>
+          <CheckMyDate className="btn btn-fill px-6 py-3 text-sm" trackLabel="nav" />
         </nav>
 
         {/* Mobile hamburger */}
@@ -60,15 +69,11 @@ export default function Header() {
               </li>
             ))}
           </ul>
-          <Link
-            href="/contact"
+          <CheckMyDate
             className="btn btn-fill mt-6 block"
-            data-track="cta_click"
-            data-track-label="mobile_menu"
-            onClick={() => setOpen(false)}
-          >
-            Check My Date
-          </Link>
+            trackLabel="mobile_menu"
+            onNavigate={() => setOpen(false)}
+          />
         </nav>
       )}
     </header>

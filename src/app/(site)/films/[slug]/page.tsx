@@ -62,7 +62,7 @@ export default async function FilmPage({ params }: Props) {
         <p className="eyebrow mb-3">A Luma Films Wedding Film</p>
         <h1 className="display text-[34px] md:text-5xl">{w.couple}</h1>
         <p className="eyebrow mt-3 text-xs">
-          {w.venue.name}
+          {w.cardLabel ?? w.venue.name}
           {w.weddingDate ? ` · ${formatDate(w.weddingDate)}` : ""}
         </p>
       </section>
@@ -126,8 +126,10 @@ export default async function FilmPage({ params }: Props) {
 
       {more.length > 0 && (
         <section className="bg-sand px-5 py-16 md:px-16 md:py-24">
-          <h2 className="display mb-8 text-3xl md:mb-12 md:text-[44px]">More films</h2>
-          <div className="grid gap-10 md:grid-cols-3 md:gap-7">
+          <h2 className="display mb-8 text-3xl md:mb-12 md:text-[44px]" data-anim>
+            More films
+          </h2>
+          <div className="grid gap-10 md:grid-cols-3 md:gap-7" data-anim-stagger>
             {more.map((f) => (
               <FilmCard key={f.slug} wedding={f} />
             ))}
@@ -139,6 +141,8 @@ export default async function FilmPage({ params }: Props) {
         line={`Getting married at ${w.venue.name}?`}
         subline="One wedding per date — see if yours is open."
         trackLabel="film_final"
+        venue={w.venue.slug || undefined}
+        city={w.venue.city || undefined}
       />
     </>
   );
