@@ -22,5 +22,7 @@
     "grandeur-house",
     "capital-hotel"
   ],
-  "order": 9
+  "order": 5,
+  "heroPoster": "/images/venues/stonebrook-meadows.jpg",
+  "heroVideo": "https://vimeo.com/1212781347"
 }

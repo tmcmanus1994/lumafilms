@@ -13,10 +13,11 @@ function idFrom(url: string) {
  * mount so it never blocks first render. Respects prefers-reduced-motion by
  * keeping the still frame.
  */
-export default function HeroVideo({ vimeoUrl }: { vimeoUrl: string }) {
+export default function HeroVideo({ vimeoUrl, poster }: { vimeoUrl: string; poster?: string }) {
   const [showVideo, setShowVideo] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const id = idFrom(vimeoUrl);
+  const posterSrc = poster ?? (id ? `https://vumbnail.com/${id}.jpg` : undefined);
 
   useEffect(() => {
     if (!id) return;
@@ -26,15 +27,8 @@ export default function HeroVideo({ vimeoUrl }: { vimeoUrl: string }) {
 
   return (
     <div className="absolute inset-0 overflow-hidden bg-ink [container-type:size]" aria-hidden>
-      {id && (
-        <Image
-          src={`https://vumbnail.com/${id}.jpg`}
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
+      {posterSrc && (
+        <Image src={posterSrc} alt="" fill priority sizes="100vw" className="object-cover" />
       )}
       {showVideo && id && (
         <iframe

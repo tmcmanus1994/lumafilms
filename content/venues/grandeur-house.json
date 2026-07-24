@@ -21,6 +21,7 @@
   "filmSlugs": [
     "wolfe"
   ],
-  "order": 5,
-  "heroVideo": "https://vimeo.com/1212767592"
+  "order": 6,
+  "heroVideo": "https://vimeo.com/1212767592",
+  "heroPoster": "/images/venues/grandeur-house.jpg"
 }

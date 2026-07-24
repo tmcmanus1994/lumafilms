@@ -48,10 +48,10 @@ export default async function VenuePage({ params }: Props) {
       {/* Hero: eyebrow "WEDDING FILMS AT" + venue name over a film frame */}
       <section className="relative flex min-h-[480px] items-center justify-center bg-ink md:min-h-[560px]">
         {v.heroVideo ? (
-          <HeroVideo vimeoUrl={v.heroVideo} />
+          <HeroVideo vimeoUrl={v.heroVideo} poster={v.heroPoster} />
         ) : (
           <ImageSlot
-            src=""
+            src={v.heroPoster}
             alt={`Wedding film frame at ${v.name}`}
             placeholderLabel={`Film frame — ${v.name}`}
             className="absolute inset-0 !bg-ink"

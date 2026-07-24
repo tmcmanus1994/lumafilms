@@ -18,6 +18,7 @@
   "filmSlugs": [
     "mary-kathryn-tyler"
   ],
-  "order": 8,
-  "heroVideo": "https://vimeo.com/1212767408"
+  "order": 9,
+  "heroVideo": "https://vimeo.com/1212767408",
+  "heroPoster": "/images/venues/garvan-woodland-gardens.jpg"
 }

@@ -62,6 +62,8 @@ export type Venue = {
   tier: 1 | 2 | 3 | 4;
   /** Muted looping Vimeo background for the page hero (falls back to a still). */
   heroVideo?: string;
+  /** Local poster shown before/behind the hero video (avoids a black flash). */
+  heroPoster?: string;
   /** Position on the /venues index — Travelle's curated order. */
   order?: number;
   /** Hero H1 override (venue name + tagline). Falls back to the venue name. */
