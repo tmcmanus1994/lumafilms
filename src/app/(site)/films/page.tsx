@@ -36,7 +36,7 @@ export default function FilmsPage() {
       </section>
       <CtaSection
         line="Want a film like these?"
-        subline="One wedding per date — see if yours is open."
+        subline="See if your date is open."
         trackLabel="films_index_final"
       />
     </>

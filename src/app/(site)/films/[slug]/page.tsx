@@ -139,7 +139,7 @@ export default async function FilmPage({ params }: Props) {
 
       <CtaSection
         line={`Getting married at ${w.venue.name}?`}
-        subline="One wedding per date — see if yours is open."
+        subline="See if your date is open."
         trackLabel="film_final"
         venue={w.venue.slug || undefined}
         city={w.venue.city || undefined}

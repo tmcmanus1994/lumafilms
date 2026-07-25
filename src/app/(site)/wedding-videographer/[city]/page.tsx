@@ -135,7 +135,7 @@ export default async function CityPage({ params }: Props) {
 
       <CtaSection
         line={`Getting married in ${c.name}?`}
-        subline="One wedding per date — see if yours is open."
+        subline="See if your date is open."
         trackLabel="city_final"
         city={c.slug}
       />

@@ -147,7 +147,7 @@ export default async function VenuePage({ params }: Props) {
 
       <CtaSection
         line={v.cta?.line ?? `Getting married at ${shortName(v.name)}?`}
-        subline={v.cta?.subline ?? "One wedding per date — let's make sure yours is open."}
+        subline={v.cta?.subline ?? "See if your date is open."}
         trackLabel="venue_final"
         venue={v.slug}
         city={v.citySlug}
