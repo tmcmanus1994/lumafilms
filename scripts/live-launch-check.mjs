@@ -5,6 +5,7 @@
  *
  *   node scripts/live-launch-check.mjs https://lumaweddingfilms.co
  *
+ * Rerun trigger: v2 (post-www-fix)
  * Verifies the launch-critical SEO surface on the real URL: page availability,
  * canonicals, noindex scope, sitemap/robots, portal headers, and the www→apex
  * redirect.
