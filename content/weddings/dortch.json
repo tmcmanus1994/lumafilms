@@ -1,0 +1,51 @@
+{
+  "couple": "Erika + Cordelle",
+  "lastName": "Dortch",
+  "weddingDate": "",
+  "venue": {
+    "name": "Fellowship Christian Church",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "https://framerusercontent.com/images/t6xf4cC8EbQcG9dXWcr3Ub2wDqY.jpg",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Erika + Cordelle // Fellowship Christian Church",
+    "vimeo": "https://vimeo.com/1038849901",
+    "download": "https://vimeo.com/mcmanusmedia/download/1038849901/dec5536aa3"
+  },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/1040838133?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1040838133/4ea3c7ebb7"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/1040840754?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1040840754/fc196e73eb"
+    },
+    {
+      "label": "Groom's Speech",
+      "vimeo": "https://vimeo.com/1040837370?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1040837370/57d34462b3"
+    },
+    {
+      "label": "Bride's Speech",
+      "vimeo": "https://vimeo.com/1040839387?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1040839387/5c6c6da5c8"
+    }
+  ]
+}

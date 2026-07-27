@@ -1,0 +1,30 @@
+{
+  "couple": "Kasey + Brady",
+  "lastName": "Myers",
+  "weddingDate": "",
+  "venue": {
+    "name": "Winnsboro, Texas",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Kasey + Brady // Winnsboro, Texas",
+    "vimeo": "https://vimeo.com/680003233",
+    "download": "https://vimeo.com/mcmanusmedia/download/680003233/1203859e61"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/681502802",
+    "download": "https://vimeo.com/mcmanusmedia/download/681502802/616108edbf"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": []
+}

@@ -1,0 +1,36 @@
+{
+  "couple": "Katie + Devon",
+  "lastName": "VanWinkle",
+  "weddingDate": "",
+  "venue": {
+    "name": "The Barn at Greers Ferry Lake",
+    "slug": "barn-at-greers-ferry-lake",
+    "city": ""
+  },
+  "coverPhoto": "/images/films/vanwinkle.jpg",
+  "coverPhotoAlt": "Katie and Devon at The Barn at Greers Ferry Lake",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Katie & Devon // The Barn at Greers Ferry Lake",
+    "vimeo": "https://vimeo.com/872719838?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/872719838/076eecbc22"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/873582722",
+    "download": "https://vimeo.com/mcmanusmedia/download/873582722/1fb27a7b1b"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [],
+  "showcase": 4,
+  "related": [
+    "harrisons",
+    "shults",
+    "sample"
+  ]
+}

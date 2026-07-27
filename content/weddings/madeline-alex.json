@@ -1,0 +1,20 @@
+{
+  "couple": "Madeline + Alex",
+  "weddingDate": "",
+  "venue": {
+    "name": "Loft 1023",
+    "slug": "loft-1023",
+    "city": "little-rock"
+  },
+  "coverPhoto": "/images/films/madeline-alex.jpg",
+  "coverPhotoAlt": "Madeline and Alex at Loft 1023",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Madeline + Alex // Loft 1023",
+    "vimeo": "https://vimeo.com/626542643",
+    "download": ""
+  },
+  "extras": []
+}

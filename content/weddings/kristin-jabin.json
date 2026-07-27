@@ -1,0 +1,20 @@
+{
+  "couple": "Kristin + Jabin",
+  "weddingDate": "",
+  "venue": {
+    "name": "The Grand at Willow Springs",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "/images/films/kristin-jabin.jpg",
+  "coverPhotoAlt": "Kristin and Jabin at The Grand at Willow Springs",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Kristin + Jabin // The Grand at Willow Springs",
+    "vimeo": "https://vimeo.com/1212415756",
+    "download": ""
+  },
+  "extras": []
+}

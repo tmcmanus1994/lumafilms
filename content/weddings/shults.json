@@ -1,0 +1,47 @@
+{
+  "couple": "Grace + Matthew",
+  "lastName": "Shults",
+  "weddingDate": "",
+  "venue": {
+    "name": "The Venue at Stonebrook Meadows",
+    "slug": "stonebrook-meadows",
+    "city": ""
+  },
+  "coverPhoto": "/images/films/shults.jpg",
+  "coverPhotoAlt": "Grace and Matthew at The Venue at Stonebrook Meadows",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Grace + Matthew // The Venue at Stonebrook Meadows",
+    "vimeo": "https://vimeo.com/981748105",
+    "download": "https://vimeo.com/mcmanusmedia/download/981748105/34da48dfb4"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/981743792",
+    "download": "https://vimeo.com/mcmanusmedia/download/981743792/70fd702a91"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/994244217",
+      "download": "https://vimeo.com/mcmanusmedia/download/994244217/45981b2b69"
+    },
+    {
+      "label": "Man of Honor Speech",
+      "vimeo": "https://vimeo.com/994242254",
+      "download": "https://vimeo.com/mcmanusmedia/download/994242254/e0e743cc38"
+    }
+  ],
+  "showcase": 3,
+  "related": [
+    "vanwinkle",
+    "harrisons",
+    "millers-2"
+  ]
+}

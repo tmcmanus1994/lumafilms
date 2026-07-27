@@ -1,0 +1,28 @@
+{
+  "name": "Stonebrook Meadows",
+  "city": "Bauxite",
+  "tier": 2,
+  "headline": "The best golden hour of any venue I shoot",
+  "insiderKnowledge": [
+    "Stonebrook Meadows might have the single best golden hour of any venue I shoot. That massive window wall along the reception area does something almost magical as the sun goes down — the entire room fills with warm, glowing light that makes every dance floor shot and toast feel effortless, with no extra lighting setup on my end. Paired with the vaulted ceilings, exposed beam work, and crystal chandeliers overhead, there's genuinely no bad angle in the building; wherever I point the camera, the space holds up.",
+    "Outside, the 41 acres of rolling, secluded grounds give couples room to breathe, and I especially love shooting portraits here during cocktail hour, when the light softens and the landscape opens up in every direction. Between the glowing reception hall and the wide-open acreage, Stonebrook Meadows gives me both the intimate interior shots and the sweeping portraits in the same afternoon."
+  ],
+  "heroTitle": "The Venue at Stonebrook Meadows — Where Golden Hour Meets a Room Made of Light",
+  "heroSub": "Set on 41 rolling, secluded acres in Bauxite, this elevated barn venue wraps vaulted ceilings, crystal chandeliers, and a massive window wall around every celebration.",
+  "cta": {
+    "line": "Getting married at Stonebrook Meadows?",
+    "subline": "You've chosen a venue that glows — let's make sure your film does too."
+  },
+  "filmSlugs": [
+    "jimenez",
+    "shults"
+  ],
+  "citySlug": "benton-bryant",
+  "nearbyVenueSlugs": [
+    "grandeur-house",
+    "capital-hotel"
+  ],
+  "order": 5,
+  "heroPoster": "/images/venues/stonebrook-meadows.jpg",
+  "heroVideo": "https://vimeo.com/1212781347"
+}

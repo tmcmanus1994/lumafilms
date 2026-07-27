@@ -1,0 +1,41 @@
+{
+  "couple": "Megan + Justin",
+  "lastName": "Harmke",
+  "weddingDate": "",
+  "venue": {
+    "name": "The Cordelle",
+    "slug": "the-cordelle",
+    "city": ""
+  },
+  "coverPhoto": "https://framerusercontent.com/images/AdliqsUD01KK7O0VFaG18eXXc4.jpg",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Megan + Justin // The Cordelle",
+    "vimeo": "https://vimeo.com/1101316777?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1101316777/fd8ee47413"
+  },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/1101328556?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1101328556/ee295e4ceb"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/1101329287?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1101329287/f3e1b8c3f0"
+    }
+  ]
+}

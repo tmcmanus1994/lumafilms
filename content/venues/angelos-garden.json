@@ -1,0 +1,28 @@
+{
+  "name": "Angelo's Garden",
+  "city": "Conway",
+  "tier": 3,
+  "headline": "The most beautiful ceremony light I film all year",
+  "insiderKnowledge": [
+    "Angelo's Garden might be the most beautiful ceremony setting I film all year. From its hilltop perch with Petit Jean and Pinnacle in full view, it catches the evening sun in a way that turns every golden hour into pure magic — and because the owner is a photographer himself, that eye for composition shows in every corner of the property. Nothing here feels like an afterthought; every arch, path, and sightline seems built with a camera in mind, which makes it one of the best outdoor wedding venues in Central Arkansas to film.",
+    "What really makes Angelo's Garden a favorite, though, is the sheer number of portrait locations packed into one property. Between the overlook, the glass chapel with its towering walls of windows, and the surrounding gardens, I'm never short on backdrops — and the light changes just enough through the day to keep every shot feeling fresh. It's the kind of venue where the scenery does half the work for you."
+  ],
+  "citySlug": "conway",
+  "nearbyVenueSlugs": [
+    "legacy-acres",
+    "the-venue-at-oakdale"
+  ],
+  "heroTitle": "Angelo's Garden — A Hilltop Wedding, Bathed in Golden Light",
+  "heroSub": "Perched above the valley with sweeping views of Petit Jean and Pinnacle, Angelo's Garden is Central Arkansas's premier setting for an outdoor wedding.",
+  "cta": {
+    "line": "Getting married at Angelo's Garden?",
+    "subline": "You've found one of the most breathtaking settings around — let's put it on film."
+  },
+  "filmSlugs": [
+    "muldrows",
+    "allie-brian"
+  ],
+  "order": 7,
+  "heroVideo": "https://vimeo.com/1212767410",
+  "heroPoster": "/images/venues/angelos-garden.jpg"
+}

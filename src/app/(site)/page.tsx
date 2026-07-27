@@ -1,0 +1,237 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import FilmCard from "@/components/FilmCard";
+import CheckMyDate from "@/components/CheckMyDate";
+import CtaSection from "@/components/CtaSection";
+import HeroVideo from "@/components/HeroVideo";
+import RotatingQuotes from "@/components/RotatingQuotes";
+import PageMeta from "@/components/PageMeta";
+import { getFeaturedFilms, getVenue, getCities } from "@/lib/content";
+import { homeVenueSlugs, site } from "@/lib/site";
+
+export const metadata: Metadata = {
+  // Root page uses the absolute default title from the layout (place-first for SEO)
+  title: { absolute: "Central Arkansas Wedding Videographer | Luma Films" },
+  description:
+    "Cinematic wedding films in Central Arkansas. Modern, story-driven wedding videography for couples in Little Rock, Conway, and beyond — starting at $2,400.",
+  alternates: { canonical: "/" },
+};
+
+const whyLuma = [
+  {
+    n: "01",
+    title: "Fly-on-the-Wall Approach",
+    copy: "I stay out of the way and let your day unfold. No staged moments, no directing — just the two of you, exactly as it happened.",
+  },
+  {
+    n: "02",
+    title: "Storytelling Pacing",
+    copy: "Every film is edited like a short film, not a montage — built around your vows, your letters, and the moments between the moments.",
+  },
+  {
+    n: "03",
+    title: "Professional Audio",
+    copy: "Discreet mics on vows, toasts, and letters. Years from now you won't just see the day — you'll hear it, clearly.",
+  },
+];
+
+const testimonials = [
+  {
+    quote:
+      "For anyone wondering whether or not wedding videography is worth it… it is well worth the investment. Your search for the right videographer ends here",
+    attribution: "Jamal + Katie",
+  },
+  {
+    quote:
+      "I've honestly watched it probably 100 times! Getting to relive your wedding day that flies by so quickly is truly amazing.",
+    attribution: "Caitlyn + Keyshawn",
+  },
+  {
+    quote: "I still watch my wedding video at least once a week 🤩",
+    attribution: "Ashlyn + Chase",
+  },
+];
+
+const packagesTeaser = [
+  { name: "Rosie", price: "From $2,400", copy: "A cinematic highlight film of the full day — the essentials, beautifully told." },
+  { name: "Binx", price: "From $3,200", copy: "A longer film plus your full ceremony and drone coverage — the most booked package." },
+  { name: "Boujee", price: "From $4,800", copy: "The whole story — second shooter, every speech and moment, and all the raw footage." },
+];
+
+export default function HomePage() {
+  const films = getFeaturedFilms();
+  const venues = homeVenueSlugs
+    .map((slug) => getVenue(slug))
+    .filter((v): v is NonNullable<typeof v> => Boolean(v));
+  const cities = getCities();
+
+  return (
+    <>
+      <PageMeta page_type="home" />
+
+      {/* Hero */}
+      <section className="relative flex min-h-[680px] items-center justify-center bg-ink md:min-h-[820px]">
+        <HeroVideo vimeoUrl={site.heroVideo} />
+        <div className="absolute inset-0 bg-ink/45" aria-hidden />
+        <div className="relative flex flex-col items-center px-6 py-24 text-center md:px-16">
+          <p className="eyebrow mb-5 !text-sand md:mb-6" data-anim>
+            Central Arkansas Wedding Videographer
+          </p>
+          <h1
+            className="display mb-5 max-w-[1000px] text-[42px] text-bone md:mb-6 md:text-[82px]"
+            data-anim
+            style={{ "--anim-delay": "0.1s" } as React.CSSProperties}
+          >
+            Cinematic Wedding Films in Central Arkansas
+          </h1>
+          <p
+            className="mb-8 max-w-[560px] text-base leading-relaxed text-sand md:mb-10 md:text-lg"
+            data-anim
+            style={{ "--anim-delay": "0.2s" } as React.CSSProperties}
+          >
+            Modern, story-driven films for couples in Little Rock, Conway, and beyond.
+          </p>
+          <div
+            className="flex flex-col items-center gap-5 md:flex-row md:gap-8"
+            data-anim
+            style={{ "--anim-delay": "0.3s" } as React.CSSProperties}
+          >
+            <CheckMyDate className="btn btn-light" trackLabel="home_hero" />
+            <Link href="/films" className="text-[15px] font-medium text-sand transition-colors hover:text-bone">
+              See the Films →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust bar */}
+      <div className="eyebrow border-y hairline px-5 py-5 text-center text-[11px] leading-8 md:text-[13px]">
+        Award-Winning&ensp;·&ensp;100+ Weddings Filmed&ensp;·&ensp;Central Arkansas + NWA
+      </div>
+
+      {/* Featured films */}
+      <section className="px-5 py-16 md:px-16 md:pb-24 md:pt-28">
+        <div className="mb-8 flex flex-col gap-4 md:mb-12 md:flex-row md:items-baseline md:justify-between" data-anim>
+          <div>
+            <p className="eyebrow mb-3">Recent Work</p>
+            <h2 className="display text-4xl md:text-[52px]">Featured Films</h2>
+          </div>
+          <Link href="/films" className="text-[15px] font-medium">
+            View All Films →
+          </Link>
+        </div>
+        <div className="grid gap-10 md:grid-cols-3 md:gap-7" data-anim-stagger>
+          {films.map((w) => (
+            <FilmCard key={w.slug} wedding={w} />
+          ))}
+        </div>
+      </section>
+
+      {/* Why Luma */}
+      <section className="bg-sand px-5 py-16 md:px-16 md:py-24">
+        <div data-anim>
+          <p className="eyebrow mb-3">Why Luma Films</p>
+          <h2 className="display mb-9 text-4xl md:mb-14 md:text-[52px]">Films that feel like the day did</h2>
+        </div>
+        <div className="grid gap-9 md:grid-cols-3 md:gap-10" data-anim-stagger>
+          {whyLuma.map((item) => (
+            <div key={item.n} className="border-t border-taupe pt-6 md:pt-8">
+              <p className="eyebrow mb-4 text-xs">{item.n}</p>
+              <h3 className="display mb-3 text-[26px] md:text-3xl">{item.title}</h3>
+              <p className="text-[15px] leading-relaxed text-espresso md:text-base">{item.copy}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Testimonial spotlight — rotating */}
+      <section className="px-6 py-18 text-center md:px-16 md:py-32" data-anim>
+        <RotatingQuotes quotes={testimonials} />
+        <div className="mt-9 md:mt-12">
+          <CheckMyDate trackLabel="home_testimonial" />
+        </div>
+      </section>
+
+      {/* Packages teaser */}
+      <section className="border-t hairline px-5 py-16 md:px-16 md:py-24">
+        <div className="mb-8 flex flex-col gap-4 md:mb-12 md:flex-row md:items-baseline md:justify-between" data-anim>
+          <div>
+            <p className="eyebrow mb-3">Packages</p>
+            <h2 className="display text-4xl md:text-[52px]">Starting at ${site.startingPrice.toLocaleString()}</h2>
+          </div>
+          <Link href="/packages" className="text-[15px] font-medium">
+            Compare Packages →
+          </Link>
+        </div>
+        <div className="grid md:grid-cols-3" data-anim-stagger>
+          {packagesTeaser.map((p, i) => (
+            <div
+              key={p.name}
+              className={`border-t hairline py-6 md:py-9 md:pr-10 ${i > 0 ? "md:border-r-0 md:pl-10" : ""} ${
+                i < 2 ? "md:border-r hairline" : ""
+              }`}
+            >
+              <h3 className="display mb-1 text-[26px] md:text-3xl">{p.name}</h3>
+              <p className="mb-4 text-sm font-medium text-taupe">{p.price}</p>
+              <p className="text-[15px] leading-relaxed text-espresso md:text-base">{p.copy}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Where I Film — the internal-link engine */}
+      <section className="bg-sand px-5 py-16 md:px-16 md:py-24">
+        <div data-anim>
+          <p className="eyebrow mb-3">Where I Film</p>
+          <h2 className="display mb-5 text-4xl md:text-[52px]">Venues I know by heart</h2>
+          <p className="mb-10 max-w-[620px] text-base leading-relaxed text-espresso md:mb-14 md:text-[17px]">
+            I&rsquo;ve filmed at most of Central Arkansas&rsquo;s favorite venues — I know where the light falls at
+            golden hour and where to stand for the vows.
+          </p>
+        </div>
+        <div className="grid gap-10 md:grid-cols-2 md:gap-20" data-anim-stagger>
+          <div>
+            <p className="eyebrow border-b border-taupe pb-4">Venues</p>
+            <ul className="flex flex-col">
+              {venues.map((v) => (
+                <li key={v.slug} className="border-b border-linen-dark">
+                  <Link
+                    href={`/venues/${v.slug}`}
+                    className="display flex items-baseline justify-between gap-3 py-4 text-[22px] md:text-[26px]"
+                  >
+                    {v.name}
+                    <span className="eyebrow shrink-0 text-[11px] md:text-xs">{v.city}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <Link href="/venues" className="mt-5 inline-block text-sm font-medium">
+              All venues →
+            </Link>
+          </div>
+          <div>
+            <p className="eyebrow border-b border-taupe pb-4">Cities</p>
+            <ul className="flex flex-col">
+              {cities.map((c) => (
+                <li key={c.slug} className="border-b border-linen-dark">
+                  <Link
+                    href={`/wedding-videographer/${c.slug}`}
+                    className="display block py-4 text-[22px] md:text-[26px]"
+                  >
+                    {c.alsoServes?.length ? `${c.name} + ${c.alsoServes.join(" + ")}` : c.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <CtaSection
+        line="The day flies by. The film is forever."
+        subline="The only part that can't wait? Making sure your date is open."
+        trackLabel="home_final"
+      />
+    </>
+  );
+}

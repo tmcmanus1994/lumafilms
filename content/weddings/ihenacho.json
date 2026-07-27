@@ -1,0 +1,38 @@
+{
+  "couple": "Ijeoma + Chibueze",
+  "lastName": "Ihenacho",
+  "weddingDate": "",
+  "venue": {
+    "name": "Nigerian Wedding",
+    "slug": "",
+    "city": "little-rock"
+  },
+  "coverPhoto": "/images/films/ihenacho.jpg",
+  "coverPhotoAlt": "Ijeoma and Chibueze's wedding celebration",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Ijeoma + Chibueze // Nigerian Wedding",
+    "vimeo": "https://vimeo.com/1037300520?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1037300520/90d9c39875"
+  },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Ijeoma's Entrance",
+      "vimeo": "https://vimeo.com/1038848621",
+      "download": "https://vimeo.com/mcmanusmedia/download/1038848621/c7cd7424d1"
+    }
+  ],
+  "featured": 3,
+  "cardLabel": "Nigerian Wedding | Little Rock"
+}

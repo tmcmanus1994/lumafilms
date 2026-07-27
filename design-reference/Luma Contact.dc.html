@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+body { margin:0; background:#DED8CC; font-family:Inter, sans-serif; }
+a { color:#1C1917; text-decoration:none; }
+a:hover { color:#8A7B65; }
+input::placeholder { color:#B3A791; }
+input { outline:none; }
+</style>
+</helmet>
+<section style="display:flex; align-items:flex-start; gap:72px; padding:56px; flex-wrap:wrap">
+
+<!-- ================= 1a DESKTOP ================= -->
+<div id="1a" style="position:relative; flex:0 0 auto">
+<div style="font-family:Inter; font-size:12px; font-weight:500; letter-spacing:0.14em; color:#6B6257; margin:0 0 12px 2px">1A · CONTACT — DESKTOP 1440</div>
+<div style="width:1440px; background:#FAF6EF; color:#1C1917; box-shadow:0 1px 0 rgba(0,0,0,0.06)">
+
+  <!-- Nav -->
+  <header style="display:flex; align-items:center; justify-content:space-between; padding:26px 64px; border-bottom:1px solid #E8DFD3">
+    <div style="font-family:'Cormorant Garamond', serif; font-style:italic; font-weight:500; font-size:30px; color:#1C1917">Luma Films</div>
+    <nav style="display:flex; align-items:center; gap:36px; font-size:14px; font-weight:500; letter-spacing:0.02em">
+      <a href="#1a">Films</a><a href="#1a">Venues</a><a href="#1a">Packages</a><a href="#1a">About</a><a href="#1a">Contact</a>
+      <a href="#1a" style="border:1px solid #1C1917; padding:12px 26px; font-size:14px" style-hover="background:#1C1917; color:#FAF6EF">Check My Date</a>
+    </nav>
+  </header>
+
+  <!-- Split: form left, photo right -->
+  <div style="display:grid; grid-template-columns:1fr 1fr; border-bottom:1px solid #E8DFD3">
+    <div style="padding:96px 88px 96px 64px">
+      <div style="font-size:13px; font-weight:500; letter-spacing:0.16em; color:#8A7B65; margin-bottom:18px">CHECK MY DATE</div>
+      <h1 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:58px; line-height:1.08; letter-spacing:-0.01em; margin:0 0 22px">Let's see if your date is open</h1>
+      <p style="font-size:17px; line-height:1.65; color:#4A3F35; margin:0 0 48px; max-width:480px">Tell me the basics and I'll send you my full brochure of films and packages — starting at $2,400 — along with your date's availability.</p>
+      <div style="display:flex; flex-direction:column; gap:28px; max-width:520px">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px">
+          <div style="display:flex; flex-direction:column; gap:10px">
+            <label style="font-size:12px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">YOUR NAMES</label>
+            <input type="text" placeholder="Jordan + Riley" style="border:none; border-bottom:1px solid #C9BDA8; background:transparent; padding:10px 0; font-family:Inter; font-size:16px; color:#1C1917">
+          </div>
+          <div style="display:flex; flex-direction:column; gap:10px">
+            <label style="font-size:12px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">WEDDING DATE</label>
+            <input type="text" placeholder="10 / 17 / 2026" style="border:none; border-bottom:1px solid #C9BDA8; background:transparent; padding:10px 0; font-family:Inter; font-size:16px; color:#1C1917">
+          </div>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:10px">
+          <label style="font-size:12px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">VENUE <span style="color:#B3A791">(OR "STILL DECIDING")</span></label>
+          <input type="text" placeholder="The Venue at Oakdale" style="border:none; border-bottom:1px solid #C9BDA8; background:transparent; padding:10px 0; font-family:Inter; font-size:16px; color:#1C1917">
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px">
+          <div style="display:flex; flex-direction:column; gap:10px">
+            <label style="font-size:12px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">EMAIL</label>
+            <input type="text" placeholder="you@example.com" style="border:none; border-bottom:1px solid #C9BDA8; background:transparent; padding:10px 0; font-family:Inter; font-size:16px; color:#1C1917">
+          </div>
+          <div style="display:flex; flex-direction:column; gap:10px">
+            <label style="font-size:12px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">PHONE</label>
+            <input type="text" placeholder="(501) 555-0134" style="border:none; border-bottom:1px solid #C9BDA8; background:transparent; padding:10px 0; font-family:Inter; font-size:16px; color:#1C1917">
+          </div>
+        </div>
+        <button style="background:#1C1917; border:1px solid #1C1917; color:#FAF6EF; padding:17px 0; font-family:Inter; font-size:15px; font-weight:500; cursor:pointer; margin-top:12px" style-hover="background:transparent; color:#1C1917">Check My Date + Get the Brochure</button>
+        <p style="font-size:13px; line-height:1.6; color:#8A7B65; margin:0">No spam, no pressure — just your availability and the brochure. I reply within one business day.</p>
+      </div>
+    </div>
+    <div style="position:relative; min-height:860px; background:#EDE6D9">
+      <image-slot id="contact-photo-d" shape="rect" placeholder="film frame — couple at golden hour"></image-slot>
+    </div>
+  </div>
+
+  <!-- What happens next -->
+  <div style="padding:100px 64px">
+    <div style="font-size:13px; font-weight:500; letter-spacing:0.16em; color:#8A7B65; margin-bottom:14px">WHAT HAPPENS NEXT</div>
+    <h2 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:48px; line-height:1.1; margin:0 0 56px">Three steps, no pressure</h2>
+    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0">
+      <div style="border-top:1px solid #8A7B65; padding:32px 40px 0 0">
+        <div style="font-size:13px; font-weight:500; letter-spacing:0.14em; color:#8A7B65; margin-bottom:18px">01</div>
+        <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:28px; margin:0 0 14px">The brochure lands in your inbox</h3>
+        <p style="font-size:16px; line-height:1.65; color:#4A3F35; margin:0">Within one business day you'll have the full brochure — films, packages, pricing — and whether your date is open.</p>
+      </div>
+      <div style="border-top:1px solid #8A7B65; padding:32px 40px 0 20px">
+        <div style="font-size:13px; font-weight:500; letter-spacing:0.14em; color:#8A7B65; margin-bottom:18px">02</div>
+        <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:28px; margin:0 0 14px">We talk — call, video, or coffee</h3>
+        <p style="font-size:16px; line-height:1.65; color:#4A3F35; margin:0">A short, easy conversation about your day and your venue. You'll know quickly whether I'm your person.</p>
+      </div>
+      <div style="border-top:1px solid #8A7B65; padding:32px 0 0 20px">
+        <div style="font-size:13px; font-weight:500; letter-spacing:0.14em; color:#8A7B65; margin-bottom:18px">03</div>
+        <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:28px; margin:0 0 14px">A retainer holds your date</h3>
+        <p style="font-size:16px; line-height:1.65; color:#4A3F35; margin:0">Once it's in, the date is yours — one wedding per date, always. The rest splits into easy payments.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reassurance strip -->
+  <div style="border-top:1px solid #E8DFD3; border-bottom:1px solid #E8DFD3; padding:22px 64px; text-align:center; font-size:13px; font-weight:500; letter-spacing:0.16em; color:#8A7B65">PACKAGES FROM $2,400&nbsp;&nbsp;·&nbsp;&nbsp;ONE WEDDING PER DATE&nbsp;&nbsp;·&nbsp;&nbsp;REPLY WITHIN ONE BUSINESS DAY</div>
+
+  <!-- Final CTA -->
+  <div style="background:#1C1917; padding:110px 64px; text-align:center">
+    <div style="display:flex; flex-direction:column; align-items:center; gap:24px">
+      <p style="font-family:'Cormorant Garamond', serif; font-style:italic; font-weight:400; font-size:46px; line-height:1.2; color:#FAF6EF; margin:0">Prefer to just say hi?</p>
+      <p style="font-size:16px; line-height:1.6; color:#EDE6D9; opacity:0.75; margin:0">hello@lumaweddingfilms.co · @lumaweddingfilms</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer style="background:#1C1917; border-top:1px solid rgba(250,246,239,0.15); padding:32px 64px; display:flex; align-items:center; justify-content:space-between">
+    <div style="font-family:'Cormorant Garamond', serif; font-style:italic; font-size:20px; color:#FAF6EF">Luma Films</div>
+    <nav style="display:flex; gap:28px; font-size:13px">
+      <a href="#1a" style="color:#EDE6D9" style-hover="color:#FAF6EF">Films</a><a href="#1a" style="color:#EDE6D9" style-hover="color:#FAF6EF">Venues</a><a href="#1a" style="color:#EDE6D9" style-hover="color:#FAF6EF">Packages</a><a href="#1a" style="color:#EDE6D9" style-hover="color:#FAF6EF">About</a><a href="#1a" style="color:#EDE6D9" style-hover="color:#FAF6EF">Contact</a><a href="#1a" style="color:#8A7B65" style-hover="color:#FAF6EF">Client Films</a>
+    </nav>
+    <div style="font-size:12px; color:#8A7B65">© 2026 Luma Films · Central Arkansas</div>
+  </footer>
+</div>
+</div>
+
+<!-- ================= 1b MOBILE ================= -->
+<div id="1b" style="position:relative; flex:0 0 auto">
+<div style="font-family:Inter; font-size:12px; font-weight:500; letter-spacing:0.14em; color:#6B6257; margin:0 0 12px 2px">1B · CONTACT — MOBILE 390</div>
+<div style="width:390px; background:#FAF6EF; color:#1C1917; box-shadow:0 1px 0 rgba(0,0,0,0.06)">
+
+  <!-- Nav -->
+  <header style="display:flex; align-items:center; justify-content:space-between; padding:18px 20px; border-bottom:1px solid #E8DFD3">
+    <div style="font-family:'Cormorant Garamond', serif; font-style:italic; font-weight:500; font-size:24px">Luma Films</div>
+    <div style="display:flex; flex-direction:column; gap:5px; padding:12px 0; width:24px">
+      <div style="height:1px; background:#1C1917"></div>
+      <div style="height:1px; background:#1C1917"></div>
+    </div>
+  </header>
+
+  <!-- Photo -->
+  <div style="position:relative; height:300px; background:#EDE6D9">
+    <image-slot id="contact-photo-m" shape="rect" placeholder="film frame — couple at golden hour"></image-slot>
+  </div>
+
+  <!-- Form -->
+  <div style="padding:56px 24px 64px">
+    <div style="font-size:11px; font-weight:500; letter-spacing:0.15em; color:#8A7B65; margin-bottom:14px">CHECK MY DATE</div>
+    <h1 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:36px; line-height:1.14; margin:0 0 16px">Let's see if your date is open</h1>
+    <p style="font-size:15px; line-height:1.65; color:#4A3F35; margin:0 0 36px">Tell me the basics and I'll send my full brochure — starting at $2,400 — along with your date's availability.</p>
+    <div style="display:flex; flex-direction:column; gap:24px">
+      <div style="display:flex; flex-direction:column; gap:8px">
+        <label style="font-size:11px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">YOUR NAMES</label>
+        <input type="text" placeholder="Jordan + Riley" style="border:none; border-bottom:1px solid #C9BDA8; background:transparent; padding:10px 0; font-family:Inter; font-size:16px; color:#1C1917">
+      </div>
+      <div style="display:flex; flex-direction:column; gap:8px">
+        <label style="font-size:11px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">WEDDING DATE</label>
+        <input type="text" placeholder="10 / 17 / 2026" style="border:none; border-bottom:1px solid #C9BDA8; background:transparent; padding:10px 0; font-family:Inter; font-size:16px; color:#1C1917">
+      </div>
+      <div style="display:flex; flex-direction:column; gap:8px">
+        <label style="font-size:11px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">VENUE <span style="color:#B3A791">(OR "STILL DECIDING")</span></label>
+        <input type="text" placeholder="The Venue at Oakdale" style="border:none; border-bottom:1px solid #C9BDA8; background:transparent; padding:10px 0; font-family:Inter; font-size:16px; color:#1C1917">
+      </div>
+      <div style="display:flex; flex-direction:column; gap:8px">
+        <label style="font-size:11px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">EMAIL</label>
+        <input type="text" placeholder="you@example.com" style="border:none; border-bottom:1px solid #C9BDA8; background:transparent; padding:10px 0; font-family:Inter; font-size:16px; color:#1C1917">
+      </div>
+      <div style="display:flex; flex-direction:column; gap:8px">
+        <label style="font-size:11px; font-weight:500; letter-spacing:0.13em; color:#8A7B65">PHONE</label>
+        <input type="text" placeholder="(501) 555-0134" style="border:none; border-bottom:1px solid #C9BDA8; background:transparent; padding:10px 0; font-family:Inter; font-size:16px; color:#1C1917">
+      </div>
+      <button style="background:#1C1917; border:1px solid #1C1917; color:#FAF6EF; padding:16px 0; font-family:Inter; font-size:15px; font-weight:500; cursor:pointer; margin-top:8px">Check My Date + Get the Brochure</button>
+      <p style="font-size:13px; line-height:1.6; color:#8A7B65; margin:0">No spam, no pressure — just your availability and the brochure. I reply within one business day.</p>
+    </div>
+  </div>
+
+  <!-- What happens next -->
+  <div style="background:#EDE6D9; padding:64px 24px">
+    <div style="font-size:11px; font-weight:500; letter-spacing:0.15em; color:#8A7B65; margin-bottom:10px">WHAT HAPPENS NEXT</div>
+    <h2 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:32px; line-height:1.14; margin:0 0 32px">Three steps, no pressure</h2>
+    <div style="display:flex; flex-direction:column; gap:32px">
+      <div style="border-top:1px solid #8A7B65; padding-top:20px">
+        <div style="font-size:11px; font-weight:500; letter-spacing:0.13em; color:#8A7B65; margin-bottom:10px">01</div>
+        <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:24px; margin:0 0 8px">The brochure lands in your inbox</h3>
+        <p style="font-size:15px; line-height:1.65; color:#4A3F35; margin:0">Within one business day — films, packages, pricing, and whether your date is open.</p>
+      </div>
+      <div style="border-top:1px solid #8A7B65; padding-top:20px">
+        <div style="font-size:11px; font-weight:500; letter-spacing:0.13em; color:#8A7B65; margin-bottom:10px">02</div>
+        <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:24px; margin:0 0 8px">We talk — call, video, or coffee</h3>
+        <p style="font-size:15px; line-height:1.65; color:#4A3F35; margin:0">A short, easy conversation about your day. You'll know quickly whether I'm your person.</p>
+      </div>
+      <div style="border-top:1px solid #8A7B65; padding-top:20px">
+        <div style="font-size:11px; font-weight:500; letter-spacing:0.13em; color:#8A7B65; margin-bottom:10px">03</div>
+        <h3 style="font-family:'Cormorant Garamond', serif; font-weight:500; font-size:24px; margin:0 0 8px">A retainer holds your date</h3>
+        <p style="font-size:15px; line-height:1.65; color:#4A3F35; margin:0">One wedding per date, always. The rest splits into easy payments.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reassurance strip -->
+  <div style="border-top:1px solid #E8DFD3; border-bottom:1px solid #E8DFD3; padding:18px 20px; text-align:center; font-size:11px; font-weight:500; letter-spacing:0.14em; color:#8A7B65; line-height:2">PACKAGES FROM $2,400 · ONE WEDDING PER DATE<br>REPLY WITHIN ONE BUSINESS DAY</div>
+
+  <!-- Final CTA -->
+  <div style="background:#1C1917; padding:72px 24px; text-align:center">
+    <div style="display:flex; flex-direction:column; align-items:center; gap:16px">
+      <p style="font-family:'Cormorant Garamond', serif; font-style:italic; font-size:30px; line-height:1.25; color:#FAF6EF; margin:0">Prefer to just say hi?</p>
+      <p style="font-size:15px; line-height:1.7; color:#EDE6D9; opacity:0.75; margin:0">hello@lumaweddingfilms.co<br>@lumaweddingfilms</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer style="background:#1C1917; border-top:1px solid rgba(250,246,239,0.15); padding:28px 24px; display:flex; flex-direction:column; align-items:center; gap:16px; text-align:center">
+    <div style="font-family:'Cormorant Garamond', serif; font-style:italic; font-size:19px; color:#FAF6EF">Luma Films</div>
+    <nav style="display:flex; flex-wrap:wrap; justify-content:center; gap:18px; font-size:13px">
+      <a href="#1b" style="color:#EDE6D9">Films</a><a href="#1b" style="color:#EDE6D9">Venues</a><a href="#1b" style="color:#EDE6D9">Packages</a><a href="#1b" style="color:#EDE6D9">About</a><a href="#1b" style="color:#EDE6D9">Contact</a><a href="#1b" style="color:#8A7B65">Client Films</a>
+    </nav>
+    <div style="font-size:11px; color:#8A7B65">© 2026 Luma Films · Central Arkansas</div>
+  </footer>
+</div>
+</div>
+
+</section>
+</x-dc>
+</body>
+</html>

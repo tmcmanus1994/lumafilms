@@ -1,0 +1,30 @@
+{
+  "couple": "Anna + Tanner",
+  "lastName": "Cox",
+  "weddingDate": "",
+  "venue": {
+    "name": "The Ballroom at I Street",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "/images/films/cox.jpg",
+  "coverPhotoAlt": "Anna and Tanner at The Ballroom at I Street",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Anna + Tanner // The Ballroom at I Street",
+    "vimeo": "https://vimeo.com/1043535101?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1043535101/38e858a529"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/1043530339?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1043530339/38e29c301a"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": "https://www.dropbox.com/scl/fo/5zfwpzpwxhb1qcv8bytwk/ABilKDkNjZwvCrvrUCIDClU?rlkey=dzojapebkv89zte7he1s8n6ki&st=avbmjkmp&dl=0",
+  "extras": []
+}

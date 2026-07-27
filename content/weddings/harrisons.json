@@ -1,0 +1,36 @@
+{
+  "couple": "Erin + Travis",
+  "lastName": "Harrisons",
+  "weddingDate": "",
+  "venue": {
+    "name": "The Barn at Fawn Hollow",
+    "slug": "barn-at-fawn-hollow",
+    "city": ""
+  },
+  "coverPhoto": "/images/films/harrisons.jpg",
+  "coverPhotoAlt": "Erin and Travis at The Barn at Fawn Hollow",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Erin + Travis // The Barn at Fawn Hollow",
+    "vimeo": "https://vimeo.com/901754073?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/901754073/df8009e7fa"
+  },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [],
+  "showcase": 1,
+  "related": [
+    "vanwinkle",
+    "millers-2",
+    "shults"
+  ]
+}

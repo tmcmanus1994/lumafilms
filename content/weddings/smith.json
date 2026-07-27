@@ -1,0 +1,30 @@
+{
+  "couple": "Savannah + Cam",
+  "lastName": "Smith",
+  "weddingDate": "",
+  "venue": {
+    "name": "Legacy Acres",
+    "slug": "legacy-acres",
+    "city": "conway"
+  },
+  "coverPhoto": "/images/films/smith.jpg",
+  "coverPhotoAlt": "Savannah and Cam at Legacy Acres",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Savannah + Cam // Legacy Acres",
+    "vimeo": "https://vimeo.com/841621437?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/841621437/d5a1b89c9b"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/847737241?share=copy",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": []
+}

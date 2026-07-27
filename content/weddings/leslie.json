@@ -1,0 +1,41 @@
+{
+  "couple": "Anna Claire & Jake",
+  "lastName": "Leslie",
+  "weddingDate": "",
+  "venue": {
+    "name": "Barn at the Springs",
+    "slug": "barn-at-the-springs",
+    "city": ""
+  },
+  "coverPhoto": "https://framerusercontent.com/images/sNFr1jHeKM5QskrM1LQfVsFQlI4.jpg",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Anna Claire & Jake // Barn at the Springs",
+    "vimeo": "https://vimeo.com/1110065445?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1110065445/8bea751938"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/1110062778?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1110062778/07247a04ec"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/1110064774?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1110064774/e828bfe5e8"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/1110064332?share=copy",
+      "download": "https://vimeo.com/mcmanusmedia/download/1110064332/9e9cf891d0"
+    }
+  ]
+}

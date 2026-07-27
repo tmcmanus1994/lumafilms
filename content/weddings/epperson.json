@@ -1,0 +1,41 @@
+{
+  "couple": "Megan + Kyle",
+  "lastName": "epperson",
+  "weddingDate": "",
+  "venue": {
+    "name": "Mildred B. Cooper Memorial Chapel",
+    "slug": "mildred-b-cooper-memorial-chapel",
+    "city": "bentonville"
+  },
+  "coverPhoto": "https://framerusercontent.com/images/dSdRa2Te1H8kycbN59junw6IY.png",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Megan + Kyle // Mildred B. Cooper Memorial Chapel",
+    "vimeo": "https://vimeo.com/1013009502",
+    "download": "https://vimeo.com/mcmanusmedia/download/1013009502/2005cd9cc2"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/1014788555",
+    "download": "https://vimeo.com/mcmanusmedia/download/1014788555/a47deb93b0"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/1014791333",
+      "download": "https://vimeo.com/mcmanusmedia/download/1014791333/a705eee748"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/1014790798",
+      "download": "https://vimeo.com/mcmanusmedia/download/1014790798/692197913a"
+    }
+  ]
+}

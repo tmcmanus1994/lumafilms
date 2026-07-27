@@ -1,0 +1,28 @@
+{
+  "name": "Capital Hotel",
+  "city": "Little Rock",
+  "citySlug": "little-rock",
+  "tier": 3,
+  "headline": "The truest downtown wedding in Little Rock",
+  "insiderKnowledge": [
+    "If you want the truest downtown wedding experience in Little Rock, this is it. The Capital Hotel has been the city's gathering place for nearly 150 years — the building went up in 1872 and opened as the Capital in 1877 — and that history is written into every detail. The original cast-iron facade, marble lobby, stained glass, and sparkling chandeliers give every frame a sense of old-world grandeur that's nearly impossible to find anywhere else. Stepping outside for shots on the surrounding downtown streets is one of my favorite parts of filming here; the historic architecture and city backdrop add a texture to the film that no other venue in the market can match.",
+    "My prime lens genuinely comes alive in this space. Between the marbled columns, the mezzanine, and the outdoor balcony, there's a natural elegance to every angle, and the hotel's rich, warm interiors pair beautifully with soft, intimate lighting. If you're picturing a wedding that feels grand, historic, and unmistakably downtown, the Capital Hotel is the definition of it."
+  ],
+  "nearbyVenueSlugs": [
+    "grandeur-house",
+    "loft-1023"
+  ],
+  "heroTitle": "The Capital Hotel — Timeless Elegance in the Heart of Downtown",
+  "heroSub": "Little Rock's most storied address has hosted presidents, society galas, and grand weddings beneath its cast-iron facade and marble halls since 1877 — now it's ready to host yours.",
+  "cta": {
+    "line": "Getting married at The Capital Hotel?",
+    "subline": "You've chosen timeless elegance — let's capture every bit of it."
+  },
+  "filmSlugs": [
+    "whites",
+    "mckenzie-garrison"
+  ],
+  "order": 4,
+  "heroVideo": "https://vimeo.com/1212767407",
+  "heroPoster": "/images/venues/capital-hotel.jpg"
+}

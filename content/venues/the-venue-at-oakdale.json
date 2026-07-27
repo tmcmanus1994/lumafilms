@@ -1,0 +1,28 @@
+{
+  "name": "The Venue at Oakdale",
+  "city": "Sherwood",
+  "citySlug": "sherwood",
+  "tier": 1,
+  "headline": "A venue I know by heart",
+  "insiderKnowledge": [
+    "Oakdale is a venue I know by heart — just ten minutes from my front door, and one I've had the pleasure of filming in both spring and fall. What I love most is that no two visits ever feel the same; each couple's vision transforms the space so completely that walking in feels like discovering a brand-new venue every time. The bridal suite makes it easy to capture genuine, intimate moments with the wedding party, and the traditional-style chapel offers gorgeous natural light with a wall of greenery just beyond the glass — the kind of backdrop that gives every ceremony shot real depth.",
+    "The reception hall's stage lighting shifts color to match whatever mood the couple is going for, giving each celebration its own distinct visual signature on film. Add in a quiet pond for romantic portraits and the flexibility to move seamlessly between indoor elegance and outdoor beauty, and Oakdale gives me everything I need to tell a couple's story exactly the way they imagined it. It's a short drive I'm always glad to make."
+  ],
+  "nearbyVenueSlugs": [
+    "legacy-acres",
+    "angelos-garden"
+  ],
+  "heroTitle": "The Venue at Oakdale — Where Every Wedding Feels Brand New",
+  "heroSub": "Nestled in Central Arkansas and wrapped in lush greenery and blooming flowers, The Venue at Oakdale transforms with every couple who walks through its doors.",
+  "cta": {
+    "line": "Getting married at Oakdale?",
+    "subline": "You've picked a venue full of character — let's capture it beautifully."
+  },
+  "filmSlugs": [
+    "wakwe",
+    "caitlyn-aaron"
+  ],
+  "order": 1,
+  "heroVideo": "https://vimeo.com/1212768106",
+  "heroPoster": "/images/venues/the-venue-at-oakdale.jpg"
+}

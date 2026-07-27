@@ -1,0 +1,20 @@
+{
+  "couple": "Allie + Brian",
+  "weddingDate": "",
+  "venue": {
+    "name": "Angelo's Garden",
+    "slug": "angelos-garden",
+    "city": "conway"
+  },
+  "coverPhoto": "/images/films/allie-brian.jpg",
+  "coverPhotoAlt": "Allie and Brian at Angelo's Garden",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Allie + Brian // Angelo's Garden",
+    "vimeo": "https://vimeo.com/1035798567",
+    "download": ""
+  },
+  "extras": []
+}

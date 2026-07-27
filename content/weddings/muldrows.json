@@ -1,0 +1,56 @@
+{
+  "couple": "Caitlyn + KeeAundree",
+  "lastName": "Muldrows",
+  "weddingDate": "",
+  "venue": {
+    "name": "Angelo's Garden",
+    "slug": "angelos-garden",
+    "city": "conway"
+  },
+  "coverPhoto": "/images/films/muldrows.jpg",
+  "coverPhotoAlt": "Caitlyn and KeeAundree at Angelo's Garden",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Caitlyn + KeyAundree // Angelos Gardan",
+    "vimeo": "https://vimeo.com/711725719",
+    "download": "https://vimeo.com/mcmanusmedia/download/711725719/f78aad0407"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/713124666",
+    "download": "https://vimeo.com/mcmanusmedia/download/713124666/b5a7b2d54c"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/711763118",
+      "download": "https://vimeo.com/mcmanusmedia/download/711763118/5cc9d97603"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/mcmanusmedia/download/711761025/cdb66fd465",
+      "download": "https://vimeo.com/mcmanusmedia/download/711761025/cdb66fd465"
+    },
+    {
+      "label": "Father of the Bride Speech",
+      "vimeo": "https://vimeo.com/711762110",
+      "download": "https://vimeo.com/mcmanusmedia/download/711762110/3c7d17211a"
+    },
+    {
+      "label": "Mother of the Bride Speech",
+      "vimeo": "https://vimeo.com/711759950",
+      "download": "https://vimeo.com/mcmanusmedia/download/711759950/b7dceac946"
+    },
+    {
+      "label": "Gender Reveal",
+      "vimeo": "https://vimeo.com/711760115",
+      "download": "https://vimeo.com/mcmanusmedia/download/711760115/a4d68e0d30"
+    }
+  ]
+}

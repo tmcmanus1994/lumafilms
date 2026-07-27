@@ -1,0 +1,46 @@
+{
+  "couple": "Alanna + Randall",
+  "lastName": "Colson",
+  "weddingDate": "",
+  "venue": {
+    "name": "Bristol Mountain, New York",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Alanna + Randall // Bristol Mountain, New York",
+    "vimeo": "https://vimeo.com/738952354/",
+    "download": "https://vimeo.com/mcmanusmedia/download/738952354/776026c91a"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/739747978/",
+    "download": "https://vimeo.com/mcmanusmedia/download/739747978/a33223e1ea"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/738958138/",
+      "download": "https://vimeo.com/mcmanusmedia/download/738958138/70ae5dd859"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/738959016/",
+      "download": "https://vimeo.com/mcmanusmedia/download/738959016/ad01a6f4a6"
+    },
+    {
+      "label": "First Date",
+      "vimeo": "https://vimeo.com/739752549/",
+      "download": "https://vimeo.com/mcmanusmedia/download/739752549/1c1a3dbe25"
+    }
+  ]
+}

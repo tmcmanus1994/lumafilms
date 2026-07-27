@@ -1,0 +1,25 @@
+{
+  "name": "Crystal Bridges",
+  "city": "Bentonville",
+  "citySlug": "bentonville",
+  "tier": 2,
+  "headline": "My favorite venue to film — full stop",
+  "insiderKnowledge": [
+    "Crystal Bridges is, hands down, my favorite venue to film. There's nothing quite like setting up inside a world-class art museum, surrounded by architecture that feels like sculpture in its own right. The pavilions arcing around the spring bring in soft, reflected light that plays beautifully on camera, and having exclusive access to the galleries means every frame is backed by genuine museum artwork instead of a generic backdrop. It's a completely different filming experience from anywhere else I work, and it shows in the final film every time.",
+    "Walking a couple through the galleries for portraits is one of the best parts of the day. Standing in front of great American art, dressed in their wedding best, gives couples a moment they'll revisit for years — and it gives me some of the most striking, one-of-a-kind shots I capture all year. Between the galleries, the wooded trails, and the architecture itself, Crystal Bridges turns a wedding film into something closer to a museum piece than a typical highlight reel."
+  ],
+  "nearbyVenueSlugs": [],
+  "heroTitle": "Crystal Bridges Museum of American Art — Where Your Wedding Becomes a Living Work of Art",
+  "heroSub": "Set among 134 acres of Ozark woodland, Safdie-designed pavilions arc gracefully around a spring-fed pond, framing your wedding day inside one of America's great art museums.",
+  "cta": {
+    "line": "Getting married at Crystal Bridges?",
+    "subline": "You've chosen a truly one-of-a-kind setting — let's make a film worthy of it."
+  },
+  "filmSlugs": [
+    "eischen",
+    "sample"
+  ],
+  "order": 8,
+  "heroVideo": "https://vimeo.com/1212767409",
+  "heroPoster": "/images/venues/crystal-bridges.jpg"
+}

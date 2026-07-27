@@ -1,0 +1,52 @@
+{
+  "couple": "Claudia + Ryan",
+  "lastName": "Balfe",
+  "weddingDate": "",
+  "venue": {
+    "name": "Stone Chapel at MattLane Farm",
+    "slug": "stone-chapel-at-mattlane-farm",
+    "city": ""
+  },
+  "coverPhoto": "/images/films/balfe.jpg",
+  "coverPhotoAlt": "Claudia and Ryan at Stone Chapel at MattLane Farm",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Claudia & Ryan // Stone Chapel at MattLane Farm",
+    "vimeo": "https://vimeo.com/1133364945?share=copy&fl=sv&fe=ci",
+    "download": "https://player.vimeo.com/progressive_redirect/download/1133364945/container/eb7f1f3e-842c-461f-8610-c0f084bd1914/07fba0d0-496a9549/claudia_&_ryan____stone_chapel_at_mattlane_farm_v1%20%282160p%29.mp4?expires=1762327223&loc=external&signature=a2827073ccdaa1a2225f36035669c472513bd6d736c7365ff43603f729910221&user_id=100189032"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/1133360182?share=copy&fl=sv&fe=ci",
+    "download": "https://player.vimeo.com/progressive_redirect/download/1133360182/container/c2cee0c3-604a-4888-9004-2c59f2746674/607b74e9-cb16b107/claudia_&_ryan____ceremony_v1%20%282160p%29.mp4?expires=1762327293&loc=external&signature=8ddfab5d51ada76a7e9ea7ff674409013cbb38443c184638a6e3722fdfc4e1f6&user_id=100189032"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Sisters of the Bride",
+      "vimeo": "https://vimeo.com/1133359526?share=copy&fl=sv&fe=ci",
+      "download": "https://player.vimeo.com/progressive_redirect/download/1133359526/container/0926499f-64ea-4bfd-bdbb-1804275e1157/ebe7551d-d8372e91/claudia_&_ryan____sisters_of_the_bride_v1%20%282160p%29.mp4?expires=1762327320&loc=external&signature=afcdf5ac4e26f131248391c360f3677ffea7bce013269638782e261a944e9936&user_id=100189032"
+    },
+    {
+      "label": "Father of the Bride",
+      "vimeo": "https://vimeo.com/1133359874?share=copy&fl=sv&fe=ci",
+      "download": "https://player.vimeo.com/progressive_redirect/download/1133359874/container/f83a0e3f-bbd0-42d4-b03c-1c24b416915b/1130842b-3d0dd2be/claudia_&_ryan____father_of_the_bride_v1%20%282160p%29.mp4?expires=1762327345&loc=external&signature=4cd559f31ec70ecb7e5be4280641d33dffa443f4dc31ed27e5779ffe7531cf6a&user_id=100189032"
+    },
+    {
+      "label": "Claudia's Speech",
+      "vimeo": "https://vimeo.com/1133360568?share=copy&fl=sv&fe=ci",
+      "download": "https://player.vimeo.com/progressive_redirect/download/1133360568/container/fde501e0-1e5e-40e8-9a22-65e75c94ad22/45422861-93d4258b/claudia_&_ryan____claudia%27s_speech_v1%20%282160p%29.mp4?expires=1762327371&loc=external&signature=ace74947dcb5f975081fc6d193b017fcea3985b1a9c4ef02c952b01d01a773c6&user_id=100189032"
+    }
+  ],
+  "showcase": 7,
+  "related": [
+    "sample",
+    "jacobo",
+    "kristin-jabin"
+  ]
+}

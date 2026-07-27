@@ -1,0 +1,56 @@
+{
+  "couple": "Nicole + Wyatt",
+  "lastName": "Luchtenburg",
+  "weddingDate": "",
+  "venue": {
+    "name": "London, AR",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Nicole + Wyatt // London, AR",
+    "vimeo": "https://vimeo.com/835482378",
+    "download": "https://vimeo.com/mcmanusmedia/download/835482378/838166b9a9"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/827243270?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/827243270/373e4f4ab6"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/827242347?share=copy",
+      "download": ""
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/835509141?share=copy",
+      "download": ""
+    },
+    {
+      "label": "Speech #1",
+      "vimeo": "https://vimeo.com/827246137?share=copy",
+      "download": ""
+    },
+    {
+      "label": "Speech #2",
+      "vimeo": "https://vimeo.com/827247290?share=copy",
+      "download": ""
+    },
+    {
+      "label": "Speech #3",
+      "vimeo": "https://vimeo.com/827247711?share=copy",
+      "download": ""
+    }
+  ]
+}

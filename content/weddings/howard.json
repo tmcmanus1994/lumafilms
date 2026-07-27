@@ -1,0 +1,30 @@
+{
+  "couple": "Mady + Copper",
+  "lastName": "Howard",
+  "weddingDate": "",
+  "venue": {
+    "name": "Hudson Springs",
+    "slug": "hudson-springs",
+    "city": ""
+  },
+  "coverPhoto": "https://framerusercontent.com/images/6EhSUVTIMXhFPm080HeRJYuSkdg.jpeg",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Mady + Cooper // Hudson Springs",
+    "vimeo": "https://vimeo.com/948323734?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/948323734/7dedfe7ab4"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/948317853?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/948317853/b1a74d62af"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": []
+}

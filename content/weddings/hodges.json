@@ -1,0 +1,56 @@
+{
+  "couple": "Veronica + Connor",
+  "lastName": "Hodges",
+  "weddingDate": "",
+  "venue": {
+    "name": "Oakdale RVA",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Veronica + Connor // Oakdale RVA",
+    "vimeo": "https://vimeo.com/776855697",
+    "download": "https://vimeo.com/mcmanusmedia/download/776855697/5015240a38"
+  },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/768846692",
+      "download": "https://vimeo.com/mcmanusmedia/download/768846692/bd09b5fb29"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/768847498",
+      "download": "https://vimeo.com/mcmanusmedia/download/768847498/ea582bc8d4"
+    },
+    {
+      "label": "Father of the Bride",
+      "vimeo": "https://vimeo.com/776858916",
+      "download": "https://vimeo.com/mcmanusmedia/download/776858916/115c3446fe"
+    },
+    {
+      "label": "Mother of the Bride",
+      "vimeo": "https://vimeo.com/776860994",
+      "download": "https://vimeo.com/mcmanusmedia/download/776860994/b7f9b948c7"
+    },
+    {
+      "label": "Madrid of Honor Speech",
+      "vimeo": "https://vimeo.com/776860307",
+      "download": "https://vimeo.com/mcmanusmedia/download/776860307/5a4dc31e02"
+    }
+  ]
+}

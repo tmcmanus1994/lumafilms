@@ -1,0 +1,36 @@
+{
+  "couple": "Arrie + Henry",
+  "lastName": "Wakwe",
+  "weddingDate": "",
+  "venue": {
+    "name": "The Venue at Oakdale",
+    "slug": "the-venue-at-oakdale",
+    "city": "conway"
+  },
+  "coverPhoto": "/images/films/wakwe.jpg",
+  "coverPhotoAlt": "Arrie and Henry at The Venue at Oakdale",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Arrie + Henry // The Venue at Oakdale",
+    "vimeo": "https://vimeo.com/1032513845?share=copy",
+    "download": "https://vimeo.com/mcmanusmedia/download/1032513845/3d123d1e40"
+  },
+  "ceremony": {
+    "vimeo": "",
+    "download": ""
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [],
+  "featured": 2,
+  "related": [
+    "vanwinkle",
+    "harrisons",
+    "shults"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "couple": "Stephanie + Brandon",
+  "lastName": "Hernandez",
+  "weddingDate": "",
+  "venue": {
+    "name": "Historic Mankin Mansion",
+    "slug": "",
+    "city": ""
+  },
+  "coverPhoto": "",
+  "coverPhotoAlt": "",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Stephanie + Brandon // Historic Mankin Mansion",
+    "vimeo": "https://vimeo.com/723408600/",
+    "download": "https://vimeo.com/mcmanusmedia/download/723408600/55d8a66f3f"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/723946010/",
+    "download": "https://vimeo.com/mcmanusmedia/download/723946010/5857ac4e33"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [
+    {
+      "label": "Best Man Speech",
+      "vimeo": "https://vimeo.com/723406786/",
+      "download": "https://vimeo.com/mcmanusmedia/download/723406786/0b509a5b17"
+    },
+    {
+      "label": "Maid of Honor Speech",
+      "vimeo": "https://vimeo.com/723420831/",
+      "download": "https://vimeo.com/mcmanusmedia/download/723420831/286d09bea1"
+    },
+    {
+      "label": "Bridesmaid Speech",
+      "vimeo": "https://vimeo.com/723856401/",
+      "download": "https://vimeo.com/mcmanusmedia/download/723856401/4824158a2d"
+    },
+    {
+      "label": "Cinematic Trailer",
+      "vimeo": "https://vimeo.com/767914062/",
+      "download": "https://vimeo.com/mcmanusmedia/download/767914062/3b76c731ee"
+    },
+    {
+      "label": "IG Reel Trailer",
+      "vimeo": "https://vimeo.com/767913981/",
+      "download": "https://vimeo.com/mcmanusmedia/download/767913981/1a410c0063"
+    }
+  ]
+}
