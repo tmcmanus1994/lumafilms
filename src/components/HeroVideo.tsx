@@ -22,7 +22,17 @@ export default function HeroVideo({ vimeoUrl, poster }: { vimeoUrl: string; post
   useEffect(() => {
     if (!id) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    setShowVideo(true);
+    // Mobile gets the poster only — the background player would compete with
+    // the LCP image for bandwidth on throttled connections.
+    if (!window.matchMedia("(min-width: 768px)").matches) return;
+    // Desktop: wait for the full page load so the poster wins LCP first.
+    const arm = () => setShowVideo(true);
+    if (document.readyState === "complete") {
+      arm();
+      return;
+    }
+    window.addEventListener("load", arm, { once: true });
+    return () => window.removeEventListener("load", arm);
   }, [id]);
 
   return (
@@ -32,7 +42,7 @@ export default function HeroVideo({ vimeoUrl, poster }: { vimeoUrl: string; post
       )}
       {showVideo && id && (
         <iframe
-          src={`https://player.vimeo.com/video/${id}?background=1&autoplay=1&loop=1&muted=1&quality=1080p`}
+          src={`https://player.vimeo.com/video/${id}?background=1&autoplay=1&loop=1&muted=1&quality=1080p&dnt=1`}
           title="Luma Films wedding film reel"
           allow="autoplay; fullscreen"
           tabIndex={-1}

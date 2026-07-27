@@ -71,7 +71,7 @@ export default function HomePage() {
 
       {/* Hero */}
       <section className="relative flex min-h-[680px] items-center justify-center bg-ink md:min-h-[820px]">
-        <HeroVideo vimeoUrl={site.heroVideo} />
+        <HeroVideo vimeoUrl={site.heroVideo} poster={site.heroPoster} />
         <div className="absolute inset-0 bg-ink/45" aria-hidden />
         <div className="relative flex flex-col items-center px-6 py-24 text-center md:px-16">
           <p className="eyebrow mb-5 !text-sand md:mb-6" data-anim>
