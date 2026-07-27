@@ -1,7 +1,8 @@
 name: Launch checks (live domain)
 
-# Manually triggered: verifies redirects + launch-critical SEO surface
-# against the production domain from a runner with open internet.
+# Verifies redirects + launch-critical SEO surface against the production
+# domain from a runner with open internet. Runs on manual dispatch, and
+# automatically whenever the check scripts or this workflow change on main.
 on:
   workflow_dispatch:
     inputs:
@@ -9,6 +10,12 @@ on:
         description: "Base URL to test"
         required: false
         default: "https://lumaweddingfilms.co"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/launch-checks.yml"
+      - "scripts/test-redirects.mjs"
+      - "scripts/live-launch-check.mjs"
 
 jobs:
   launch-checks:
