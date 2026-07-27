@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       v.heroSub ??
       `Wedding films at ${v.name} in ${v.city}, Arkansas. Real filming experience at this venue — the light, the layout, the sound — from Central Arkansas wedding videographer Luma Films.`,
     alternates: { canonical: `/venues/${slug}` },
+    openGraph: v.heroPoster ? { images: [v.heroPoster] } : undefined,
   };
 }
 

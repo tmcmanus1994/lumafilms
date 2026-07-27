@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     type: "website",
     images: ["/images/brand/og-default.jpg"],
   },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

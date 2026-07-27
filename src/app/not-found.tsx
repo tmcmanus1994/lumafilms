@@ -15,8 +15,11 @@ export default function NotFound() {
         <Link href="/films" className="btn">
           See the Films
         </Link>
-        <Link href="/" className="text-[15px] font-medium">
-          Back home →
+        <Link href="/venues" className="text-[15px] font-medium">
+          Browse Venues →
+        </Link>
+        <Link href="/contact" className="text-[15px] font-medium">
+          Check My Date →
         </Link>
       </div>
     </section>
