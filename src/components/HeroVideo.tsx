@@ -13,7 +13,17 @@ function idFrom(url: string) {
  * mount so it never blocks first render. Respects prefers-reduced-motion by
  * keeping the still frame.
  */
-export default function HeroVideo({ vimeoUrl, poster }: { vimeoUrl: string; poster?: string }) {
+export default function HeroVideo({
+  vimeoUrl,
+  poster,
+  fit = "cover",
+}: {
+  vimeoUrl: string;
+  poster?: string;
+  /** "cover": crop a 16:9 source to fill any container. "fill": the video's
+   *  aspect matches the container exactly — stretch the iframe edge-to-edge. */
+  fit?: "cover" | "fill";
+}) {
   const [showVideo, setShowVideo] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const id = idFrom(vimeoUrl);
@@ -47,11 +57,14 @@ export default function HeroVideo({ vimeoUrl, poster }: { vimeoUrl: string; post
           allow="autoplay; fullscreen"
           tabIndex={-1}
           onLoad={() => setLoaded(true)}
-          // Cover: always at least full banner width AND height, 16:9 preserved,
-          // center-cropped. Fades in over the poster once ready (LCP = poster).
-          className={`pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[max(100cqw,177.78cqh)] h-[max(100cqh,56.25cqw)] transition-opacity duration-700 ${
-            loaded ? "opacity-100" : "opacity-0"
-          }`}
+          // Fades in over the poster once ready (LCP = poster). Cover mode keeps
+          // a 16:9 source center-cropped at full-bleed; fill mode assumes the
+          // video matches the container's aspect ratio.
+          className={`pointer-events-none absolute transition-opacity duration-700 ${
+            fit === "cover"
+              ? "left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[max(100cqw,177.78cqh)] h-[max(100cqh,56.25cqw)]"
+              : "inset-0 h-full w-full"
+          } ${loaded ? "opacity-100" : "opacity-0"}`}
         />
       )}
     </div>
