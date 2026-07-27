@@ -1,0 +1,31 @@
+name: Launch checks (live domain)
+
+# Verifies redirects + launch-critical SEO surface against the production
+# domain from a runner with open internet. Runs on manual dispatch, and
+# automatically whenever the check scripts or this workflow change on main.
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Base URL to test"
+        required: false
+        default: "https://lumaweddingfilms.co"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/launch-checks.yml"
+      - "scripts/test-redirects.mjs"
+      - "scripts/live-launch-check.mjs"
+
+jobs:
+  launch-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Redirect suite (all portal slugs + legacy paths)
+        run: node scripts/test-redirects.mjs "${{ inputs.base_url || 'https://lumaweddingfilms.co' }}"
+      - name: Live SEO health check
+        run: node scripts/live-launch-check.mjs "${{ inputs.base_url || 'https://lumaweddingfilms.co' }}"
