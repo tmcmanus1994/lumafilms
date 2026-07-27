@@ -7,6 +7,8 @@ export const site = {
   instagramHandle: "@luma_weddingfilms",
   /** Muted looping hero background film (Vimeo). */
   heroVideo: "https://vimeo.com/855240627",
+  /** Self-hosted LCP poster behind the hero video. Swap the file to change it. */
+  heroPoster: "/images/brand/hero-poster.jpg",
   baseCity: "Little Rock",
   baseRegion: "AR",
   description:

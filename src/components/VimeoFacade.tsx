@@ -31,7 +31,7 @@ export default function VimeoFacade({ vimeoUrl, title, poster, venue, className 
     return (
       <div className={`relative bg-ink ${className}`}>
         <iframe
-          src={`https://player.vimeo.com/video/${id}?autoplay=1&title=0&byline=0&portrait=0`}
+          src={`https://player.vimeo.com/video/${id}?autoplay=1&title=0&byline=0&portrait=0&dnt=1`}
           title={title}
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen

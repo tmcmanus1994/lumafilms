@@ -81,7 +81,7 @@ export default function PortalExtras({ items, couple }: { items: PortalItem[]; c
               <div className="mt-6 w-full bg-ink md:w-1/2">
                 <div className="aspect-video w-full">
                   <iframe
-                    src={`https://player.vimeo.com/video/${id}?autoplay=1&title=0&byline=0&portrait=0`}
+                    src={`https://player.vimeo.com/video/${id}?autoplay=1&title=0&byline=0&portrait=0&dnt=1`}
                     title={`${item.label} — ${couple}`}
                     allow="autoplay; fullscreen; picture-in-picture"
                     allowFullScreen
