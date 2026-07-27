@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import ImageSlot from "@/components/ImageSlot";
+import HeroVideo from "@/components/HeroVideo";
 import PageMeta from "@/components/PageMeta";
 import HoneyBookForm from "./HoneyBookForm";
 import { site } from "@/lib/site";
@@ -36,13 +36,15 @@ export default function ContactPage() {
 
       {/* Split: form left, photo right (photo on top for mobile) */}
       <section className="grid border-b hairline md:grid-cols-2">
-        <ImageSlot
-          src="/images/contact/travelle.jpg"
-          alt="A Luma Films wedding frame — couple walking up the aisle"
-          className="order-1 aspect-[4/3] w-full md:order-2 md:self-center"
-          sizes="(min-width: 768px) 50vw, 100vw"
-          priority
-        />
+        {/* Muted looping reel cut to 4:3 to match the slot; the former photo
+            stays as the poster (and is all mobile ever loads). */}
+        <div className="relative order-1 aspect-[4/3] w-full overflow-hidden md:order-2 md:self-center">
+          <HeroVideo
+            vimeoUrl="https://vimeo.com/1213367951"
+            poster="/images/contact/travelle.jpg"
+            fit="fill"
+          />
+        </div>
         <div className="order-2 px-6 py-14 md:order-1 md:py-24 md:pl-16 md:pr-22">
           <p className="eyebrow mb-4">Check My Date</p>
           <h1 className="display mb-5 text-4xl md:text-[58px]">Let&rsquo;s see if your date is open</h1>
