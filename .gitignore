@@ -25,3 +25,7 @@ npm-debug.log*
 
 # typescript
 *.tsbuildinfo
+
+# SEO agent credentials — never commit the service-account key
+seo-agent-key*.json
+*service-account*.json

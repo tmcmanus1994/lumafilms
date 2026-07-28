@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "migrate": "node scripts/migrate-csv.mjs"
+    "migrate": "node scripts/migrate-csv.mjs",
+    "seo:pull": "node seo-agent/pull.mjs",
+    "seo:digest": "node seo-agent/digest.mjs"
   },
   "dependencies": {
     "next": "^15.4.2",
