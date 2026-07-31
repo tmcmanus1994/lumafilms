@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { cookies } from "next/headers";
 import VimeoFacade from "@/components/VimeoFacade";
 import PageMeta from "@/components/PageMeta";
-import { getWedding, getWeddings } from "@/lib/content";
+import { filmImage, getWedding, getWeddings } from "@/lib/content";
 import PasscodeGate, { verifyPasscode } from "./passcode";
 import PortalExtras from "./PortalExtras";
 
@@ -17,9 +17,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const w = getWedding(slug);
   if (!w) return {};
+  const image = filmImage(w);
   return {
     title: `${w.couple} — Your Films`,
+    // Still noindex, but couples text these links to family — so the preview
+    // should show a frame from their own film, not the site's default card.
     robots: { index: false, follow: false },
+    openGraph: {
+      title: `${w.couple} — Your Wedding Films`,
+      description: `${w.couple}'s wedding films from ${w.venue.name}, by Luma Films.`,
+      images: image ? [image] : undefined,
+    },
   };
 }
 
@@ -83,7 +91,7 @@ export default async function PortalPage({ params }: Props) {
         <VimeoFacade
           vimeoUrl={w.highlight.vimeo}
           title={w.highlight.title ?? `${w.couple} — Highlight Film`}
-          poster={w.highlight.poster || w.coverPhoto}
+          poster={filmImage(w)}
           venue={w.venue.name}
           className="mx-auto aspect-video w-full max-w-[min(100%,calc((100vh-400px)*1.7778))]"
         />

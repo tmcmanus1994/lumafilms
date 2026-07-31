@@ -7,6 +7,7 @@ import JsonLd from "@/components/JsonLd";
 import PageMeta from "@/components/PageMeta";
 import FilmCard from "@/components/FilmCard";
 import {
+  filmImage,
   filmSlug,
   getCity,
   getFilmBySlug,
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? `Watch ${w.couple}'s cinematic wedding film at ${w.venue.name}, filmed by Luma Films — Central Arkansas wedding videographer.`
         : (w.story ?? ""),
     alternates: { canonical: `/films/${slug}` },
-    openGraph: { images: w.coverPhoto ? [w.coverPhoto] : undefined },
+    openGraph: { images: filmImage(w) ? [filmImage(w)!] : undefined },
   };
 }
 
@@ -71,7 +72,7 @@ export default async function FilmPage({ params }: Props) {
         <VimeoFacade
           vimeoUrl={w.highlight.vimeo}
           title={w.highlight.title ?? `${w.couple} at ${w.venue.name}`}
-          poster={w.coverPhoto || w.highlight.poster}
+          poster={filmImage(w)}
           venue={w.venue.name}
           className="mx-auto aspect-video w-full max-w-[min(100%,calc((100vh-400px)*1.7778))]"
         />

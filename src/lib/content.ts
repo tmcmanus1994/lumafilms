@@ -198,6 +198,15 @@ export function getWeddingsAtVenue(venueSlug: string): Wedding[] {
   return getPublicFilms().filter((w) => w.venue.slug === venueSlug);
 }
 
+/**
+ * The canonical image for a wedding: the still pulled from its highlight film.
+ * Used for the main video player's poster and as link-preview (OG) art, so a
+ * texted link always shows a frame from that couple's own film.
+ */
+export function filmImage(w: Wedding): string | undefined {
+  return w.highlight.poster || w.coverPhoto || undefined;
+}
+
 /** Resolve an ordered slug list to public weddings, dropping unknowns. */
 export function resolveFilmSlugs(slugs: string[]): Wedding[] {
   const all = getPublicFilms();
