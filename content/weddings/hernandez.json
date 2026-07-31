@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Stephanie + Brandon // Historic Mankin Mansion",
     "vimeo": "https://vimeo.com/723408600/",
-    "download": "https://vimeo.com/mcmanusmedia/download/723408600/55d8a66f3f"
+    "download": "https://vimeo.com/mcmanusmedia/download/723408600/55d8a66f3f",
+    "poster": "/images/portal/hernandez-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/723946010/",
-    "download": "https://vimeo.com/mcmanusmedia/download/723946010/5857ac4e33"
+    "download": "https://vimeo.com/mcmanusmedia/download/723946010/5857ac4e33",
+    "poster": "/images/portal/hernandez-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,27 +32,32 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/723406786/",
-      "download": "https://vimeo.com/mcmanusmedia/download/723406786/0b509a5b17"
+      "download": "https://vimeo.com/mcmanusmedia/download/723406786/0b509a5b17",
+      "poster": "/images/portal/hernandez-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/723420831/",
-      "download": "https://vimeo.com/mcmanusmedia/download/723420831/286d09bea1"
+      "download": "https://vimeo.com/mcmanusmedia/download/723420831/286d09bea1",
+      "poster": "/images/portal/hernandez-extra-1-maid-of-honor-speech.jpg"
     },
     {
       "label": "Bridesmaid Speech",
       "vimeo": "https://vimeo.com/723856401/",
-      "download": "https://vimeo.com/mcmanusmedia/download/723856401/4824158a2d"
+      "download": "https://vimeo.com/mcmanusmedia/download/723856401/4824158a2d",
+      "poster": "/images/portal/hernandez-extra-2-bridesmaid-speech.jpg"
     },
     {
       "label": "Cinematic Trailer",
       "vimeo": "https://vimeo.com/767914062/",
-      "download": "https://vimeo.com/mcmanusmedia/download/767914062/3b76c731ee"
+      "download": "https://vimeo.com/mcmanusmedia/download/767914062/3b76c731ee",
+      "poster": "/images/portal/hernandez-extra-3-cinematic-trailer.jpg"
     },
     {
       "label": "IG Reel Trailer",
       "vimeo": "https://vimeo.com/767913981/",
-      "download": "https://vimeo.com/mcmanusmedia/download/767913981/1a410c0063"
+      "download": "https://vimeo.com/mcmanusmedia/download/767913981/1a410c0063",
+      "poster": "/images/portal/hernandez-extra-4-ig-reel-trailer.jpg"
     }
   ]
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { track } from "@/lib/analytics";
 
-export type PortalItem = { label: string; vimeo?: string; download?: string };
+export type PortalItem = { label: string; vimeo?: string; download?: string; poster?: string };
 
 function vimeoId(url?: string) {
   return url?.match(/vimeo\.com\/(?:video\/)?(\d+)/)?.[1];
@@ -35,9 +35,9 @@ export default function PortalExtras({ items, couple }: { items: PortalItem[]; c
               {/* Thumbnail collapses while the inline player is open */}
               {!isOpen && (
                 <div className="relative h-[190px] overflow-hidden bg-sand md:h-[158px]">
-                  {id ? (
+                  {item.poster || id ? (
                     <Image
-                      src={`https://vumbnail.com/${id}.jpg`}
+                      src={item.poster ?? `https://vumbnail.com/${id}.jpg`}
                       alt={`${item.label} — ${couple}`}
                       fill
                       sizes="(min-width: 768px) 280px, 100vw"

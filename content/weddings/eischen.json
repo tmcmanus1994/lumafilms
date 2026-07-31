@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Caylee + Jacob // Crystal Bridges",
     "vimeo": "https://vimeo.com/767135423",
-    "download": "https://vimeo.com/mcmanusmedia/download/767135423/71c898bc43"
+    "download": "https://vimeo.com/mcmanusmedia/download/767135423/71c898bc43",
+    "poster": "/images/portal/eischen-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/768828989",
-    "download": "https://vimeo.com/mcmanusmedia/download/768828989/e611b00390"
+    "download": "https://vimeo.com/mcmanusmedia/download/768828989/e611b00390",
+    "poster": "/images/portal/eischen-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,17 +32,20 @@
     {
       "label": "First Date",
       "vimeo": "https://vimeo.com/767137733",
-      "download": "https://vimeo.com/mcmanusmedia/download/767137733/05aefe5719"
+      "download": "https://vimeo.com/mcmanusmedia/download/767137733/05aefe5719",
+      "poster": "/images/portal/eischen-extra-0-first-date.jpg"
     },
     {
       "label": "Sorority Song",
       "vimeo": "https://vimeo.com/767138467",
-      "download": "https://vimeo.com/mcmanusmedia/download/767138467/41cf71f75c"
+      "download": "https://vimeo.com/mcmanusmedia/download/767138467/41cf71f75c",
+      "poster": "/images/portal/eischen-extra-1-sorority-song.jpg"
     },
     {
       "label": "Fraternity Song",
       "vimeo": "https://vimeo.com/767138252",
-      "download": "https://vimeo.com/mcmanusmedia/download/767138252/15d02d5442"
+      "download": "https://vimeo.com/mcmanusmedia/download/767138252/15d02d5442",
+      "poster": "/images/portal/eischen-extra-2-fraternity-song.jpg"
     }
   ]
 }

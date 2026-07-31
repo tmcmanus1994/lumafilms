@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Heather + Blake // McCoy's Little Red Barn",
     "vimeo": "https://vimeo.com/888466100?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/888466100/943b8592f3"
+    "download": "https://vimeo.com/mcmanusmedia/download/888466100/943b8592f3",
+    "poster": "/images/portal/garrett-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/888468670?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/888468670/c57f2c5016"
+    "download": "https://vimeo.com/mcmanusmedia/download/888468670/c57f2c5016",
+    "poster": "/images/portal/garrett-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,37 +32,44 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/891082330?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/891082330/6dc1646dc3"
+      "download": "https://vimeo.com/mcmanusmedia/download/891082330/6dc1646dc3",
+      "poster": "/images/portal/garrett-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/891080411?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/891080411/f27702765b"
+      "download": "https://vimeo.com/mcmanusmedia/download/891080411/f27702765b",
+      "poster": "/images/portal/garrett-extra-1-maid-of-honor-speech.jpg"
     },
     {
       "label": "Father of the Bride Speech",
       "vimeo": "https://vimeo.com/891083518?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/891083518/b09be7b0cc"
+      "download": "https://vimeo.com/mcmanusmedia/download/891083518/b09be7b0cc",
+      "poster": "/images/portal/garrett-extra-2-father-of-the-bride-speech.jpg"
     },
     {
       "label": "First Dance",
       "vimeo": "https://vimeo.com/891076586?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/891076586/6af648be69"
+      "download": "https://vimeo.com/mcmanusmedia/download/891076586/6af648be69",
+      "poster": "/images/portal/garrett-extra-3-first-dance.jpg"
     },
     {
       "label": "Father & Daughter Dance",
       "vimeo": "https://vimeo.com/891072420?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/891072420/bae356f6f0"
+      "download": "https://vimeo.com/mcmanusmedia/download/891072420/bae356f6f0",
+      "poster": "/images/portal/garrett-extra-4-father-daughter-dance.jpg"
     },
     {
       "label": "Mother & Son Dance",
       "vimeo": "https://vimeo.com/891068308?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/891068308/4b8bd4e770"
+      "download": "https://vimeo.com/mcmanusmedia/download/891068308/4b8bd4e770",
+      "poster": "/images/portal/garrett-extra-5-mother-son-dance.jpg"
     },
     {
       "label": "Last Dance",
       "vimeo": "https://vimeo.com/891697160?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/891697160/d01f3d354e"
+      "download": "https://vimeo.com/mcmanusmedia/download/891697160/d01f3d354e",
+      "poster": "/images/portal/garrett-extra-6-last-dance.jpg"
     }
   ]
 }

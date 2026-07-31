@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Laken + Robert // Hedge Farm",
     "vimeo": "https://vimeo.com/1201954365",
-    "download": "https://player.vimeo.com/progressive_redirect/download/1201954365/container/4bcae43b-d164-4e59-b60c-868b5bbfc96b/0bdf012b-e2566daa/laken_+_robert____hedge_farm_v1%20%281080p%29.mp4?expires=1781738104&loc=external&signature=4c8bb8c9ab9c313ff475543f478c7289cc1c46db563aaee1175ee7aa7d0ac0fb&user_id=100189032"
+    "download": "https://player.vimeo.com/progressive_redirect/download/1201954365/container/4bcae43b-d164-4e59-b60c-868b5bbfc96b/0bdf012b-e2566daa/laken_+_robert____hedge_farm_v1%20%281080p%29.mp4?expires=1781738104&loc=external&signature=4c8bb8c9ab9c313ff475543f478c7289cc1c46db563aaee1175ee7aa7d0ac0fb&user_id=100189032",
+    "poster": "/images/portal/thompson-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/1201952539",
-    "download": ""
+    "download": "",
+    "poster": "/images/portal/thompson-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,7 +32,8 @@
     {
       "label": "Vow Exchange",
       "vimeo": "https://vimeo.com/1201987665",
-      "download": "https://player.vimeo.com/progressive_redirect/download/1201987665/container/60682f32-cae7-4546-92c4-e5570d9e4630/a69e2726-fdb84aeb/laken_+_robert____vowes_v1%20%282160p%29.mp4?expires=1781748168&loc=external&signature=31f0ed0e1f4c6a14152195e41e3449b0cbd7ca6d100a34849437ada9814baf5d&user_id=100189032"
+      "download": "https://player.vimeo.com/progressive_redirect/download/1201987665/container/60682f32-cae7-4546-92c4-e5570d9e4630/a69e2726-fdb84aeb/laken_+_robert____vowes_v1%20%282160p%29.mp4?expires=1781748168&loc=external&signature=31f0ed0e1f4c6a14152195e41e3449b0cbd7ca6d100a34849437ada9814baf5d&user_id=100189032",
+      "poster": "/images/portal/thompson-extra-0-vow-exchange.jpg"
     }
   ],
   "portalNote": "Your ceremony light at Hedge Farm was the kind videographers dream about. Thank you for trusting me with it."

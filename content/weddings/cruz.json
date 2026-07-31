@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Grace + Gio // Cathedral of St Andrew",
     "vimeo": "https://vimeo.com/831286056",
-    "download": "https://vimeo.com/mcmanusmedia/download/831286056/b3d8432ae0"
+    "download": "https://vimeo.com/mcmanusmedia/download/831286056/b3d8432ae0",
+    "poster": "/images/portal/cruz-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/820255148",
-    "download": "https://vimeo.com/mcmanusmedia/download/820255148/536735de01"
+    "download": "https://vimeo.com/mcmanusmedia/download/820255148/536735de01",
+    "poster": "/images/portal/cruz-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,37 +32,44 @@
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/827608364",
-      "download": "https://vimeo.com/mcmanusmedia/download/827608364/4dd7a364da"
+      "download": "https://vimeo.com/mcmanusmedia/download/827608364/4dd7a364da",
+      "poster": "/images/portal/cruz-extra-0-maid-of-honor-speech.jpg"
     },
     {
       "label": "Bridesmaid Speech",
       "vimeo": "https://vimeo.com/827609560",
-      "download": "https://vimeo.com/mcmanusmedia/download/827609560/ef285fa07d"
+      "download": "https://vimeo.com/mcmanusmedia/download/827609560/ef285fa07d",
+      "poster": "/images/portal/cruz-extra-1-bridesmaid-speech.jpg"
     },
     {
       "label": "Mother of the Groom Speech",
       "vimeo": "https://vimeo.com/827610269",
-      "download": "https://vimeo.com/mcmanusmedia/download/827610269/4951e35507"
+      "download": "https://vimeo.com/mcmanusmedia/download/827610269/4951e35507",
+      "poster": "/images/portal/cruz-extra-2-mother-of-the-groom-speech.jpg"
     },
     {
       "label": "Mother of the Bride Speech",
       "vimeo": "https://vimeo.com/827610589",
-      "download": "https://vimeo.com/mcmanusmedia/download/827610589/f9c75de6a9"
+      "download": "https://vimeo.com/mcmanusmedia/download/827610589/f9c75de6a9",
+      "poster": "/images/portal/cruz-extra-3-mother-of-the-bride-speech.jpg"
     },
     {
       "label": "Guest Speech #1",
       "vimeo": "https://vimeo.com/831318355",
-      "download": "https://vimeo.com/mcmanusmedia/download/831318355/2b84049911"
+      "download": "https://vimeo.com/mcmanusmedia/download/831318355/2b84049911",
+      "poster": "/images/portal/cruz-extra-4-guest-speech-1.jpg"
     },
     {
       "label": "Guest Speech #2",
       "vimeo": "https://vimeo.com/827612624",
-      "download": "https://vimeo.com/mcmanusmedia/download/827612624/f30f34d87c"
+      "download": "https://vimeo.com/mcmanusmedia/download/827612624/f30f34d87c",
+      "poster": "/images/portal/cruz-extra-5-guest-speech-2.jpg"
     },
     {
       "label": "Family Speech",
       "vimeo": "https://vimeo.com/831319131",
-      "download": "https://vimeo.com/mcmanusmedia/download/831319131/2461d26c2e"
+      "download": "https://vimeo.com/mcmanusmedia/download/831319131/2461d26c2e",
+      "poster": "/images/portal/cruz-extra-6-family-speech.jpg"
     }
   ]
 }

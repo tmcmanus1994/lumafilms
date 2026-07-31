@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Your Raw Footage",
     "vimeo": "https://vimeo.com/1124053575?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/1124053575/cda49cb836"
+    "download": "https://vimeo.com/mcmanusmedia/download/1124053575/cda49cb836",
+    "poster": "/images/portal/burks-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/1124052328?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/1124052328/a465391cd6"
+    "download": "https://vimeo.com/mcmanusmedia/download/1124052328/a465391cd6",
+    "poster": "/images/portal/burks-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",

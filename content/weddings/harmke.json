@@ -15,7 +15,8 @@
   "highlight": {
     "title": "Megan + Justin // The Cordelle",
     "vimeo": "https://vimeo.com/1101316777?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/1101316777/fd8ee47413"
+    "download": "https://vimeo.com/mcmanusmedia/download/1101316777/fd8ee47413",
+    "poster": "/images/portal/harmke-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "",
@@ -30,12 +31,14 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/1101328556?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/1101328556/ee295e4ceb"
+      "download": "https://vimeo.com/mcmanusmedia/download/1101328556/ee295e4ceb",
+      "poster": "/images/portal/harmke-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/1101329287?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/1101329287/f3e1b8c3f0"
+      "download": "https://vimeo.com/mcmanusmedia/download/1101329287/f3e1b8c3f0",
+      "poster": "/images/portal/harmke-extra-1-maid-of-honor-speech.jpg"
     }
   ]
 }

@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Brittney + Randy // The Venue at Oakdale",
     "vimeo": "https://vimeo.com/914240087?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/914240087/ab88e8ddd4"
+    "download": "https://vimeo.com/mcmanusmedia/download/914240087/ab88e8ddd4",
+    "poster": "/images/portal/olivas-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/914243758?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/914243758/ba0482d9c9"
+    "download": "https://vimeo.com/mcmanusmedia/download/914243758/ba0482d9c9",
+    "poster": "/images/portal/olivas-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,57 +32,68 @@
     {
       "label": "First Look",
       "vimeo": "https://vimeo.com/915835104?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/915835104/a801992d74"
+      "download": "https://vimeo.com/mcmanusmedia/download/915835104/a801992d74",
+      "poster": "/images/portal/olivas-extra-0-first-look.jpg"
     },
     {
       "label": "First Look with Dad",
       "vimeo": "https://vimeo.com/914248465?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/914248465/bfb2ff2fda"
+      "download": "https://vimeo.com/mcmanusmedia/download/914248465/bfb2ff2fda",
+      "poster": "/images/portal/olivas-extra-1-first-look-with-dad.jpg"
     },
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/915838010?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/915838010/16a73ee031"
+      "download": "https://vimeo.com/mcmanusmedia/download/915838010/16a73ee031",
+      "poster": "/images/portal/olivas-extra-2-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/915836669?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/915836669/285eba50ef"
+      "download": "https://vimeo.com/mcmanusmedia/download/915836669/285eba50ef",
+      "poster": "/images/portal/olivas-extra-3-maid-of-honor-speech.jpg"
     },
     {
       "label": "Groom Party Hype Video",
       "vimeo": "https://vimeo.com/914246175/f52c6844ce?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/914246175/6ee2aff4e3"
+      "download": "https://vimeo.com/mcmanusmedia/download/914246175/6ee2aff4e3",
+      "poster": "/images/portal/olivas-extra-4-groom-party-hype-video.jpg"
     },
     {
       "label": "Blindfold Game",
       "vimeo": "https://vimeo.com/915837254?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/915837254/dbda2f74c8"
+      "download": "https://vimeo.com/mcmanusmedia/download/915837254/dbda2f74c8",
+      "poster": "/images/portal/olivas-extra-5-blindfold-game.jpg"
     },
     {
       "label": "Scavenger Hunt",
       "vimeo": "https://vimeo.com/915835686?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/915835686/2890788bd6"
+      "download": "https://vimeo.com/mcmanusmedia/download/915835686/2890788bd6",
+      "poster": "/images/portal/olivas-extra-6-scavenger-hunt.jpg"
     },
     {
       "label": "Vow Exchanges",
       "vimeo": "https://vimeo.com/914248781?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/914248781/6f3ccf8b94"
+      "download": "https://vimeo.com/mcmanusmedia/download/914248781/6f3ccf8b94",
+      "poster": "/images/portal/olivas-extra-7-vow-exchanges.jpg"
     },
     {
       "label": "First Dance",
       "vimeo": "https://vimeo.com/915837070?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/915837070/571b01b59f"
+      "download": "https://vimeo.com/mcmanusmedia/download/915837070/571b01b59f",
+      "poster": "/images/portal/olivas-extra-8-first-dance.jpg"
     },
     {
       "label": "Father & Daughter Dance",
       "vimeo": "https://vimeo.com/914246410?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/914246410/8757fd0d3e"
+      "download": "https://vimeo.com/mcmanusmedia/download/914246410/8757fd0d3e",
+      "poster": "/images/portal/olivas-extra-9-father-daughter-dance.jpg"
     },
     {
       "label": "Mother & Son Dance",
       "vimeo": "https://vimeo.com/915835416?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/915835416/0009745a0f"
+      "download": "https://vimeo.com/mcmanusmedia/download/915835416/0009745a0f",
+      "poster": "/images/portal/olivas-extra-10-mother-son-dance.jpg"
     }
   ]
 }

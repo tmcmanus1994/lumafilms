@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Kaylee + Grant // Delight, AR",
     "vimeo": "https://vimeo.com/1139754033?share=copy&fl=sv&fe=ci",
-    "download": "https://player.vimeo.com/progressive_redirect/download/1139754033/container/716618e1-95ce-4472-9176-3903011b4e06/e5c9833d-a86dc9ea/kaylee_+_grant____delight,_ar_v1%20%282160p%29.mp4?expires=1764792882&loc=external&signature=6b1958bd36e66b9719740643215d87bd500a9056aee9b99767d096b0130526ef&user_id=100189032"
+    "download": "https://player.vimeo.com/progressive_redirect/download/1139754033/container/716618e1-95ce-4472-9176-3903011b4e06/e5c9833d-a86dc9ea/kaylee_+_grant____delight,_ar_v1%20%282160p%29.mp4?expires=1764792882&loc=external&signature=6b1958bd36e66b9719740643215d87bd500a9056aee9b99767d096b0130526ef&user_id=100189032",
+    "poster": "/images/portal/kunkel-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/1139753663?share=copy&fl=sv&fe=ci",
-    "download": "https://player.vimeo.com/progressive_redirect/download/1139753663/container/aa912168-9bbc-4833-a335-6b41051649c1/4618e184-648281ae/kaylee_+_grant____ceremony_v1%20%282160p%29.mp4?expires=1764792969&loc=external&signature=fec2bc18281ba75780c1e41d8e29ed9eb7be4ea83dca0200ba5cb595b55a5272&user_id=100189032"
+    "download": "https://player.vimeo.com/progressive_redirect/download/1139753663/container/aa912168-9bbc-4833-a335-6b41051649c1/4618e184-648281ae/kaylee_+_grant____ceremony_v1%20%282160p%29.mp4?expires=1764792969&loc=external&signature=fec2bc18281ba75780c1e41d8e29ed9eb7be4ea83dca0200ba5cb595b55a5272&user_id=100189032",
+    "poster": "/images/portal/kunkel-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -28,29 +30,34 @@
   "rawFootageFolder": null,
   "extras": [
     {
-      "label": "Father of the Groom’s Speech",
+      "label": "Father of the Groom's Speech",
       "vimeo": "https://vimeo.com/1139753306",
-      "download": "https://player.vimeo.com/progressive_redirect/download/1139753306/container/867e64ab-12c5-43fc-b641-0c95a27e155a/da2ceb3c-d0fec652/kaylee_+_grant____father_of_the_groom%E2%80%99s_speech_v1%20%282160p%29.mp4?expires=1764793042&loc=external&signature=024a19a0901a65430e4985f6ea80231750b6cafd8733597c7b35b9287b24a7c5&user_id=100189032"
+      "download": "https://player.vimeo.com/progressive_redirect/download/1139753306/container/867e64ab-12c5-43fc-b641-0c95a27e155a/da2ceb3c-d0fec652/kaylee_+_grant____father_of_the_groom%E2%80%99s_speech_v1%20%282160p%29.mp4?expires=1764793042&loc=external&signature=024a19a0901a65430e4985f6ea80231750b6cafd8733597c7b35b9287b24a7c5&user_id=100189032",
+      "poster": "/images/portal/kunkel-extra-0-father-of-the-groom-s-speech.jpg"
     },
     {
       "label": "Father of the Bride Speech",
       "vimeo": "https://vimeo.com/1142300396?share=copy&fl=sv&fe=ci",
-      "download": "https://player.vimeo.com/progressive_redirect/download/1142300396/container/302da288-0e08-4919-a550-e3b1b3947071/e23ae637-b7ec1e9b/kaylee_+_grant____father_of_the_bride_speech_v1%20%282160p%29.mp4?expires=1764793073&loc=external&signature=58a352bd3bff48a81eeca14c2d7894a7850b6dbca9c0ad5cf32aa0774d83faa9&user_id=100189032"
+      "download": "https://player.vimeo.com/progressive_redirect/download/1142300396/container/302da288-0e08-4919-a550-e3b1b3947071/e23ae637-b7ec1e9b/kaylee_+_grant____father_of_the_bride_speech_v1%20%282160p%29.mp4?expires=1764793073&loc=external&signature=58a352bd3bff48a81eeca14c2d7894a7850b6dbca9c0ad5cf32aa0774d83faa9&user_id=100189032",
+      "poster": "/images/portal/kunkel-extra-1-father-of-the-bride-speech.jpg"
     },
     {
       "label": "Bridemaid Speech",
       "vimeo": "https://vimeo.com/1139753610",
-      "download": "https://player.vimeo.com/progressive_redirect/download/1139753610/container/68d0bbfd-290c-4aef-a6aa-b6080af16f25/b961b01d-53207721/kaylee_+_grant____bridemaid_speech_v1%20%282160p%29.mp4?expires=1764793109&loc=external&signature=63df4df9f95422575f6d2fed63c8519d2df3733379598fb8b372872c9da2f151&user_id=100189032"
+      "download": "https://player.vimeo.com/progressive_redirect/download/1139753610/container/68d0bbfd-290c-4aef-a6aa-b6080af16f25/b961b01d-53207721/kaylee_+_grant____bridemaid_speech_v1%20%282160p%29.mp4?expires=1764793109&loc=external&signature=63df4df9f95422575f6d2fed63c8519d2df3733379598fb8b372872c9da2f151&user_id=100189032",
+      "poster": "/images/portal/kunkel-extra-2-bridemaid-speech.jpg"
     },
     {
-      "label": "Kaylee + Grant // Bridesmaid Speech",
+      "label": "Bridesmaid Speech",
       "vimeo": "https://vimeo.com/1139753467?share=copy&fl=sv&fe=ci",
-      "download": "https://player.vimeo.com/progressive_redirect/download/1139753467/container/98649ee2-3b1c-4803-9958-c14308c28314/998fffb7-e7b6579a/kaylee_+_grant____bridesmaid_speech%20%282160p%29.mp4?expires=1764793083&loc=external&signature=0e69aaa048ab52577104cb9f24d6fa7b4db0a9c0e1339c06ef66f930e4a289da&user_id=100189032"
+      "download": "https://player.vimeo.com/progressive_redirect/download/1139753467/container/98649ee2-3b1c-4803-9958-c14308c28314/998fffb7-e7b6579a/kaylee_+_grant____bridesmaid_speech%20%282160p%29.mp4?expires=1764793083&loc=external&signature=0e69aaa048ab52577104cb9f24d6fa7b4db0a9c0e1339c06ef66f930e4a289da&user_id=100189032",
+      "poster": "/images/portal/kunkel-extra-3-bridesmaid-speech.jpg"
     },
     {
-      "label": "Kaylee + Grant // Groomsmen Speech",
+      "label": "Groomsmen Speech",
       "vimeo": "https://vimeo.com/1139753530?share=copy&fl=sv&fe=ci",
-      "download": "https://player.vimeo.com/progressive_redirect/download/1139753530/container/c005ab54-6e79-4293-872e-9d2708d5c997/4dd83979-be8ad2d4/kaylee_+_grant____groomsmen_speech_v1%20%282160p%29.mp4?expires=1764793188&loc=external&signature=70cc91e8c48cf1b528a96b87334fe759bfe342b1e3365e4bbaa3488bd5bca27f&user_id=100189032"
+      "download": "https://player.vimeo.com/progressive_redirect/download/1139753530/container/c005ab54-6e79-4293-872e-9d2708d5c997/4dd83979-be8ad2d4/kaylee_+_grant____groomsmen_speech_v1%20%282160p%29.mp4?expires=1764793188&loc=external&signature=70cc91e8c48cf1b528a96b87334fe759bfe342b1e3365e4bbaa3488bd5bca27f&user_id=100189032",
+      "poster": "/images/portal/kunkel-extra-4-groomsmen-speech.jpg"
     }
   ]
 }

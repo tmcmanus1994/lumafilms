@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Katherine + Nicholas // Christ the King Church",
     "vimeo": "https://vimeo.com/760700790",
-    "download": "https://vimeo.com/mcmanusmedia/download/760700790/da44094b8b"
+    "download": "https://vimeo.com/mcmanusmedia/download/760700790/da44094b8b",
+    "poster": "/images/portal/baltz-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/760149663/",
-    "download": "https://vimeo.com/mcmanusmedia/download/760149663/b8a7c8cb8e"
+    "download": "https://vimeo.com/mcmanusmedia/download/760149663/b8a7c8cb8e",
+    "poster": "/images/portal/baltz-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,27 +32,32 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/760721541",
-      "download": "https://vimeo.com/mcmanusmedia/download/760721541/b047e0362f"
+      "download": "https://vimeo.com/mcmanusmedia/download/760721541/b047e0362f",
+      "poster": "/images/portal/baltz-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/760156278",
-      "download": "https://vimeo.com/mcmanusmedia/download/760156278/51b588cf9f"
+      "download": "https://vimeo.com/mcmanusmedia/download/760156278/51b588cf9f",
+      "poster": "/images/portal/baltz-extra-1-maid-of-honor-speech.jpg"
     },
     {
       "label": "Father of the Groom Speech",
       "vimeo": "https://vimeo.com/760155708",
-      "download": "https://vimeo.com/mcmanusmedia/download/760155708/0cafea1905"
+      "download": "https://vimeo.com/mcmanusmedia/download/760155708/0cafea1905",
+      "poster": "/images/portal/baltz-extra-2-father-of-the-groom-speech.jpg"
     },
     {
       "label": "Father of the Bride Speech",
       "vimeo": "https://vimeo.com/760728555",
-      "download": "https://vimeo.com/mcmanusmedia/download/760728555/7f2af5df42"
+      "download": "https://vimeo.com/mcmanusmedia/download/760728555/7f2af5df42",
+      "poster": "/images/portal/baltz-extra-3-father-of-the-bride-speech.jpg"
     },
     {
       "label": "First Dance",
       "vimeo": "https://vimeo.com/760688811",
-      "download": "https://vimeo.com/mcmanusmedia/download/760688811/71bbe767cc"
+      "download": "https://vimeo.com/mcmanusmedia/download/760688811/71bbe767cc",
+      "poster": "/images/portal/baltz-extra-4-first-dance.jpg"
     }
   ]
 }

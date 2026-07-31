@@ -83,7 +83,7 @@ export default async function PortalPage({ params }: Props) {
         <VimeoFacade
           vimeoUrl={w.highlight.vimeo}
           title={w.highlight.title ?? `${w.couple} — Highlight Film`}
-          poster={w.coverPhoto}
+          poster={w.highlight.poster || w.coverPhoto}
           venue={w.venue.name}
           className="mx-auto aspect-video w-full max-w-[min(100%,calc((100vh-400px)*1.7778))]"
         />

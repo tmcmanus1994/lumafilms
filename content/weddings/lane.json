@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Jessica + Cody // Kindred Barn",
     "vimeo": "https://vimeo.com/817521575",
-    "download": "https://vimeo.com/mcmanusmedia/download/817521575/6b69ee89fd"
+    "download": "https://vimeo.com/mcmanusmedia/download/817521575/6b69ee89fd",
+    "poster": "/images/portal/lane-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/816085585",
-    "download": "https://vimeo.com/mcmanusmedia/download/816085585/9bf2b9c963"
+    "download": "https://vimeo.com/mcmanusmedia/download/816085585/9bf2b9c963",
+    "poster": "/images/portal/lane-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,22 +32,26 @@
     {
       "label": "First Look",
       "vimeo": "https://vimeo.com/816316287",
-      "download": "https://vimeo.com/mcmanusmedia/download/816316287/183aa31e82"
+      "download": "https://vimeo.com/mcmanusmedia/download/816316287/183aa31e82",
+      "poster": "/images/portal/lane-extra-0-first-look.jpg"
     },
     {
       "label": "First Look with Dad",
       "vimeo": "https://vimeo.com/816316724",
-      "download": "https://vimeo.com/mcmanusmedia/download/816316724/90626b4021"
+      "download": "https://vimeo.com/mcmanusmedia/download/816316724/90626b4021",
+      "poster": "/images/portal/lane-extra-1-first-look-with-dad.jpg"
     },
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/816315541",
-      "download": "https://vimeo.com/mcmanusmedia/download/816315541/46f45998ad"
+      "download": "https://vimeo.com/mcmanusmedia/download/816315541/46f45998ad",
+      "poster": "/images/portal/lane-extra-2-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/816315842",
-      "download": "https://vimeo.com/mcmanusmedia/download/816315842/5012b391de"
+      "download": "https://vimeo.com/mcmanusmedia/download/816315842/5012b391de",
+      "poster": "/images/portal/lane-extra-3-maid-of-honor-speech.jpg"
     }
   ]
 }

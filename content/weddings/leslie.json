@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Anna Claire & Jake // Barn at the Springs",
     "vimeo": "https://vimeo.com/1110065445?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/1110065445/8bea751938"
+    "download": "https://vimeo.com/mcmanusmedia/download/1110065445/8bea751938",
+    "poster": "/images/portal/leslie-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/1110062778?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/1110062778/07247a04ec"
+    "download": "https://vimeo.com/mcmanusmedia/download/1110062778/07247a04ec",
+    "poster": "/images/portal/leslie-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,12 +32,14 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/1110064774?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/1110064774/e828bfe5e8"
+      "download": "https://vimeo.com/mcmanusmedia/download/1110064774/e828bfe5e8",
+      "poster": "/images/portal/leslie-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/1110064332?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/1110064332/9e9cf891d0"
+      "download": "https://vimeo.com/mcmanusmedia/download/1110064332/9e9cf891d0",
+      "poster": "/images/portal/leslie-extra-1-maid-of-honor-speech.jpg"
     }
   ]
 }

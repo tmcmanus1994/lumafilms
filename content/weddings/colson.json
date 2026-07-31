@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Alanna + Randall // Bristol Mountain, New York",
     "vimeo": "https://vimeo.com/738952354/",
-    "download": "https://vimeo.com/mcmanusmedia/download/738952354/776026c91a"
+    "download": "https://vimeo.com/mcmanusmedia/download/738952354/776026c91a",
+    "poster": "/images/portal/colson-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/739747978/",
-    "download": "https://vimeo.com/mcmanusmedia/download/739747978/a33223e1ea"
+    "download": "https://vimeo.com/mcmanusmedia/download/739747978/a33223e1ea",
+    "poster": "/images/portal/colson-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,17 +32,20 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/738958138/",
-      "download": "https://vimeo.com/mcmanusmedia/download/738958138/70ae5dd859"
+      "download": "https://vimeo.com/mcmanusmedia/download/738958138/70ae5dd859",
+      "poster": "/images/portal/colson-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/738959016/",
-      "download": "https://vimeo.com/mcmanusmedia/download/738959016/ad01a6f4a6"
+      "download": "https://vimeo.com/mcmanusmedia/download/738959016/ad01a6f4a6",
+      "poster": "/images/portal/colson-extra-1-maid-of-honor-speech.jpg"
     },
     {
       "label": "First Date",
       "vimeo": "https://vimeo.com/739752549/",
-      "download": "https://vimeo.com/mcmanusmedia/download/739752549/1c1a3dbe25"
+      "download": "https://vimeo.com/mcmanusmedia/download/739752549/1c1a3dbe25",
+      "poster": "/images/portal/colson-extra-2-first-date.jpg"
     }
   ]
 }

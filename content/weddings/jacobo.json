@@ -15,7 +15,8 @@
   "highlight": {
     "title": "Briyana + Juan // Osage House",
     "vimeo": "https://vimeo.com/908125170?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/908125170/6021d289e9"
+    "download": "https://vimeo.com/mcmanusmedia/download/908125170/6021d289e9",
+    "poster": "/images/portal/jacobo-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://www.youtube.com/watch?v=r11PAOsGYV4",
@@ -30,42 +31,50 @@
     {
       "label": "First Look with Dad",
       "vimeo": "https://vimeo.com/908148156?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/908148156/96ce28c4b6"
+      "download": "https://vimeo.com/mcmanusmedia/download/908148156/96ce28c4b6",
+      "poster": "/images/portal/jacobo-extra-0-first-look-with-dad.jpg"
     },
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/905380973?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/905380973/92b471e8af"
+      "download": "https://vimeo.com/mcmanusmedia/download/905380973/92b471e8af",
+      "poster": "/images/portal/jacobo-extra-1-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/905381827?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/905381827/99a64d5ce8"
+      "download": "https://vimeo.com/mcmanusmedia/download/905381827/99a64d5ce8",
+      "poster": "/images/portal/jacobo-extra-2-maid-of-honor-speech.jpg"
     },
     {
       "label": "Father of the Bride",
       "vimeo": "https://vimeo.com/905380861?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/905380861/0d93e0416a"
+      "download": "https://vimeo.com/mcmanusmedia/download/905380861/0d93e0416a",
+      "poster": "/images/portal/jacobo-extra-3-father-of-the-bride.jpg"
     },
     {
       "label": "The Jacobos Speech",
       "vimeo": "https://vimeo.com/905382178?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/905382178/a05812ed74"
+      "download": "https://vimeo.com/mcmanusmedia/download/905382178/a05812ed74",
+      "poster": "/images/portal/jacobo-extra-4-the-jacobos-speech.jpg"
     },
     {
       "label": "Vow Exchange",
       "vimeo": "https://vimeo.com/905382457?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/905382457/d0e1a40e1b"
+      "download": "https://vimeo.com/mcmanusmedia/download/905382457/d0e1a40e1b",
+      "poster": "/images/portal/jacobo-extra-5-vow-exchange.jpg"
     },
     {
       "label": "The First Dance",
       "vimeo": "https://vimeo.com/908133180?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/908133180/a715939acd"
+      "download": "https://vimeo.com/mcmanusmedia/download/908133180/a715939acd",
+      "poster": "/images/portal/jacobo-extra-6-the-first-dance.jpg"
     },
     {
       "label": "The Last Dance",
       "vimeo": "https://vimeo.com/908132427?share=copy",
-      "download": "https://vimeo.com/908132427?share=copy"
+      "download": "https://vimeo.com/908132427?share=copy",
+      "poster": "/images/portal/jacobo-extra-7-the-last-dance.jpg"
     }
   ],
   "showcase": 2,

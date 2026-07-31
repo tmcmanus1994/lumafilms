@@ -71,7 +71,7 @@ export default async function FilmPage({ params }: Props) {
         <VimeoFacade
           vimeoUrl={w.highlight.vimeo}
           title={w.highlight.title ?? `${w.couple} at ${w.venue.name}`}
-          poster={w.coverPhoto}
+          poster={w.coverPhoto || w.highlight.poster}
           venue={w.venue.name}
           className="mx-auto aspect-video w-full max-w-[min(100%,calc((100vh-400px)*1.7778))]"
         />

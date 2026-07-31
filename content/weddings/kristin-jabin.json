@@ -14,7 +14,18 @@
   "highlight": {
     "title": "Kristin + Jabin // The Grand at Willow Springs",
     "vimeo": "https://vimeo.com/1212415756",
-    "download": ""
+    "download": "",
+    "poster": "/images/portal/kristin-jabin-highlight.jpg"
   },
-  "extras": []
+  "extras": [
+    {
+      "label": "Vow Exchange",
+      "vimeo": "",
+      "download": "",
+      "poster": "/images/portal/kristin-jabin-extra-0-vow-exchange.jpg"
+    }
+  ],
+  "ceremony": {
+    "poster": "/images/portal/kristin-jabin-ceremony.jpg"
+  }
 }

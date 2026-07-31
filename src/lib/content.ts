@@ -14,6 +14,8 @@ import path from "node:path";
 export type VideoAsset = {
   vimeo?: string;
   download?: string;
+  /** Local still shown before the player loads (portal + film pages). */
+  poster?: string;
 };
 
 export type WeddingExtra = VideoAsset & { label: string };
