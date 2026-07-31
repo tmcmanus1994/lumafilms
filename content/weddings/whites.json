@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Paige + Austin // Capital Hotel",
     "vimeo": "https://vimeo.com/720021622/",
-    "download": "https://vimeo.com/mcmanusmedia/download/720021622/b85f357e76"
+    "download": "https://vimeo.com/mcmanusmedia/download/720021622/b85f357e76",
+    "poster": "/images/portal/whites-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com//720032455/",
-    "download": "https://vimeo.com/mcmanusmedia/download/720032455/4266db7a8c"
+    "download": "https://vimeo.com/mcmanusmedia/download/720032455/4266db7a8c",
+    "poster": "/images/portal/whites-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,7 +32,8 @@
     {
       "label": "Cinematic Trailer",
       "vimeo": "https://vimeo.com/720337947/",
-      "download": ""
+      "download": "",
+      "poster": "/images/portal/whites-extra-0-cinematic-trailer.jpg"
     }
   ],
   "showcase": 6,

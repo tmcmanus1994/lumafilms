@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Jessica + Kyle // Chenal County Club",
     "vimeo": "https://vimeo.com/702998607",
-    "download": "https://vimeo.com/mcmanusmedia/download/702998607/f826814d36"
+    "download": "https://vimeo.com/mcmanusmedia/download/702998607/f826814d36",
+    "poster": "/images/portal/francises-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/703003613",
-    "download": "https://vimeo.com/703003613"
+    "download": "https://vimeo.com/703003613",
+    "poster": "/images/portal/francises-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,12 +32,14 @@
     {
       "label": "Shoe Game",
       "vimeo": "https://vimeo.com/702468949",
-      "download": "https://vimeo.com/mcmanusmedia/download/702468949/215534f72c"
+      "download": "https://vimeo.com/mcmanusmedia/download/702468949/215534f72c",
+      "poster": "/images/portal/francises-extra-0-shoe-game.jpg"
     },
     {
       "label": "Cinematic Trailer",
       "vimeo": "https://vimeo.com/703420997",
-      "download": "https://vimeo.com/mcmanusmedia/download/703420997/b7ad4fe824"
+      "download": "https://vimeo.com/mcmanusmedia/download/703420997/b7ad4fe824",
+      "poster": "/images/portal/francises-extra-1-cinematic-trailer.jpg"
     }
   ]
 }

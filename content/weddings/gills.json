@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Mikayla + Ryan // Allenbrooke Farms",
     "vimeo": "https://vimeo.com/1019609614?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/1019609614/a64b0d07b5"
+    "download": "https://vimeo.com/mcmanusmedia/download/1019609614/a64b0d07b5",
+    "poster": "/images/portal/gills-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/1019790368?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/1019790368/13cbde89ba"
+    "download": "https://vimeo.com/mcmanusmedia/download/1019790368/13cbde89ba",
+    "poster": "/images/portal/gills-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,12 +32,14 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/1019787089?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/1019787089/aa6f03f511"
+      "download": "https://vimeo.com/mcmanusmedia/download/1019787089/aa6f03f511",
+      "poster": "/images/portal/gills-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/1019788421?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/1019788421/0955ba5bcc"
+      "download": "https://vimeo.com/mcmanusmedia/download/1019788421/0955ba5bcc",
+      "poster": "/images/portal/gills-extra-1-maid-of-honor-speech.jpg"
     }
   ]
 }

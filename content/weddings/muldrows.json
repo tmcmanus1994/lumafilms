@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Caitlyn + KeyAundree // Angelos Gardan",
     "vimeo": "https://vimeo.com/711725719",
-    "download": "https://vimeo.com/mcmanusmedia/download/711725719/f78aad0407"
+    "download": "https://vimeo.com/mcmanusmedia/download/711725719/f78aad0407",
+    "poster": "/images/portal/muldrows-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/713124666",
-    "download": "https://vimeo.com/mcmanusmedia/download/713124666/b5a7b2d54c"
+    "download": "https://vimeo.com/mcmanusmedia/download/713124666/b5a7b2d54c",
+    "poster": "/images/portal/muldrows-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,7 +32,8 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/711763118",
-      "download": "https://vimeo.com/mcmanusmedia/download/711763118/5cc9d97603"
+      "download": "https://vimeo.com/mcmanusmedia/download/711763118/5cc9d97603",
+      "poster": "/images/portal/muldrows-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
@@ -40,17 +43,20 @@
     {
       "label": "Father of the Bride Speech",
       "vimeo": "https://vimeo.com/711762110",
-      "download": "https://vimeo.com/mcmanusmedia/download/711762110/3c7d17211a"
+      "download": "https://vimeo.com/mcmanusmedia/download/711762110/3c7d17211a",
+      "poster": "/images/portal/muldrows-extra-2-father-of-the-bride-speech.jpg"
     },
     {
       "label": "Mother of the Bride Speech",
       "vimeo": "https://vimeo.com/711759950",
-      "download": "https://vimeo.com/mcmanusmedia/download/711759950/b7dceac946"
+      "download": "https://vimeo.com/mcmanusmedia/download/711759950/b7dceac946",
+      "poster": "/images/portal/muldrows-extra-3-mother-of-the-bride-speech.jpg"
     },
     {
       "label": "Gender Reveal",
       "vimeo": "https://vimeo.com/711760115",
-      "download": "https://vimeo.com/mcmanusmedia/download/711760115/a4d68e0d30"
+      "download": "https://vimeo.com/mcmanusmedia/download/711760115/a4d68e0d30",
+      "poster": "/images/portal/muldrows-extra-4-gender-reveal.jpg"
     }
   ]
 }

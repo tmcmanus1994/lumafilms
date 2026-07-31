@@ -15,7 +15,8 @@
   "highlight": {
     "title": "Erika + Cordelle // Fellowship Christian Church",
     "vimeo": "https://vimeo.com/1038849901",
-    "download": "https://vimeo.com/mcmanusmedia/download/1038849901/dec5536aa3"
+    "download": "https://vimeo.com/mcmanusmedia/download/1038849901/dec5536aa3",
+    "poster": "/images/portal/dortch-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "",
@@ -30,22 +31,26 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/1040838133?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/1040838133/4ea3c7ebb7"
+      "download": "https://vimeo.com/mcmanusmedia/download/1040838133/4ea3c7ebb7",
+      "poster": "/images/portal/dortch-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/1040840754?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/1040840754/fc196e73eb"
+      "download": "https://vimeo.com/mcmanusmedia/download/1040840754/fc196e73eb",
+      "poster": "/images/portal/dortch-extra-1-maid-of-honor-speech.jpg"
     },
     {
       "label": "Groom's Speech",
       "vimeo": "https://vimeo.com/1040837370?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/1040837370/57d34462b3"
+      "download": "https://vimeo.com/mcmanusmedia/download/1040837370/57d34462b3",
+      "poster": "/images/portal/dortch-extra-2-groom-s-speech.jpg"
     },
     {
       "label": "Bride's Speech",
       "vimeo": "https://vimeo.com/1040839387?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/1040839387/5c6c6da5c8"
+      "download": "https://vimeo.com/mcmanusmedia/download/1040839387/5c6c6da5c8",
+      "poster": "/images/portal/dortch-extra-3-bride-s-speech.jpg"
     }
   ]
 }

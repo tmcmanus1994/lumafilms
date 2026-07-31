@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Grace + Matthew // The Venue at Stonebrook Meadows",
     "vimeo": "https://vimeo.com/981748105",
-    "download": "https://vimeo.com/mcmanusmedia/download/981748105/34da48dfb4"
+    "download": "https://vimeo.com/mcmanusmedia/download/981748105/34da48dfb4",
+    "poster": "/images/portal/shults-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/981743792",
-    "download": "https://vimeo.com/mcmanusmedia/download/981743792/70fd702a91"
+    "download": "https://vimeo.com/mcmanusmedia/download/981743792/70fd702a91",
+    "poster": "/images/portal/shults-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,12 +32,14 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/994244217",
-      "download": "https://vimeo.com/mcmanusmedia/download/994244217/45981b2b69"
+      "download": "https://vimeo.com/mcmanusmedia/download/994244217/45981b2b69",
+      "poster": "/images/portal/shults-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Man of Honor Speech",
       "vimeo": "https://vimeo.com/994242254",
-      "download": "https://vimeo.com/mcmanusmedia/download/994242254/e0e743cc38"
+      "download": "https://vimeo.com/mcmanusmedia/download/994242254/e0e743cc38",
+      "poster": "/images/portal/shults-extra-1-man-of-honor-speech.jpg"
     }
   ],
   "showcase": 3,

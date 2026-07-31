@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Rachel + Zane // Legacy Acres",
     "vimeo": "https://vimeo.com/896633160?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/896633160/2d5ec8a43c"
+    "download": "https://vimeo.com/mcmanusmedia/download/896633160/2d5ec8a43c",
+    "poster": "/images/portal/harris-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/896698001?share=copy",
-    "download": "https://vimeo.com/mcmanusmedia/download/896698001/69a89bb898"
+    "download": "https://vimeo.com/mcmanusmedia/download/896698001/69a89bb898",
+    "poster": "/images/portal/harris-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,12 +32,14 @@
     {
       "label": "First Look",
       "vimeo": "https://vimeo.com/896707281?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/896707281/4f7b6d872c"
+      "download": "https://vimeo.com/mcmanusmedia/download/896707281/4f7b6d872c",
+      "poster": "/images/portal/harris-extra-0-first-look.jpg"
     },
     {
-      "label": "Rachel + Zane // First Dance",
+      "label": "First Dance",
       "vimeo": "https://vimeo.com/896708027?share=copy",
-      "download": "https://vimeo.com/mcmanusmedia/download/896708027/f8cc4465c2"
+      "download": "https://vimeo.com/mcmanusmedia/download/896708027/f8cc4465c2",
+      "poster": "/images/portal/harris-extra-1-first-dance.jpg"
     }
   ],
   "featured": 1,

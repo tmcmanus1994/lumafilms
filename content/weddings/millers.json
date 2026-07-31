@@ -15,7 +15,8 @@
   "highlight": {
     "title": "Abbie + Ian // Stone Hill Ranch",
     "vimeo": "https://vimeo.com/701794883",
-    "download": "https://vimeo.com/mcmanusmedia/download/701794883/ac3b1a70b4"
+    "download": "https://vimeo.com/mcmanusmedia/download/701794883/ac3b1a70b4",
+    "poster": "/images/portal/millers-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "",
@@ -30,12 +31,14 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/701807015",
-      "download": "https://vimeo.com/mcmanusmedia/download/701807015/799dae8d77"
+      "download": "https://vimeo.com/mcmanusmedia/download/701807015/799dae8d77",
+      "poster": "/images/portal/millers-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/701805955",
-      "download": "https://vimeo.com/mcmanusmedia/download/701805955/67f18135f8"
+      "download": "https://vimeo.com/mcmanusmedia/download/701805955/67f18135f8",
+      "poster": "/images/portal/millers-extra-1-maid-of-honor-speech.jpg"
     }
   ]
 }

@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Mattison + William // Dove Hollow Estate",
     "vimeo": "https://vimeo.com/763542084",
-    "download": "https://vimeo.com/mcmanusmedia/download/763542084/2c6c963733"
+    "download": "https://vimeo.com/mcmanusmedia/download/763542084/2c6c963733",
+    "poster": "/images/portal/henderson-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/765144597",
-    "download": "https://vimeo.com/mcmanusmedia/download/765144597/a60d749005"
+    "download": "https://vimeo.com/mcmanusmedia/download/765144597/a60d749005",
+    "poster": "/images/portal/henderson-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,27 +32,32 @@
     {
       "label": "First Look",
       "vimeo": "https://vimeo.com/763578679",
-      "download": "https://vimeo.com/mcmanusmedia/download/763578679/91d9c47675"
+      "download": "https://vimeo.com/mcmanusmedia/download/763578679/91d9c47675",
+      "poster": "/images/portal/henderson-extra-0-first-look.jpg"
     },
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/760863775",
-      "download": "https://vimeo.com/mcmanusmedia/download/760863775/24b28cb2cd"
+      "download": "https://vimeo.com/mcmanusmedia/download/760863775/24b28cb2cd",
+      "poster": "/images/portal/henderson-extra-1-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/760863586",
-      "download": "https://vimeo.com/mcmanusmedia/download/760863586/6d37404d45"
+      "download": "https://vimeo.com/mcmanusmedia/download/760863586/6d37404d45",
+      "poster": "/images/portal/henderson-extra-2-maid-of-honor-speech.jpg"
     },
     {
       "label": "Sister of the Bride",
       "vimeo": "https://vimeo.com/763543089",
-      "download": "https://vimeo.com/mcmanusmedia/download/763543089/d3a6c43d41"
+      "download": "https://vimeo.com/mcmanusmedia/download/763543089/d3a6c43d41",
+      "poster": "/images/portal/henderson-extra-3-sister-of-the-bride.jpg"
     },
     {
       "label": "First Dance",
       "vimeo": "https://vimeo.com/760864054",
-      "download": "https://vimeo.com/mcmanusmedia/download/760864054/2f14e5006c"
+      "download": "https://vimeo.com/mcmanusmedia/download/760864054/2f14e5006c",
+      "poster": "/images/portal/henderson-extra-4-first-dance.jpg"
     }
   ]
 }

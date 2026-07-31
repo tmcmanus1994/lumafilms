@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Megan + Kyle // Mildred B. Cooper Memorial Chapel",
     "vimeo": "https://vimeo.com/1013009502",
-    "download": "https://vimeo.com/mcmanusmedia/download/1013009502/2005cd9cc2"
+    "download": "https://vimeo.com/mcmanusmedia/download/1013009502/2005cd9cc2",
+    "poster": "/images/portal/epperson-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/1014788555",
-    "download": "https://vimeo.com/mcmanusmedia/download/1014788555/a47deb93b0"
+    "download": "https://vimeo.com/mcmanusmedia/download/1014788555/a47deb93b0",
+    "poster": "/images/portal/epperson-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,12 +32,14 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/1014791333",
-      "download": "https://vimeo.com/mcmanusmedia/download/1014791333/a705eee748"
+      "download": "https://vimeo.com/mcmanusmedia/download/1014791333/a705eee748",
+      "poster": "/images/portal/epperson-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/1014790798",
-      "download": "https://vimeo.com/mcmanusmedia/download/1014790798/692197913a"
+      "download": "https://vimeo.com/mcmanusmedia/download/1014790798/692197913a",
+      "poster": "/images/portal/epperson-extra-1-maid-of-honor-speech.jpg"
     }
   ]
 }

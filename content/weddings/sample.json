@@ -15,11 +15,13 @@
   "highlight": {
     "title": "Hannah + Dylan // Crystal Bridges",
     "vimeo": "https://vimeo.com/1053599962",
-    "download": "https://vimeo.com/mcmanusmedia/download/1053599962/29e2dd9140"
+    "download": "https://vimeo.com/mcmanusmedia/download/1053599962/29e2dd9140",
+    "poster": "/images/portal/sample-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "https://vimeo.com/1053593475",
-    "download": "https://vimeo.com/mcmanusmedia/download/1053593475/a251ee1330"
+    "download": "https://vimeo.com/mcmanusmedia/download/1053593475/a251ee1330",
+    "poster": "/images/portal/sample-ceremony.jpg"
   },
   "instagramReel": {
     "vimeo": "",
@@ -30,12 +32,14 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/1057058058",
-      "download": "https://vimeo.com/mcmanusmedia/download/1057058058/0e288bfa46"
+      "download": "https://vimeo.com/mcmanusmedia/download/1057058058/0e288bfa46",
+      "poster": "/images/portal/sample-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/1057057625",
-      "download": "https://vimeo.com/mcmanusmedia/download/1057057625/12faf69305"
+      "download": "https://vimeo.com/mcmanusmedia/download/1057057625/12faf69305",
+      "poster": "/images/portal/sample-extra-1-maid-of-honor-speech.jpg"
     }
   ],
   "showcase": 9,

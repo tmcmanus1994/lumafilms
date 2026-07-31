@@ -15,7 +15,8 @@
   "highlight": {
     "title": "Veronica + Connor // Oakdale RVA",
     "vimeo": "https://vimeo.com/776855697",
-    "download": "https://vimeo.com/mcmanusmedia/download/776855697/5015240a38"
+    "download": "https://vimeo.com/mcmanusmedia/download/776855697/5015240a38",
+    "poster": "/images/portal/hodges-highlight.jpg"
   },
   "ceremony": {
     "vimeo": "",
@@ -30,27 +31,32 @@
     {
       "label": "Best Man Speech",
       "vimeo": "https://vimeo.com/768846692",
-      "download": "https://vimeo.com/mcmanusmedia/download/768846692/bd09b5fb29"
+      "download": "https://vimeo.com/mcmanusmedia/download/768846692/bd09b5fb29",
+      "poster": "/images/portal/hodges-extra-0-best-man-speech.jpg"
     },
     {
       "label": "Maid of Honor Speech",
       "vimeo": "https://vimeo.com/768847498",
-      "download": "https://vimeo.com/mcmanusmedia/download/768847498/ea582bc8d4"
+      "download": "https://vimeo.com/mcmanusmedia/download/768847498/ea582bc8d4",
+      "poster": "/images/portal/hodges-extra-1-maid-of-honor-speech.jpg"
     },
     {
       "label": "Father of the Bride",
       "vimeo": "https://vimeo.com/776858916",
-      "download": "https://vimeo.com/mcmanusmedia/download/776858916/115c3446fe"
+      "download": "https://vimeo.com/mcmanusmedia/download/776858916/115c3446fe",
+      "poster": "/images/portal/hodges-extra-2-father-of-the-bride.jpg"
     },
     {
       "label": "Mother of the Bride",
       "vimeo": "https://vimeo.com/776860994",
-      "download": "https://vimeo.com/mcmanusmedia/download/776860994/b7f9b948c7"
+      "download": "https://vimeo.com/mcmanusmedia/download/776860994/b7f9b948c7",
+      "poster": "/images/portal/hodges-extra-3-mother-of-the-bride.jpg"
     },
     {
       "label": "Madrid of Honor Speech",
       "vimeo": "https://vimeo.com/776860307",
-      "download": "https://vimeo.com/mcmanusmedia/download/776860307/5a4dc31e02"
+      "download": "https://vimeo.com/mcmanusmedia/download/776860307/5a4dc31e02",
+      "poster": "/images/portal/hodges-extra-4-madrid-of-honor-speech.jpg"
     }
   ]
 }
