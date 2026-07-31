@@ -11,7 +11,7 @@ export default function FilmCard({ wedding, large = false }: { wedding: Wedding;
         data-anim-img
       >
         <ImageSlot
-          src={wedding.coverPhoto}
+          src={wedding.coverPhoto || wedding.highlight.poster}
           alt={wedding.coverPhotoAlt || `Film still — ${wedding.couple} at ${wedding.venue.name}`}
           className="aspect-video w-full"
           sizes={large ? "(min-width: 768px) 50vw, 100vw" : "(min-width: 768px) 33vw, 100vw"}
