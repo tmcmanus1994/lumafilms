@@ -11,7 +11,11 @@ import { homeVenueSlugs, site } from "@/lib/site";
 
 export const metadata: Metadata = {
   // Root page uses the absolute default title from the layout (place-first for SEO)
-  title: { absolute: "Central Arkansas Wedding Videographer | Luma Films" },
+  // Leads with Little Rock: Google serves this page for "wedding videographers
+  // in little rock" (pos ~8) and the old title never showed the city, so the
+  // impressions weren't converting to clicks. Description still carries the
+  // Central Arkansas / Conway positioning.
+  title: { absolute: "Little Rock Wedding Videographer | Luma Films" },
   description:
     "Cinematic wedding films in Central Arkansas. Modern, story-driven wedding videography for couples in Little Rock, Conway, and beyond — starting at $2,400.",
   alternates: { canonical: "/" },
