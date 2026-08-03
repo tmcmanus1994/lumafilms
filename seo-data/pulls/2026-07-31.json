@@ -1,0 +1,966 @@
+{
+  "pulledAt": "2026-08-03T17:33:23.254Z",
+  "window": {
+    "start": "2026-07-25",
+    "end": "2026-07-31"
+  },
+  "site": "sc-domain:lumaweddingfilms.co",
+  "queries": [
+    {
+      "keys": [
+        "luma films"
+      ],
+      "clicks": 1,
+      "impressions": 7,
+      "ctr": 0.14285714285714285,
+      "position": 2
+    },
+    {
+      "keys": [
+        "alma films"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 50
+    },
+    {
+      "keys": [
+        "arkansas wedding videography"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "keys": [
+        "ashley chase estate"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "keys": [
+        "destination wedding filming locations"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 81
+    },
+    {
+      "keys": [
+        "estate wedding venue in logan county, ar"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 87
+    },
+    {
+      "keys": [
+        "garvan gardens wedding"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 38
+    },
+    {
+      "keys": [
+        "highlands wedding cinematographer"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 48
+    },
+    {
+      "keys": [
+        "legacy acres conway"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "keys": [
+        "legacy acres conway ar"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "keys": [
+        "newark videographer"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 64
+    },
+    {
+      "keys": [
+        "plains wedding videographer"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "keys": [
+        "plains wedding videography"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27
+    },
+    {
+      "keys": [
+        "rache inurl:reel"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
+        "skye brady"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "keys": [
+        "the venue at oakdale"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 32
+    },
+    {
+      "keys": [
+        "video production arkansas"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 66
+    },
+    {
+      "keys": [
+        "wedding limos in little rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 98
+    },
+    {
+      "keys": [
+        "wedding photographer central arkansas"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 56
+    },
+    {
+      "keys": [
+        "wedding photographers in little rock"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 79
+    },
+    {
+      "keys": [
+        "wedding videographer central arkansas"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "keys": [
+        "wedding videographer fayetteville, nc"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 51.75
+    },
+    {
+      "keys": [
+        "wedding videographer near me"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock"
+      ],
+      "clicks": 0,
+      "impressions": 27,
+      "ctr": 0,
+      "position": 7.851851851851852
+    },
+    {
+      "keys": [
+        "wedding videographers near me"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "wedding videographers northwest arkansas"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 22
+    },
+    {
+      "keys": [
+        "wellframed media"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 85
+    }
+  ],
+  "pages": [
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 4,
+      "impressions": 90,
+      "ctr": 0.044444444444444446,
+      "position": 17.42222222222222
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/about"
+      ],
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 15.6
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/contact"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 2.769230769230769
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/ashley-chase-dove-hollow-estate"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/caitlyn-aaron-the-venue-at-oakdale"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/caylee-jacob-crystal-bridges"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/cj-dj-tulsa-country-club"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/grace-matthew-stonebrook-meadows"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/ijeoma-chibueze-nigerian-wedding"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/kasey-brady-winnsboro-texas"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/katherine-nicholas-christ-the-king-church"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/sydnie-will-loft-1023"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/packages"
+      ],
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 6.555555555555555
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/their-story"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 5.4
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues"
+      ],
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0,
+      "position": 20.88235294117647
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/angelos-garden"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/capital-hotel"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/garvan-woodland-gardens"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 38
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/grandeur-house"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 17.571428571428573
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/legacy-acres"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/the-venue-at-oakdale"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 14.5
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/wedding-videographer/conway"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/wedding-videographer/fayetteville"
+      ],
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 37,
+      "ctr": 0,
+      "position": 26.675675675675677
+    }
+  ],
+  "queryPages": [
+    {
+      "keys": [
+        "luma films",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 1,
+      "impressions": 7,
+      "ctr": 0.14285714285714285,
+      "position": 2
+    },
+    {
+      "keys": [
+        "alma films",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 50
+    },
+    {
+      "keys": [
+        "arkansas wedding videography",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "keys": [
+        "ashley chase estate",
+        "https://lumaweddingfilms.co/films/ashley-chase-dove-hollow-estate"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "keys": [
+        "destination wedding filming locations",
+        "https://lumaweddingfilms.co/venues"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 81
+    },
+    {
+      "keys": [
+        "estate wedding venue in logan county, ar",
+        "https://lumaweddingfilms.co/venues/grandeur-house"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 87
+    },
+    {
+      "keys": [
+        "garvan gardens wedding",
+        "https://lumaweddingfilms.co/venues/garvan-woodland-gardens"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 38
+    },
+    {
+      "keys": [
+        "highlands wedding cinematographer",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 48
+    },
+    {
+      "keys": [
+        "legacy acres conway",
+        "https://lumaweddingfilms.co/venues/legacy-acres"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "keys": [
+        "legacy acres conway ar",
+        "https://lumaweddingfilms.co/venues/legacy-acres"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "keys": [
+        "luma films",
+        "https://lumaweddingfilms.co/about"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 1.1666666666666667
+    },
+    {
+      "keys": [
+        "luma films",
+        "https://lumaweddingfilms.co/contact"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 3.8
+    },
+    {
+      "keys": [
+        "luma films",
+        "https://lumaweddingfilms.co/films"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 1.1666666666666667
+    },
+    {
+      "keys": [
+        "luma films",
+        "https://lumaweddingfilms.co/packages"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 1.1666666666666667
+    },
+    {
+      "keys": [
+        "luma films",
+        "https://lumaweddingfilms.co/venues"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 1.1666666666666667
+    },
+    {
+      "keys": [
+        "luma films",
+        "https://lumaweddingfilms.co/venues/the-venue-at-oakdale"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "luma films",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "newark videographer",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 64
+    },
+    {
+      "keys": [
+        "plains wedding videographer",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "keys": [
+        "plains wedding videography",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27
+    },
+    {
+      "keys": [
+        "rache inurl:reel",
+        "https://lumaweddingfilms.co/wedding-videographer/conway"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
+        "skye brady",
+        "https://lumaweddingfilms.co/films/kasey-brady-winnsboro-texas"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "keys": [
+        "the venue at oakdale",
+        "https://lumaweddingfilms.co/venues/the-venue-at-oakdale"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 32
+    },
+    {
+      "keys": [
+        "video production arkansas",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 66
+    },
+    {
+      "keys": [
+        "wedding limos in little rock",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 98
+    },
+    {
+      "keys": [
+        "wedding photographer central arkansas",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 56
+    },
+    {
+      "keys": [
+        "wedding photographers in little rock",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 79
+    },
+    {
+      "keys": [
+        "wedding videographer central arkansas",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "wedding videographer central arkansas",
+        "https://lumaweddingfilms.co/contact"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 63
+    },
+    {
+      "keys": [
+        "wedding videographer fayetteville, nc",
+        "https://lumaweddingfilms.co/wedding-videographer/fayetteville"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 51.75
+    },
+    {
+      "keys": [
+        "wedding videographer near me",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 27,
+      "ctr": 0,
+      "position": 7.851851851851852
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/about"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/contact"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/films"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/packages"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/venues"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 26.916666666666668
+    },
+    {
+      "keys": [
+        "wedding videographers near me",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "wedding videographers northwest arkansas",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 22
+    },
+    {
+      "keys": [
+        "wellframed media",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 85
+    }
+  ],
+  "sitemaps": [
+    {
+      "path": "https://lumaweddingfilms.co/sitemap.xml",
+      "lastSubmitted": "2026-07-27T15:34:57.266Z",
+      "isPending": false,
+      "isSitemapsIndex": false,
+      "type": "sitemap",
+      "lastDownloaded": "2026-07-30T22:33:24.658Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "71",
+          "indexed": "0"
+        }
+      ]
+    }
+  ],
+  "ga4": {
+    "channels": [
+      {
+        "channel": "Direct",
+        "sessions": 28,
+        "users": 26
+      },
+      {
+        "channel": "Organic Search",
+        "sessions": 10,
+        "users": 8
+      },
+      {
+        "channel": "Referral",
+        "sessions": 1,
+        "users": 1
+      }
+    ],
+    "landing": [
+      {
+        "page": "/",
+        "sessions": 35
+      },
+      {
+        "page": "/?gtm_latency=1",
+        "sessions": 2
+      },
+      {
+        "page": "/films/kasey-brady-winnsboro-texas",
+        "sessions": 2
+      }
+    ],
+    "events": [
+      {
+        "event": "scroll_depth",
+        "count": 55
+      },
+      {
+        "event": "cta_click",
+        "count": 2
+      }
+    ],
+    "contactViews": [
+      {
+        "page": "/contact",
+        "views": 8
+      }
+    ]
+  },
+  "psi": [],
+  "errors": [
+    "psi-/: PSI 429 for /",
+    "psi-/venues/the-venue-at-oakdale: PSI 429 for /venues/the-venue-at-oakdale",
+    "psi-/wedding-videographer/little-rock: PSI 429 for /wedding-videographer/little-rock"
+  ]
+}
