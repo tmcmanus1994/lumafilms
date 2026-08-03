@@ -1,11 +1,16 @@
 name: SEO agent — weekly pull + digest
 
-# Monday 12:00 UTC (~6–7am Central). Also runnable on demand from the
-# Actions tab. Skips gracefully until the secrets are configured.
+# Monday 12:00 UTC (~7am Central). Also runnable on demand from the Actions
+# tab, and re-runs whenever this workflow file changes on main.
 on:
   schedule:
     - cron: "0 12 * * 1"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/seo-agent.yml"
+      - "seo-agent/**"
 
 permissions:
   contents: write
@@ -14,17 +19,38 @@ jobs:
   seo-agent:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
 
+      # Secrets are passed via env, never interpolated into the shell — a
+      # multi-line JSON key breaks `[ -z "${{ secrets.X }}" ]` style tests.
       - name: Check secrets
         id: gate
+        env:
+          KEY_JSON: ${{ secrets.SEO_AGENT_KEY_JSON }}
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
         run: |
-          if [ -z "${{ secrets.SEO_AGENT_KEY_JSON }}" ] || [ -z "${{ secrets.GA4_PROPERTY_ID }}" ]; then
+          missing=0
+          if [ -z "$KEY_JSON" ]; then
+            echo "::error::SEO_AGENT_KEY_JSON is empty or not set (repo Settings → Secrets and variables → Actions)."
+            missing=1
+          else
+            echo "SEO_AGENT_KEY_JSON present (${#KEY_JSON} chars)"
+            if ! printf '%s' "$KEY_JSON" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const k=JSON.parse(s);if(!k.client_email||!k.private_key)throw new Error("missing client_email/private_key");console.log("  key parses OK — "+k.client_email);})'; then
+              echo "::error::SEO_AGENT_KEY_JSON is not valid service-account JSON. Paste the ENTIRE key file, including the outer braces."
+              missing=1
+            fi
+          fi
+          if [ -z "$GA4_PROPERTY_ID" ]; then
+            echo "::error::GA4_PROPERTY_ID is empty or not set."
+            missing=1
+          else
+            echo "GA4_PROPERTY_ID present (${#GA4_PROPERTY_ID} chars)"
+          fi
+          if [ "$missing" = "1" ]; then
             echo "configured=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::SEO agent secrets not set yet (SEO_AGENT_KEY_JSON, GA4_PROPERTY_ID) — skipping. See seo-agent/README.md."
           else
             echo "configured=true" >> "$GITHUB_OUTPUT"
           fi
@@ -35,12 +61,12 @@ jobs:
           KEY_JSON: ${{ secrets.SEO_AGENT_KEY_JSON }}
           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
         run: |
-          echo "$KEY_JSON" > /tmp/seo-agent-key.json
-          SEO_AGENT_KEY_FILE=/tmp/seo-agent-key.json node seo-agent/pull.mjs
+          printf '%s' "$KEY_JSON" > "$RUNNER_TEMP/seo-agent-key.json"
+          SEO_AGENT_KEY_FILE="$RUNNER_TEMP/seo-agent-key.json" node seo-agent/pull.mjs
 
       - name: Generate digest
         if: steps.gate.outputs.configured == 'true'
-        run: node seo-agent/digest.mjs
+        run: node seo-agent/digest.mjs >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit data + report
         if: steps.gate.outputs.configured == 'true'
@@ -50,3 +76,9 @@ jobs:
           git add seo-data/
           git diff --cached --quiet || git commit -m "SEO agent: weekly pull + digest $(date -u +%F)"
           git push
+
+      - name: Fail if not configured
+        if: steps.gate.outputs.configured != 'true'
+        run: |
+          echo "Secrets missing or invalid — see the errors above and seo-agent/README.md." >&2
+          exit 1
