@@ -4,6 +4,7 @@ import { cookies } from "next/headers";
 import VimeoFacade from "@/components/VimeoFacade";
 import PageMeta from "@/components/PageMeta";
 import { filmImage, getWedding, getWeddings } from "@/lib/content";
+import { site } from "@/lib/site";
 import PasscodeGate, { verifyPasscode } from "./passcode";
 import PortalExtras from "./PortalExtras";
 
@@ -133,7 +134,7 @@ export default async function PortalPage({ params }: Props) {
           )}
           <div className="mt-2 flex flex-col items-center gap-4 md:flex-row md:gap-8">
             <a
-              href="https://g.page/r/lumafilms/review"
+              href={site.reviewUrl}
               target="_blank"
               rel="noopener"
               className="btn px-8 py-3.5 text-sm"

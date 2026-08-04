@@ -5,6 +5,8 @@ export const site = {
   email: "trav.mcmanus@gmail.com",
   instagram: "https://www.instagram.com/luma_weddingfilms",
   instagramHandle: "@luma_weddingfilms",
+  /** Google Business Profile review link — feeds the map-pack ranking flywheel. */
+  reviewUrl: "https://g.page/r/CTMJYEBNZYSTEBM/review",
   /** Muted looping hero background film (Vimeo). */
   heroVideo: "https://vimeo.com/855240627",
   /** Self-hosted LCP poster behind the hero video. Swap the file to change it. */
