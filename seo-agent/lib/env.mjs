@@ -18,6 +18,8 @@ export function config() {
   return {
     keyFile: process.env.SEO_AGENT_KEY_FILE || process.env.GOOGLE_APPLICATION_CREDENTIALS,
     ga4PropertyId: process.env.GA4_PROPERTY_ID,
+    /** Optional — raises the PageSpeed quota past the unauthenticated limit. */
+    psiKey: process.env.PAGESPEED_API_KEY,
     // Domain property, per the Search Console setup in the launch handoff
     scSite: process.env.SC_SITE || "sc-domain:lumaweddingfilms.co",
     siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://lumaweddingfilms.co",
