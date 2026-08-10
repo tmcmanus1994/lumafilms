@@ -67,12 +67,27 @@ async function ga4Report(token, body) {
   return await res.json();
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * PageSpeed throttles hard without an API key (429s). Retry with backoff, and
+ * use PAGESPEED_API_KEY when it's configured — a free key from the Google
+ * Cloud console raises the quota well past what a weekly pull needs.
+ */
 async function psi(pagePath) {
   const url = new URL("https://www.googleapis.com/pagespeedonline/v5/runPagespeed");
   url.searchParams.set("url", `${cfg.siteUrl}${pagePath}`);
   url.searchParams.set("category", "performance");
   url.searchParams.set("strategy", "mobile");
-  const res = await fetch(url);
+  if (cfg.psiKey) url.searchParams.set("key", cfg.psiKey);
+
+  let res;
+  for (let attempt = 0; attempt < 4; attempt++) {
+    if (attempt) await sleep(attempt * 15000);
+    res = await fetch(url);
+    if (res.ok) break;
+    if (res.status !== 429 && res.status < 500) break; // real error, don't retry
+  }
   if (!res.ok) throw new Error(`PSI ${res.status} for ${pagePath}`);
   const j = await res.json();
   const a = j.lighthouseResult?.audits ?? {};

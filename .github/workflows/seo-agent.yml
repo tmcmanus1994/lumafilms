@@ -60,6 +60,8 @@ jobs:
         env:
           KEY_JSON: ${{ secrets.SEO_AGENT_KEY_JSON }}
           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          # Optional: set this secret to lift the PageSpeed rate limit
+          PAGESPEED_API_KEY: ${{ secrets.PAGESPEED_API_KEY }}
         run: |
           printf '%s' "$KEY_JSON" > "$RUNNER_TEMP/seo-agent-key.json"
           SEO_AGENT_KEY_FILE="$RUNNER_TEMP/seo-agent-key.json" node seo-agent/pull.mjs
