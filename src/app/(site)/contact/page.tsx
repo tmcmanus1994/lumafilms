@@ -88,7 +88,21 @@ export default function ContactPage() {
           Prefer to just say hi?
         </p>
         <p className="text-[15px] leading-loose text-sand/75 md:text-base">
-          {site.email} · {site.instagramHandle}
+          <a
+            href={`mailto:${site.email}`}
+            className="underline decoration-sand/40 underline-offset-4 transition-colors hover:text-bone hover:decoration-bone"
+          >
+            {site.email}
+          </a>{" "}
+          ·{" "}
+          <a
+            href={site.instagram}
+            target="_blank"
+            rel="noopener"
+            className="underline decoration-sand/40 underline-offset-4 transition-colors hover:text-bone hover:decoration-bone"
+          >
+            {site.instagramHandle}
+          </a>
         </p>
       </section>
     </>
