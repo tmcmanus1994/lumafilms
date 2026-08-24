@@ -1,5 +1,5 @@
 {
-  "pulledAt": "2026-08-24T12:29:10.492Z",
+  "pulledAt": "2026-08-24T15:32:24.479Z",
   "window": {
     "start": "2026-08-15",
     "end": "2026-08-21"
@@ -966,10 +966,28 @@
       }
     ]
   },
-  "psi": [],
-  "errors": [
-    "psi-/: PSI 429 for /",
-    "psi-/wedding-videographer/conway: PSI 429 for /wedding-videographer/conway",
-    "psi-/packages: PSI 429 for /packages"
-  ]
+  "psi": [
+    {
+      "page": "/",
+      "performance": 80,
+      "lcp": "4.6 s",
+      "cls": "0",
+      "tbt": "100 ms"
+    },
+    {
+      "page": "/wedding-videographer/conway",
+      "performance": 100,
+      "lcp": "1.7 s",
+      "cls": "0.01",
+      "tbt": "10 ms"
+    },
+    {
+      "page": "/packages",
+      "performance": 99,
+      "lcp": "2.0 s",
+      "cls": "0",
+      "tbt": "0 ms"
+    }
+  ],
+  "errors": []
 }
