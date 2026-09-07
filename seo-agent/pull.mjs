@@ -69,12 +69,15 @@ async function ga4Report(token, body) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/** How many PSI runs to take per page before reducing to a median. */
+const PSI_SAMPLES = 3;
+
 /**
  * PageSpeed throttles hard without an API key (429s). Retry with backoff, and
  * use PAGESPEED_API_KEY when it's configured — a free key from the Google
  * Cloud console raises the quota well past what a weekly pull needs.
  */
-async function psi(pagePath) {
+async function psiOnce(pagePath) {
   const url = new URL("https://www.googleapis.com/pagespeedonline/v5/runPagespeed");
   url.searchParams.set("url", `${cfg.siteUrl}${pagePath}`);
   url.searchParams.set("category", "performance");
@@ -92,11 +95,37 @@ async function psi(pagePath) {
   const j = await res.json();
   const a = j.lighthouseResult?.audits ?? {};
   return {
-    page: pagePath,
     performance: Math.round((j.lighthouseResult?.categories?.performance?.score ?? 0) * 100),
-    lcp: a["largest-contentful-paint"]?.displayValue,
-    cls: a["cumulative-layout-shift"]?.displayValue,
-    tbt: a["total-blocking-time"]?.displayValue,
+    lcpMs: a["largest-contentful-paint"]?.numericValue ?? 0,
+    clsNum: a["cumulative-layout-shift"]?.numericValue ?? 0,
+    tbtMs: a["total-blocking-time"]?.numericValue ?? 0,
+  };
+}
+
+const median = (xs) => [...xs].sort((a, b) => a - b)[Math.floor(xs.length / 2)];
+
+/**
+ * A single PSI run is a throttled lab simulation, and consecutive runs against
+ * unchanged code routinely differ by 20+ points (observed: /packages scored 99
+ * then 79 in back-to-back weeks with zero deploys between). One sample is not a
+ * measurement. Take PSI_SAMPLES runs, report the median, and keep the spread so
+ * the digest can tell a real regression from lab noise.
+ */
+async function psi(pagePath) {
+  const runs = [];
+  for (let i = 0; i < PSI_SAMPLES; i++) {
+    if (i) await sleep(5000);
+    runs.push(await psiOnce(pagePath));
+  }
+  const perf = runs.map((r) => r.performance);
+  return {
+    page: pagePath,
+    performance: median(perf),
+    lcp: `${(median(runs.map((r) => r.lcpMs)) / 1000).toFixed(1)} s`,
+    cls: String(Math.round(median(runs.map((r) => r.clsNum)) * 1000) / 1000),
+    tbt: `${Math.round(median(runs.map((r) => r.tbtMs)))} ms`,
+    samples: perf,
+    spread: Math.max(...perf) - Math.min(...perf),
   };
 }
 
