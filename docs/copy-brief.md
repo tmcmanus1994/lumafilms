@@ -45,7 +45,7 @@ stuffing. Reference copy that nails the voice (already live on the site):
 - Travel: included within 50 miles of Little Rock, then $1/mile — no hidden fees
 - One wedding per date, always. Retainer holds the date; payment plans
 - Full film delivered by a guaranteed date, in writing
-- Instagram: @luma_weddingfilms · Email: trav.mcmanus@gmail.com
+- Instagram: @lumafilms_ar · Email: trav.mcmanus@gmail.com
 - Pets/packages namesakes: Rosie (corgi), Binx (black cat), Boujee (cat)
 
 ## What each page type is for (SEO intent)

@@ -3,8 +3,8 @@ export const site = {
   legalName: "Luma Films",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://lumaweddingfilms.co",
   email: "trav.mcmanus@gmail.com",
-  instagram: "https://www.instagram.com/luma_weddingfilms",
-  instagramHandle: "@luma_weddingfilms",
+  instagram: "https://www.instagram.com/lumafilms_ar/",
+  instagramHandle: "@lumafilms_ar",
   /** Google Business Profile review link — feeds the map-pack ranking flywheel. */
   reviewUrl: "https://g.page/r/CTMJYEBNZYSTEBM/review",
   /** Muted looping hero background film (Vimeo). */

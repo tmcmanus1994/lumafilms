@@ -100,8 +100,16 @@ for (const s of current.sitemaps ?? []) {
   if (+s.errors > 0) health.push(`Sitemap errors: ${s.errors} (${s.path})`);
   if (+s.warnings > 0) health.push(`Sitemap warnings: ${s.warnings} (${s.path})`);
 }
+// PSI performance is a noisy lab simulation, so only a median in Google's red
+// band (<50) that the samples actually agree on is worth an alarm. Everything
+// else is reported below as plain numbers — a score sliding week over week is a
+// judgement call for the weekly read, not something to cry wolf about here.
+// CLS is deterministic, so it still warns on its own.
 for (const p of current.psi ?? []) {
-  if (p.performance < 80) health.push(`PageSpeed ${p.page}: performance ${p.performance} (LCP ${p.lcp})`);
+  const noisy = p.spread != null && p.spread > 15;
+  if (p.performance < 50 && !noisy) {
+    health.push(`PageSpeed ${p.page}: performance ${p.performance} (LCP ${p.lcp}) — Google's "poor" band`);
+  }
   if (p.cls && parseFloat(p.cls) > 0.1) health.push(`CLS regression on ${p.page}: ${p.cls}`);
 }
 for (const e of current.errors ?? []) health.push(`Data pull failure — ${e}`);
@@ -184,6 +192,14 @@ L.push(`- Contact page views: **${contactViews}** · form starts: **${events.get
 section("Health");
 if (health.length) for (const h of health) L.push(`- ⚠ ${h}`);
 else L.push("*All clear — sitemap clean, Core Web Vitals within targets, all data sources pulled.*");
+
+if ((current.psi ?? []).length) {
+  L.push("", "Speed (PSI mobile, median of 3 runs — treat a spread over ~15 as noise, not a regression):");
+  for (const p of current.psi) {
+    const detail = p.samples ? ` · runs ${p.samples.join("/")}, spread ${p.spread}` : "";
+    L.push(`- \`${p.page}\` — **${p.performance}** · LCP ${p.lcp} · CLS ${p.cls}${detail}`);
+  }
+}
 
 section("This Week's Recommendations (report-only)");
 if (recs.length) {
