@@ -1,0 +1,36 @@
+{
+  "couple": "Tristen + Blaine",
+  "lastName": "Wildy",
+  "weddingDate": "",
+  "venue": {
+    "name": "Legacy Acres",
+    "slug": "legacy-acres",
+    "city": "conway"
+  },
+  "coverPhotoAlt": "Tristen and Blaine at Legacy Acres",
+  "public": true,
+  "passcode": null,
+  "story": "",
+  "highlight": {
+    "title": "Tristen + Blaine // Legacy Acres",
+    "vimeo": "https://vimeo.com/1231138474?share=copy",
+    "download": "",
+    "poster": "/images/portal/wildy-highlight.jpg"
+  },
+  "ceremony": {
+    "vimeo": "https://vimeo.com/1231145521?share=copy",
+    "download": "",
+    "poster": "/images/portal/wildy-ceremony.jpg"
+  },
+  "instagramReel": {
+    "vimeo": "",
+    "download": ""
+  },
+  "rawFootageFolder": null,
+  "extras": [],
+  "related": [
+    "harris",
+    "smith",
+    "wakwe"
+  ]
+}

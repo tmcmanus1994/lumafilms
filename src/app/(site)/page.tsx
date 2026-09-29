@@ -16,8 +16,14 @@ export const metadata: Metadata = {
   // impressions weren't converting to clicks. Description still carries the
   // Central Arkansas / Conway positioning.
   title: { absolute: "Little Rock Wedding Videographer | Luma Films" },
+  // Description test (2026-09-29): eight weeks at position ~3 on "wedding
+  // videographers in little rock" produced 207 impressions and zero clicks.
+  // The old copy said "videography" while the query says "videographers", so
+  // Google had nothing to bold, and "Little Rock" sat at character 101. This
+  // leads with the exact phrase and adds the 100+ weddings proof. 157 chars,
+  // inside Google's ~158 truncation point.
   description:
-    "Cinematic wedding films in Central Arkansas. Modern, story-driven wedding videography for couples in Little Rock, Conway, and beyond — starting at $2,400.",
+    "Wedding videographers in Little Rock — cinematic, story-driven wedding films for couples across Central Arkansas. 100+ weddings filmed. Packages from $2,400.",
   alternates: { canonical: "/" },
 };
 
