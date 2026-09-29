@@ -56,5 +56,10 @@ export const nav = [
 ] as const;
 
 export function absoluteUrl(path: string) {
+  // Content files mostly hold site-relative paths, but a few carry a full URL
+  // (one wedding's coverPhoto points straight at Vimeo's thumbnail service).
+  // Prefixing those produced "https://lumaweddingfilms.cohttps://…" in the
+  // JSON-LD, which is not a URL at all.
+  if (/^https?:\/\//i.test(path)) return path;
   return `${site.url}${path}`;
 }
