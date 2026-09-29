@@ -1,6 +1,6 @@
 import { site, absoluteUrl } from "./site";
 import type { City, Venue, Wedding } from "./content";
-import { filmSlug, vimeoId } from "./content";
+import { filmImage, filmSlug, vimeoId } from "./content";
 
 /*
  * JSON-LD builders. Every public page carries LocalBusiness (site-wide, in the
@@ -32,15 +32,21 @@ export function localBusinessSchema() {
 
 export function videoObjectSchema(w: Wedding) {
   const id = vimeoId(w.highlight.vimeo);
+  // `story` is "" on almost every wedding, and ?? only catches null/undefined —
+  // so || is what actually falls through to the generated sentence.
+  const description =
+    w.story || `${w.couple}'s wedding film at ${w.venue.name}, filmed by Luma Films.`;
+  // filmImage() is the canonical still (highlight poster first, then cover
+  // photo). Reading coverPhoto alone sent Google to Vimeo's auto-generated
+  // frame for every wedding whose still lives on the highlight instead.
+  const image = filmImage(w);
   return {
     "@context": "https://schema.org",
     "@type": "VideoObject",
     name: w.highlight.title ?? `${w.couple} at ${w.venue.name} — Wedding Film`,
-    description:
-      w.story ??
-      `${w.couple}'s wedding film at ${w.venue.name}, filmed by Luma Films.`,
-    thumbnailUrl: w.coverPhoto
-      ? absoluteUrl(w.coverPhoto)
+    description,
+    thumbnailUrl: image
+      ? absoluteUrl(image)
       : id
         ? `https://vumbnail.com/${id}.jpg`
         : undefined,
