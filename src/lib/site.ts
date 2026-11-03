@@ -7,6 +7,8 @@ export const site = {
   instagramHandle: "@lumafilms_ar",
   /** Google Business Profile review link — feeds the map-pack ranking flywheel. */
   reviewUrl: "https://g.page/r/CTMJYEBNZYSTEBM/review",
+  /** HoneyBook scheduler for the 20-minute intro call. Embedded on /contact/thanks and linked from every email. */
+  schedulerUrl: "https://lumafilms.hbportal.co/schedule/6a66d0c4a9476f107b06f8b7",
   /** Muted looping hero background film (Vimeo). */
   heroVideo: "https://vimeo.com/855240627",
   /** Self-hosted LCP poster behind the hero video. Swap the file to change it. */

@@ -26,6 +26,7 @@ export type PageContext = {
     | "packages"
     | "about"
     | "contact"
+    | "contact_thanks"
     | "portal";
   content_city?: string;
   content_venue?: string;
