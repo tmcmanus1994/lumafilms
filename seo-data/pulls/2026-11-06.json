@@ -1,0 +1,889 @@
+{
+  "pulledAt": "2026-11-09T21:45:00.558Z",
+  "window": {
+    "start": "2026-10-31",
+    "end": "2026-11-06"
+  },
+  "site": "sc-domain:lumaweddingfilms.co",
+  "queries": [
+    {
+      "keys": [
+        "luma films"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 1
+    },
+    {
+      "keys": [
+        "angelos garden arkansas"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "angelos garden wedding"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 18.75
+    },
+    {
+      "keys": [
+        "corporate video production little rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 52
+    },
+    {
+      "keys": [
+        "l u m a"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "little rock corporate videography"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "keys": [
+        "little rock lgbtq wedding photographer videographer"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
+        "little rock queer wedding videographer"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "little rock videographer"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 47.5
+    },
+    {
+      "keys": [
+        "luma"
+      ],
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 6.142857142857143
+    },
+    {
+      "keys": [
+        "luma wedding website"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "keys": [
+        "lunafilm"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "music video production"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "premier wedding videographer"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "video production little rock"
+      ],
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 46.4
+    },
+    {
+      "keys": [
+        "videographer"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "wedding videographer central arkansas"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 23.666666666666668
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock"
+      ],
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0,
+      "position": 3.772727272727273
+    },
+    {
+      "keys": [
+        "wedding videography near me"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    }
+  ],
+  "pages": [
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 2,
+      "impressions": 51,
+      "ctr": 0.0392156862745098,
+      "position": 10.666666666666666
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/about"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 4.333333333333334
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/contact"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 8.6
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/contact?rwg_token=ALcMQYYKkCrLmymGPm6C9ENBnulAzfbsb56xwUMpZU7YNqqD5NbFGmzBYLO-R83RG1RvLLhk0tW-ilxatgCFsb2UpvH24GO8kA%3D%3D&source=cat"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/contact?rwg_token=ALcMQYYXA1vbh0F2ma-oSvi0ovI7RFEktJKR8aCIl-Uy813m2YiKCv_Xw9VLBs75W2y6yzXqQO6WdAXfm66CsWd-321SsaP5Lg%3D%3D&source=cat"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/contact?rwg_token=ALcMQYaYxrk6I7ni_XR3q1PbaJdH1vBTTQI965qNTBDRB4_H7f6IXECQ4CR1aBKrXCIRM9oQlJU3tIjCRCrZFmSQlfipbgpFMQ%3D%3D&source=cat"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/contact?rwg_token=ALcMQYb3gZg9zNDspS90WrkUMJCZYNAqUIav4YRKxL4oEyJnWVhiqHDORFsJ2f5Yq5l2zoORF4Pe5Pjd-u_QmVzYWJAeoprBCw%3D%3D&source=cat"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 5.333333333333333
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/arrie-henry-the-venue-at-oakdale"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/films/mady-copper-hudson-springs"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/packages"
+      ],
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 6.25
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 6.333333333333333
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/angelos-garden"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 13.125
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/crystal-bridges"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/garvan-woodland-gardens"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/grandeur-house"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/venues/the-venue-at-oakdale"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/wedding-videographer/benton-bryant"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.666666666666667
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/wedding-videographer/conway"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 9.2
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/wedding-videographer/fayetteville"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 5.333333333333333
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/wedding-videographer/hot-springs"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/wedding-videographer/little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 33,
+      "ctr": 0,
+      "position": 18.303030303030305
+    },
+    {
+      "keys": [
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": 0,
+      "position": 18.28
+    }
+  ],
+  "queryPages": [
+    {
+      "keys": [
+        "luma films",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 1
+    },
+    {
+      "keys": [
+        "angelos garden arkansas",
+        "https://lumaweddingfilms.co/venues/angelos-garden"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "keys": [
+        "angelos garden wedding",
+        "https://lumaweddingfilms.co/venues/angelos-garden"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 18.75
+    },
+    {
+      "keys": [
+        "corporate video production little rock",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 52
+    },
+    {
+      "keys": [
+        "l u m a",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "little rock corporate videography",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "little rock corporate videography",
+        "https://lumaweddingfilms.co/wedding-videographer/little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "keys": [
+        "little rock lgbtq wedding photographer videographer",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 85
+    },
+    {
+      "keys": [
+        "little rock lgbtq wedding photographer videographer",
+        "https://lumaweddingfilms.co/wedding-videographer/little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
+        "little rock queer wedding videographer",
+        "https://lumaweddingfilms.co/wedding-videographer/little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "little rock queer wedding videographer",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "keys": [
+        "little rock videographer",
+        "https://lumaweddingfilms.co/wedding-videographer/little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 47.5
+    },
+    {
+      "keys": [
+        "little rock videographer",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "luma",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 6.142857142857143
+    },
+    {
+      "keys": [
+        "luma",
+        "https://lumaweddingfilms.co/contact?rwg_token=ALcMQYYKkCrLmymGPm6C9ENBnulAzfbsb56xwUMpZU7YNqqD5NbFGmzBYLO-R83RG1RvLLhk0tW-ilxatgCFsb2UpvH24GO8kA%3D%3D&source=cat"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
+        "luma",
+        "https://lumaweddingfilms.co/contact?rwg_token=ALcMQYYXA1vbh0F2ma-oSvi0ovI7RFEktJKR8aCIl-Uy813m2YiKCv_Xw9VLBs75W2y6yzXqQO6WdAXfm66CsWd-321SsaP5Lg%3D%3D&source=cat"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "luma",
+        "https://lumaweddingfilms.co/contact?rwg_token=ALcMQYaYxrk6I7ni_XR3q1PbaJdH1vBTTQI965qNTBDRB4_H7f6IXECQ4CR1aBKrXCIRM9oQlJU3tIjCRCrZFmSQlfipbgpFMQ%3D%3D&source=cat"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "luma",
+        "https://lumaweddingfilms.co/contact?rwg_token=ALcMQYb3gZg9zNDspS90WrkUMJCZYNAqUIav4YRKxL4oEyJnWVhiqHDORFsJ2f5Yq5l2zoORF4Pe5Pjd-u_QmVzYWJAeoprBCw%3D%3D&source=cat"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "luma wedding website",
+        "https://lumaweddingfilms.co/contact"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 17
+    },
+    {
+      "keys": [
+        "luma wedding website",
+        "https://lumaweddingfilms.co/packages"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "lunafilm",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "music video production",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "premier wedding videographer",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "video production little rock",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 33.6
+    },
+    {
+      "keys": [
+        "video production little rock",
+        "https://lumaweddingfilms.co/wedding-videographer/little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 59.2
+    },
+    {
+      "keys": [
+        "videographer",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "wedding videographer central arkansas",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
+        "wedding videographer central arkansas",
+        "https://lumaweddingfilms.co/wedding-videographer/little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "keys": [
+        "wedding videographer central arkansas",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 47
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 8.11111111111111
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/about"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4.5
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/films"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4.5
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/packages"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4.5
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/venues"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4.5
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/wedding-videographer/little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0,
+      "position": 6.368421052631579
+    },
+    {
+      "keys": [
+        "wedding videographers in little rock",
+        "https://lumaweddingfilms.co/wedding-videographer/north-little-rock"
+      ],
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 17.38095238095238
+    },
+    {
+      "keys": [
+        "wedding videography near me",
+        "https://lumaweddingfilms.co/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    }
+  ],
+  "sitemaps": [
+    {
+      "path": "https://lumaweddingfilms.co/sitemap.xml",
+      "lastSubmitted": "2026-07-27T15:34:57.266Z",
+      "isPending": false,
+      "isSitemapsIndex": false,
+      "type": "sitemap",
+      "lastDownloaded": "2026-11-01T10:47:51.557Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "72",
+          "indexed": "0"
+        }
+      ]
+    }
+  ],
+  "ga4": {
+    "channels": [
+      {
+        "channel": "Direct",
+        "sessions": 11,
+        "users": 11
+      },
+      {
+        "channel": "Organic Search",
+        "sessions": 3,
+        "users": 2
+      },
+      {
+        "channel": "AI Assistant",
+        "sessions": 2,
+        "users": 2
+      },
+      {
+        "channel": "Referral",
+        "sessions": 1,
+        "users": 1
+      }
+    ],
+    "landing": [
+      {
+        "page": "/",
+        "sessions": 7
+      },
+      {
+        "page": "/contact",
+        "sessions": 6
+      },
+      {
+        "page": "/contact/thanks",
+        "sessions": 3
+      },
+      {
+        "page": "/packages",
+        "sessions": 1
+      }
+    ],
+    "events": [
+      {
+        "event": "scroll_depth",
+        "count": 30
+      },
+      {
+        "event": "video_play",
+        "count": 3
+      },
+      {
+        "event": "cta_click",
+        "count": 1
+      }
+    ],
+    "contactViews": [
+      {
+        "page": "/contact",
+        "views": 10
+      },
+      {
+        "page": "/contact/thanks",
+        "views": 6
+      }
+    ]
+  },
+  "psi": [
+    {
+      "page": "/",
+      "performance": 77,
+      "lcp": "4.7 s",
+      "cls": "0",
+      "tbt": "237 ms",
+      "samples": [
+        77,
+        77,
+        77
+      ],
+      "spread": 0
+    },
+    {
+      "page": "/venues/legacy-acres",
+      "performance": 77,
+      "lcp": "4.7 s",
+      "cls": "0",
+      "tbt": "251 ms",
+      "samples": [
+        77,
+        77,
+        78
+      ],
+      "spread": 1
+    },
+    {
+      "page": "/wedding-videographer/conway",
+      "performance": 100,
+      "lcp": "0.9 s",
+      "cls": "0",
+      "tbt": "26 ms",
+      "samples": [
+        100,
+        100,
+        100
+      ],
+      "spread": 0
+    }
+  ],
+  "errors": []
+}
