@@ -94,6 +94,15 @@ const prevSessions = previous ? (previous.ga4?.channels ?? []).reduce((s, c) => 
 const events = new Map((ga4.events ?? []).map((e) => [e.event, e.count]));
 const contactViews = (ga4.contactViews ?? []).reduce((s, c) => s + c.views, 0);
 
+// Real inquiry count. /contact/thanks only renders after a HoneyBook form
+// submission, so a session landing there is a submitted inquiry. This replaces
+// the form_start event, which could never fire: its listener sits on the parent
+// page while the form renders inside a cross-origin iframe, so the click never
+// reaches it. form_start has read 0 since launch and means nothing.
+const inquiries = (ga4.landing ?? [])
+  .filter((l) => /^\/contact\/thanks(\?|$)/.test(l.page ?? ""))
+  .reduce((s, l) => s + (l.sessions ?? 0), 0);
+
 // --- Health ---
 const health = [];
 for (const s of current.sitemaps ?? []) {
@@ -187,7 +196,11 @@ if (leaks.length) {
 section("Traffic & Inquiries");
 L.push(`- Sessions: **${totalSessions}**${prevSessions !== null ? ` (prev week ${prevSessions})` : ""} — ${organic} from organic search`);
 L.push(`- Top landing pages: ${(ga4.landing ?? []).slice(0, 5).map((l) => `\`${l.page}\` (${l.sessions})`).join(" · ") || "—"}`);
-L.push(`- Contact page views: **${contactViews}** · form starts: **${events.get("form_start") ?? 0}** · CTA clicks: **${events.get("cta_click") ?? 0}** · film plays: **${events.get("video_play") ?? 0}**`);
+L.push(`- **Inquiries: ${inquiries}** (sessions landing on \`/contact/thanks\`, which only renders after a form submission)`);
+L.push(`- Contact page views: **${contactViews}** · CTA clicks: **${events.get("cta_click") ?? 0}** · film plays: **${events.get("video_play") ?? 0}**`);
+if (contactViews > 0) {
+  L.push(`- Contact → inquiry rate: **${((inquiries / contactViews) * 100).toFixed(0)}%**`);
+}
 
 section("Health");
 if (health.length) for (const h of health) L.push(`- ⚠ ${h}`);
